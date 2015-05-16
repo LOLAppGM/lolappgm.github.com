@@ -194,7 +194,11 @@ thead tr th {
 }
 
 .box {
-    padding: 0.3em;
+    padding-left: 0.15em;
+    position: relative;
+    padding-right: 0.15em;
+    padding-top: 0.3em;
+/*    padding: 0.3em;*/
     position: relative;
 }
 
