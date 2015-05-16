@@ -1,0 +1,220 @@
+body {
+    background-color: #eeeeee;
+}
+
+.container {
+    width: 98% !important;
+}
+
+#css_tabs {
+    font-family: 'nanumgothic', '나눔고딕', 'malgun gothic', '맑은 고딕', 'dotum', '돋움', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+/* 탭 선택 시 표시할 요소(div) 정의(1번 탭 선택 시 첫 번째 div 요소 표시) */
+
+#css_tabs input:nth-of-type(1),
+#css_tabs input:nth-of-type(1) ~ div:nth-of-type(1),
+#css_tabs input:nth-of-type(2),
+#css_tabs input:nth-of-type(2) ~ div:nth-of-type(2),
+#css_tabs input:nth-of-type(3),
+#css_tabs input:nth-of-type(3) ~ div:nth-of-type(3) {
+    display: none
+}
+
+#css_tabs input:nth-of-type(1):checked ~ div:nth-of-type(1),
+#css_tabs input:nth-of-type(2):checked ~ div:nth-of-type(2),
+#css_tabs input:nth-of-type(3):checked ~ div:nth-of-type(3) {
+    display: block
+}
+
+#css_tabs > label {
+    display: inline-block;
+    font-variant: small-caps;
+    font-size: .9em;
+    padding: 5px;
+    text-align: center;
+    width: 30%;
+    font-weight: 700;
+}
+
+.z-depth-1,
+nav,
+.card-panel,
+.card,
+.toast,
+.btn,
+.btn-large,
+.btn-floating,
+.dropdown-content,
+.collapsible,
+.side-nav {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    box-shadow: rgb(134, 134, 134) 0px 0px 2px 0px !important;
+}
+
+#css_tabs > label:hover {
+    cursor: pointer
+}
+
+#css_tabs label[for=tab1] {
+    width: 45%;
+    margin-left: 1.2em;
+    margin-top: 1em;
+    margin-right: -2px
+}
+
+#css_tabs label[for=tab2] {
+    width: 45%;
+    margin-top: 1em;
+    margin-right: auto;
+    margin-left: -2px
+}
+/* 선택된 라벨, 커서를 올린 라벨 스타일 지정 */
+
+#css_tabs input:nth-of-type(1):checked ~ label:nth-of-type(1),
+#css_tabs > label[for=tab1]:hover {
+    background: #c82d43;
+    color: #fff
+}
+
+#css_tabs input:nth-of-type(2):checked ~ label:nth-of-type(2),
+#css_tabs > label[for=tab2]:hover {
+    background: #c82d43;
+    color: #fff
+}
+
+#css_tabs input:nth-of-type(1) ~ label:nth-of-type(1),
+#css_tabs > label[for=tab1] {
+    background: #2c2c2c;
+    color: #fff
+}
+
+#css_tabs input:nth-of-type(2) ~ label:nth-of-type(2),
+#css_tabs > label[for=tab2] {
+    background: #2c2c2c;
+    color: #fff
+}
+/* 실제 내용이 담긴 div 요소 스타일 지정 */
+
+#css_tabs .tab1_content,
+#css_tabs .tab2_content,
+#css_tabs .tab3_content {
+    width: 100%;
+    height: 100%
+}
+
+td {
+    padding-top: 0.4em !important;
+    padding-bottom: 0.44em !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    height: 0em !important;
+}
+
+.tdi {
+    padding-bottom: 0 !important;
+}
+
+img {
+    width: 100%;
+}
+
+.td_rank {
+    background-color: #c82d43;
+    margin-left: 0.4em;
+    height: 100%;
+    font-size: 0.5em;
+    color: white;
+    text-align: center;
+}
+
+.rank {
+    font-size: 1.6em;
+    padding-top: 1em;
+}
+
+.change {}
+
+.td_text {
+    padding-left: 0.4em;
+    font-size: 1.3em;
+}
+
+.td_desc {
+    font-size: 0.5em;
+    padding-left: 1em;
+}
+
+.td_arrow {
+    font-size: 2em;
+}
+
+.title {
+    text-align: center;
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+.sub_title {
+    text-align: center;
+    margin-top: -0.4em;
+    font-size: 0.6em;
+}
+
+.title2 {
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+thead tr th {
+    background-color: #c82d43;
+    border: 1px solid white;
+    height: 0.5em;
+    color: white;
+    text-align: center;
+    font-size: 0.6em;
+    border-radius: 0 !important;
+    padding-top: 0.4em !important;
+    padding-bottom: 0.44em !important;
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+    height: 0em !important;
+}
+
+.ht tr td {
+    text-align: center;
+    font-size: 0.7em;
+}
+
+.st td {
+    padding: 0px !important;
+}
+
+.box {
+    padding: 0.3em;
+    position: relative;
+}
+
+.percentBox {
+    position: absolute;
+    bottom: 0.8em;
+/*    margin-bottom: 10px;*/
+    right: 0.3em;
+    left: 0.3em;
+    color: white;
+    width: 80%;
+    height: 0.6em;
+/*    margin: 0.3em;*/
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.per{
+    text-align: center;
+    font-size: 0.5em;
+    color: white;
+    top:0em;
+    vertical-align: middle;
+}
