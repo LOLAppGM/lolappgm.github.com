@@ -143,6 +143,11 @@ img {
     font-size: 1.3em;
 }
 
+.tab2_content .td_text {
+    padding-left: 1em;
+    font-size: 1.3em;
+}
+
 .td_desc {
     font-size: 0.5em;
     padding-left: 1em;
@@ -198,28 +203,75 @@ thead tr th {
     position: relative;
     padding-right: 0.15em;
     padding-top: 0.3em;
-/*    padding: 0.3em;*/
+    /*    padding: 0.3em;*/
+    
     position: relative;
 }
 
 .percentBox {
     position: absolute;
     bottom: 0.45em;
-/*    margin-bottom: 10px;*/
+    /*    margin-bottom: 10px;*/
+    
     right: 0em;
     left: 0em;
     color: white;
     width: 94%;
     height: 0.8em;
+    /*    margin: 0.3em;*/
     
-/*    margin: 0.3em;*/
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.per{
+.per {
     text-align: center;
     font-size: 0.65em;
     color: white;
     margin-top: 0px;
-/*    vertical-align: middle;*/
+    /*    vertical-align: middle;*/
+}
+
+.left {
+    background-color: #2598d3;
+    left: 0;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+}
+
+.right {
+    right:0;
+    text-align: center;
+    color: white;
+    font-size: 1.3em;
+    background-color: #c82d43;
+}
+
+
+.last {
+    padding-bottom: 0.4em !important;
+    padding-left: 0.5em !important;
+    padding-top: 0px !important;
+}
+.last .profile{
+    width: 50%;
+    float: left;
+}
+.profile img{
+    width: 20%;
+    bottom: 0;
+    float: left;
+}
+
+.last .desc{
+    font-size: 0.5em;
+    padding-left: 2em !important;
+}
+
+.last .desc .name{
+    padding-left: 1em;
+}
+
+.last .desc .rate{
+    padding-top: 1em;
 }
