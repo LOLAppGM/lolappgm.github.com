@@ -204,12 +204,12 @@ thead tr th {
 
 .percentBox {
     position: absolute;
-    bottom: 0.8em;
+    bottom: 0.4em;
 /*    margin-bottom: 10px;*/
-    right: 0.3em;
-    left: 0.3em;
+    right: 0em;
+    left: 0em;
     color: white;
-    width: 80%;
+    width: 94%;
     height: 0.6em;
 /*    margin: 0.3em;*/
     background-color: rgba(0, 0, 0, 0.8);
