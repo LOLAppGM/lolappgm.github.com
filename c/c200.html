@@ -1,1201 +1,485 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="UTF-8">
-    <title>Lolappgm.GitHub.com by LOLAppGM</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet2.css" media="screen">
-    <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="/stylesheets/materialize.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-    <!-- Compiled and minified JavaScript -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-    <script src="/stylesheets/materialize.js"></script>
-</head>
-
-<body>
-    <div class="container">
-        <div class="row">
-            <div id="css_tabs">
-                <input id="tab1" type="radio" name="tab" />
-                <input id="tab2" type="radio" name="tab" checked="checked" />
-                <label for="tab1">챔피언 정보</label>
-                <label for="tab2">챌린저 유저 정보</label>
-                <div class="tab1_content">
-                    <div class="title">주간 챌린저 1~200위 랭킹(KR)</div>
-                    <div class="sub_title">2015.05.06~2015.05.13(5월 둘째주)</div>
-
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/KogMaw.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">코그모(원딜,미드)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">43 GAME</font> (<font color="#1259B7">28승</font>,<font color="#B81F36">15패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>TiP Rush (<font color="#28AB47">20 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>TiP Rush (<font color="#1259B7">17승</font>,<font color="#B81F36">3패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Hecarim.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">헤카림(정글,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">113 GAME</font> (<font color="#1259B7">73승</font>,<font color="#B81F36">40패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Darttt (<font color="#28AB47">15 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>957i (<font color="#1259B7">11승</font>,<font color="#B81F36">2패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Corki.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">코르키(원딜)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">98 GAME</font> (<font color="#1259B7">62승</font>,<font color="#B81F36">36패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Gank Zero (<font color="#28AB47">9 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Gank Zero (<font color="#1259B7">6승</font>,<font color="#B81F36">3패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Bard.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">바드(서포터)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">87 GAME</font> (<font color="#1259B7">55승</font>,<font color="#B81F36">32패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Jin Air Sweet1 (<font color="#28AB47">23 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Lehends (<font color="#1259B7">16승</font>,<font color="#B81F36">6패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Ahri.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">아리(미드)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">32 GAME</font> (<font color="#1259B7">20승</font>,<font color="#B81F36">12패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>나진 쏠 (<font color="#28AB47">5 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>나진 쏠 (<font color="#1259B7">3승</font>,<font color="#B81F36">2패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Annie.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">애니(서포터,미드,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">55 GAME</font> (<font color="#1259B7">34승</font>,<font color="#B81F36">21패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Longzhu IgNar (<font color="#28AB47">10 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Longzhu IgNar (<font color="#1259B7">6승</font>,<font color="#B81F36">4패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Maokai.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">마오카이(정글,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">70 GAME</font> (<font color="#1259B7">43승</font>,<font color="#B81F36">27패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>H2de (<font color="#28AB47">8 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>H2de (<font color="#1259B7">7승</font>,<font color="#B81F36">1패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Kalista.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">칼리스타(원딜)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">101 GAME</font> (<font color="#1259B7">62승</font>,<font color="#B81F36">39패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Luc2re (<font color="#28AB47">7 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Luc2re (<font color="#1259B7">7승</font>,<font color="#B81F36">0패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Kennen.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">케넨(탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">31 GAME</font> (<font color="#1259B7">19승</font>,<font color="#B81F36">12패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Awe Flash (<font color="#28AB47">7 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Awe Flash (<font color="#1259B7">6승</font>,<font color="#B81F36">1패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Gragas.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">그라가스(정글,미드,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">150 GAME</font> (<font color="#1259B7">91승</font>,<font color="#B81F36">59패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Ep mOOn (<font color="#28AB47">13 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Ep mOOn (<font color="#1259B7">11승</font>,<font color="#B81F36">2패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Sejuani.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">세주아니(정글,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">161 GAME</font> (<font color="#1259B7">97승</font>,<font color="#B81F36">64패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>꼬깔콘칩 (<font color="#28AB47">16 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>꼬깔콘칩 (<font color="#1259B7">12승</font>,<font color="#B81F36">4패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Chogath.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">초가스(정글,미드,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">35 GAME</font> (<font color="#1259B7">21승</font>,<font color="#B81F36">14패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>한달동안빡겜함 (<font color="#28AB47">18 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>한달동안빡겜함 (<font color="#1259B7">11승</font>,<font color="#B81F36">7패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Kassadin.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">카사딘(미드,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">40 GAME</font> (<font color="#1259B7">24승</font>,<font color="#B81F36">16패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>SKT T1 Scout (<font color="#28AB47">4 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Longzhu Apple (<font color="#1259B7">3승</font>,<font color="#B81F36">0패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/TwistedFate.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">트위스티드 페이트(미드)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">137 GAME</font> (<font color="#1259B7">82승</font>,<font color="#B81F36">55패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>나진 탱크 (<font color="#28AB47">21 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>나진 탱크 (<font color="#1259B7">14승</font>,<font color="#B81F36">7패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Riven.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">리븐(미드,정글,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">237 GAME</font> (<font color="#1259B7">141승</font>,<font color="#B81F36">96패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Click15 (<font color="#28AB47">59 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Click15 (<font color="#1259B7">36승</font>,<font color="#B81F36">23패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Nunu.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">누누(서포터,정글)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">154 GAME</font> (<font color="#1259B7">91승</font>,<font color="#B81F36">63패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>갱크갱크 (<font color="#28AB47">20 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>갱크갱크 (<font color="#1259B7">13승</font>,<font color="#B81F36">7패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Vayne.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">베인(원딜)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">136 GAME</font> (<font color="#1259B7">80승</font>,<font color="#B81F36">56패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>eveveveveveveve (<font color="#28AB47">16 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>eveveveveveveve (<font color="#1259B7">12승</font>,<font color="#B81F36">4패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Tryndamere.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">트린다미어(정글,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">43 GAME</font> (<font color="#1259B7">25승</font>,<font color="#B81F36">18패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>곰얼굴곰보빵 (<font color="#28AB47">22 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>곰얼굴곰보빵 (<font color="#1259B7">13승</font>,<font color="#B81F36">9패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Zed.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">제드(미드)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">74 GAME</font> (<font color="#1259B7">43승</font>,<font color="#B81F36">31패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>i3urger King (<font color="#28AB47">21 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>i3urger King (<font color="#1259B7">13승</font>,<font color="#B81F36">8패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Thresh.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">쓰레쉬(서포터)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">302 GAME</font> (<font color="#1259B7">175승</font>,<font color="#B81F36">127패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Own Destiny (<font color="#28AB47">41 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Own Destiny (<font color="#1259B7">28승</font>,<font color="#B81F36">13패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Lulu.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">룰루(서포터,미드,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">133 GAME</font> (<font color="#1259B7">77승</font>,<font color="#B81F36">56패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Darttt (<font color="#28AB47">12 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Darttt (<font color="#1259B7">6승</font>,<font color="#B81F36">6패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Nautilus.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">노틸러스(정글)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">108 GAME</font> (<font color="#1259B7">62승</font>,<font color="#B81F36">46패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Machi Dreamer (<font color="#28AB47">17 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Machi Dreamer (<font color="#1259B7">12승</font>,<font color="#B81F36">5패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Jinx.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">징크스(원딜)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">81 GAME</font> (<font color="#1259B7">46승</font>,<font color="#B81F36">35패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Luc2re (<font color="#28AB47">11 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Luc2re (<font color="#1259B7">7승</font>,<font color="#B81F36">4패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Pantheon.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">판테온(정글,미드,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">37 GAME</font> (<font color="#1259B7">21승</font>,<font color="#B81F36">16패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>갱크갱크 (<font color="#28AB47">25 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>갱크갱크 (<font color="#1259B7">14승</font>,<font color="#B81F36">11패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Sivir.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">시비르(원딜)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">286 GAME</font> (<font color="#1259B7">162승</font>,<font color="#B81F36">124패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Luc2re (<font color="#28AB47">23 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Luc2re (<font color="#1259B7">14승</font>,<font color="#B81F36">9패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Morgana.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">모르가나(서포터,미드)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">69 GAME</font> (<font color="#1259B7">39승</font>,<font color="#B81F36">30패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>삼성갤럭시 Crown (<font color="#28AB47">10 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>삼성갤럭시 Crown (<font color="#1259B7">8승</font>,<font color="#B81F36">2패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Blitzcrank.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">블리츠크랭크(서포터)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">80 GAME</font> (<font color="#1259B7">45승</font>,<font color="#B81F36">35패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>끌어다줄게기달려 (<font color="#28AB47">27 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>끌어다줄게기달려 (<font color="#1259B7">16승</font>,<font color="#B81F36">11패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Cassiopeia.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">카시오페아(미드)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">94 GAME</font> (<font color="#1259B7">52승</font>,<font color="#B81F36">42패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>나진 로치 (<font color="#28AB47">14 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>나진 로치 (<font color="#1259B7">10승</font>,<font color="#B81F36">4패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Graves.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">그레이브즈(원딜)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">97 GAME</font> (<font color="#1259B7">53승</font>,<font color="#B81F36">44패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Axiyo (<font color="#28AB47">9 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Axiyo (<font color="#1259B7">4승</font>,<font color="#B81F36">5패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Karthus.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">카서스(미드)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">48 GAME</font> (<font color="#1259B7">26승</font>,<font color="#B81F36">22패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>oh ho (<font color="#28AB47">14 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>oh ho (<font color="#1259B7">5승</font>,<font color="#B81F36">9패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Soraka.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">소라카(서포터)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">100 GAME</font> (<font color="#1259B7">54승</font>,<font color="#B81F36">46패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>끌어다줄게기달려 (<font color="#28AB47">39 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>끌어다줄게기달려 (<font color="#1259B7">20승</font>,<font color="#B81F36">19패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Leblanc.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">르블랑(미드)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">95 GAME</font> (<font color="#1259B7">51승</font>,<font color="#B81F36">44패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>삼성갤럭시 Crown (<font color="#28AB47">10 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>삼성갤럭시 Crown (<font color="#1259B7">6승</font>,<font color="#B81F36">4패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Irelia.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">이렐리아(탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">95 GAME</font> (<font color="#1259B7">51승</font>,<font color="#B81F36">44패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>LORD MASTER KING (<font color="#28AB47">13 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>LORD MASTER KING (<font color="#1259B7">5승</font>,<font color="#B81F36">8패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Rengar.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">렝가(정글,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">41 GAME</font> (<font color="#1259B7">22승</font>,<font color="#B81F36">19패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>심약자 탈주권장 (<font color="#28AB47">11 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>심약자 탈주권장 (<font color="#1259B7">9승</font>,<font color="#B81F36">2패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Viktor.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">빅토르(미드)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">36 GAME</font> (<font color="#1259B7">19승</font>,<font color="#B81F36">17패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>나진 탱크 (<font color="#28AB47">4 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>송진리 (<font color="#1259B7">4승</font>,<font color="#B81F36">0패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/RekSai.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">렉사이(정글,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">80 GAME</font> (<font color="#1259B7">42승</font>,<font color="#B81F36">38패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>삼성걜럭시 Eve (<font color="#28AB47">7 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>삼성걜럭시 Eve (<font color="#1259B7">7승</font>,<font color="#B81F36">0패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Janna.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">잔나(서포터)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">86 GAME</font> (<font color="#1259B7">45승</font>,<font color="#B81F36">41패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Jin Air Sweet1 (<font color="#28AB47">8 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Jin Air Sweet1 (<font color="#1259B7">6승</font>,<font color="#B81F36">2패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Gnar.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">나르(탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">160 GAME</font> (<font color="#1259B7">82승</font>,<font color="#B81F36">78패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>957i (<font color="#28AB47">18 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>957i (<font color="#1259B7">11승</font>,<font color="#B81F36">7패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Nidalee.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">니달리(미드,정글,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">121 GAME</font> (<font color="#1259B7">62승</font>,<font color="#B81F36">59패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>미드가내현 (<font color="#28AB47">12 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>CJ Entus 트릭 (<font color="#1259B7">5승</font>,<font color="#B81F36">5패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Lucian.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">루시안(원딜)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">198 GAME</font> (<font color="#1259B7">100승</font>,<font color="#B81F36">98패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>나진 쏠 (<font color="#28AB47">18 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>나진 쏠 (<font color="#1259B7">14승</font>,<font color="#B81F36">4패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Xerath.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">제라스(미드)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">34 GAME</font> (<font color="#1259B7">17승</font>,<font color="#B81F36">17패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>KOR Dopa (<font color="#28AB47">4 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>요플래 (<font color="#1259B7">2승</font>,<font color="#B81F36">1패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Lissandra.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">리산드라(미드,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">48 GAME</font> (<font color="#1259B7">24승</font>,<font color="#B81F36">24패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>M2mic (<font color="#28AB47">28 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>M2mic (<font color="#1259B7">19승</font>,<font color="#B81F36">9패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Yasuo.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">야스오(미드,탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">50 GAME</font> (<font color="#1259B7">25승</font>,<font color="#B81F36">25패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>삼성갤럭시 Crown (<font color="#28AB47">8 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>엉덩국 락티아 (<font color="#1259B7">5승</font>,<font color="#B81F36">2패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Azir.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">아지르(미드)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">187 GAME</font> (<font color="#1259B7">92승</font>,<font color="#B81F36">95패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>전익수 탑도간다 (<font color="#28AB47">28 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>전익수 탑도간다 (<font color="#1259B7">20승</font>,<font color="#B81F36">8패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Vladimir.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">블라디미르(탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">135 GAME</font> (<font color="#1259B7">64승</font>,<font color="#B81F36">71패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>kfo (<font color="#28AB47">24 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>kfo (<font color="#1259B7">11승</font>,<font color="#B81F36">13패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Leona.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">레오나(서포터)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">34 GAME</font> (<font color="#1259B7">16승</font>,<font color="#B81F36">18패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>갱크갱크 (<font color="#28AB47">6 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>yoeFW SwordArT (<font color="#1259B7">3승</font>,<font color="#B81F36">0패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Ezreal.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">이즈리얼(원딜,미드)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">77 GAME</font> (<font color="#1259B7">36승</font>,<font color="#B81F36">41패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>CJ Entus 우주 (<font color="#28AB47">7 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>CJ Entus 우주 (<font color="#1259B7">4승</font>,<font color="#B81F36">3패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Alistar.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">알리스타(서포터)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">105 GAME</font> (<font color="#1259B7">49승</font>,<font color="#B81F36">56패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Jin Air Sweet1 (<font color="#28AB47">28 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Jin Air Sweet1 (<font color="#1259B7">13승</font>,<font color="#B81F36">15패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Draven.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">드레이븐(원딜)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">42 GAME</font> (<font color="#1259B7">19승</font>,<font color="#B81F36">23패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>Greed A Pride (<font color="#28AB47">19 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Greed A Pride (<font color="#1259B7">8승</font>,<font color="#B81F36">11패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/LeeSin.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">리 신(정글)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">212 GAME</font> (<font color="#1259B7">92승</font>,<font color="#B81F36">120패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>TiP Rush (<font color="#28AB47">17 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>TiP Rush (<font color="#1259B7">7승</font>,<font color="#B81F36">10패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Rumble.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">럼블(탑)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">107 GAME</font> (<font color="#1259B7">41승</font>,<font color="#B81F36">66패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>LORD MASTER KING (<font color="#28AB47">14 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>LORD MASTER KING (<font color="#1259B7">7승</font>,<font color="#B81F36">7패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Urgot.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">우르곳(원딜)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">47 GAME</font> (<font color="#1259B7">18승</font>,<font color="#B81F36">29패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>케이티 Arrow (<font color="#28AB47">9 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>Jin Air Pilot (<font color="#1259B7">3승</font>,<font color="#B81F36">5패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-                    <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white">
-                        <table style="border: none; margin-top: 0.5em;">
-                            <tr>
-                                <td width="10%">
-                                    <div class="td_rank">
-                                        <div class="rank"><span style="font-weight:bold;">1위</span> </div>
-                                        <div class="change">0</div>
-                                    </div>
-                                </td>
-                                <td width="18%" class="tdi"><img src="/images/hero/Orianna.png" alt="10" /> </td>
-                                <td class="td_desc" width="66%">
-                                    <div class="td_text"><span style="font-weight:bold;">오리아나(미드)</span>
-                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">30 GAME</font> (<font color="#1259B7">11승</font>,<font color="#B81F36">19패</font>)
-                                        <br><span style="font-weight:bold;">최다 플레이: </span>MidTopAdcOnly (<font color="#28AB47">5 GAME</font>)
-                                        <br><span style="font-weight:bold;">최고 플레이: </span>나진 오뀨 (<font color="#1259B7">2승</font>,<font color="#B81F36">0패</font>)</div>
-                                </td>
-                                <td class="td_desc" width="6%">
-                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i> </div>
-                                </td>
-                            </tr>
-                        </table>
-                    </div>
-
-                </div>
+<!DOCTYPE html><html><head><meta charset="UTF-8"><title>Lolappgm.GitHub.com by LOLAppGM</title> <meta name="viewport" content="width=device-width, initial-scale=1"> <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet2.css" media="screen">  <link rel="stylesheet" href="/stylesheets/materialize.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>  <script src="/stylesheets/materialize.js"></script></head><body>    <div class="container">        <div class="row">       <div id="css_tabs">
+                <input id="tab1" type="radio" name="tab" />  <input id="tab2" type="radio" name="tab" checked="checked" />            <label for="tab1">챔피언 정보</label>
+                <label for="tab2">챌린저 유저 정보</label>        <div class="tab1_content">       <div class="title">주간 챌린저 1~200위 랭킹(KR)</div>          <div class="sub_title">2015.05.06~2015.05.13(5월 둘째주)</div><div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_1.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">1위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/KogMaw.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">코그모</span>(원딜,미드)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">43 GAME</font> (<font color="#1259B7">28승</font>,<font color="#B81F36">15패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>TiP Rush (<font color="#28AB47">20 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>TiP Rush (<font color="#1259B7">17승</font>,<font color="#B81F36">3패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_2.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">2위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Hecarim.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">헤카림</span>(정글,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">113 GAME</font> (<font color="#1259B7">73승</font>,<font color="#B81F36">40패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Darttt (<font color="#28AB47">15 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>957i (<font color="#1259B7">11승</font>,<font color="#B81F36">2패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_3.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">3위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Corki.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">코르키</span>(원딜)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">98 GAME</font> (<font color="#1259B7">62승</font>,<font color="#B81F36">36패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Gank Zero (<font color="#28AB47">9 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Gank Zero (<font color="#1259B7">6승</font>,<font color="#B81F36">3패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_4.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">4위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Bard.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">바드</span>(서포터)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">87 GAME</font> (<font color="#1259B7">55승</font>,<font color="#B81F36">32패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Jin Air Sweet1 (<font color="#28AB47">23 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Lehends (<font color="#1259B7">16승</font>,<font color="#B81F36">6패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_5.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">5위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Ahri.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">아리</span>(미드)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">32 GAME</font> (<font color="#1259B7">20승</font>,<font color="#B81F36">12패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>나진 쏠 (<font color="#28AB47">5 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>나진 쏠 (<font color="#1259B7">3승</font>,<font color="#B81F36">2패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_6.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">6위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Annie.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">애니</span>(서포터,미드,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">55 GAME</font> (<font color="#1259B7">34승</font>,<font color="#B81F36">21패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Longzhu IgNar (<font color="#28AB47">10 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Longzhu IgNar (<font color="#1259B7">6승</font>,<font color="#B81F36">4패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_7.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">7위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Maokai.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">마오카이</span>(정글,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">70 GAME</font> (<font color="#1259B7">43승</font>,<font color="#B81F36">27패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>H2de (<font color="#28AB47">8 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>H2de (<font color="#1259B7">7승</font>,<font color="#B81F36">1패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_8.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">8위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Kalista.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">칼리스타</span>(원딜)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">101 GAME</font> (<font color="#1259B7">62승</font>,<font color="#B81F36">39패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Luc2re (<font color="#28AB47">7 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Luc2re (<font color="#1259B7">7승</font>,<font color="#B81F36">0패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_9.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">9위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Kennen.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">케넨</span>(탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">31 GAME</font> (<font color="#1259B7">19승</font>,<font color="#B81F36">12패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Awe Flash (<font color="#28AB47">7 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Awe Flash (<font color="#1259B7">6승</font>,<font color="#B81F36">1패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_10.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">10위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Gragas.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">그라가스</span>(정글,미드,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">150 GAME</font> (<font color="#1259B7">91승</font>,<font color="#B81F36">59패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Ep mOOn (<font color="#28AB47">13 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Ep mOOn (<font color="#1259B7">11승</font>,<font color="#B81F36">2패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_11.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">11위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Sejuani.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">세주아니</span>(정글,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">161 GAME</font> (<font color="#1259B7">97승</font>,<font color="#B81F36">64패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>꼬깔콘칩 (<font color="#28AB47">16 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>꼬깔콘칩 (<font color="#1259B7">12승</font>,<font color="#B81F36">4패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_12.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">12위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Chogath.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">초가스</span>(정글,미드,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">35 GAME</font> (<font color="#1259B7">21승</font>,<font color="#B81F36">14패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>한달동안빡겜함 (<font color="#28AB47">18 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>한달동안빡겜함 (<font color="#1259B7">11승</font>,<font color="#B81F36">7패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_13.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">13위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Kassadin.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">카사딘</span>(미드,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">40 GAME</font> (<font color="#1259B7">24승</font>,<font color="#B81F36">16패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>SKT T1 Scout (<font color="#28AB47">4 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Longzhu Apple (<font color="#1259B7">3승</font>,<font color="#B81F36">0패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_14.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">14위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/TwistedFate.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">트위스티드 페이트</span>(미드)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">137 GAME</font> (<font color="#1259B7">82승</font>,<font color="#B81F36">55패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>나진 탱크 (<font color="#28AB47">21 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>나진 탱크 (<font color="#1259B7">14승</font>,<font color="#B81F36">7패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_15.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">15위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Riven.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">리븐</span>(미드,정글,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">237 GAME</font> (<font color="#1259B7">141승</font>,<font color="#B81F36">96패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Click15 (<font color="#28AB47">59 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Click15 (<font color="#1259B7">36승</font>,<font color="#B81F36">23패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_16.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">16위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Nunu.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">누누</span>(서포터,정글)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">154 GAME</font> (<font color="#1259B7">91승</font>,<font color="#B81F36">63패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>갱크갱크 (<font color="#28AB47">20 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>갱크갱크 (<font color="#1259B7">13승</font>,<font color="#B81F36">7패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_17.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">17위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Vayne.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">베인</span>(원딜)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">136 GAME</font> (<font color="#1259B7">80승</font>,<font color="#B81F36">56패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>eveveveveveveve (<font color="#28AB47">16 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>eveveveveveveve (<font color="#1259B7">12승</font>,<font color="#B81F36">4패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_18.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">18위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Tryndamere.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">트린다미어</span>(정글,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">43 GAME</font> (<font color="#1259B7">25승</font>,<font color="#B81F36">18패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>곰얼굴곰보빵 (<font color="#28AB47">22 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>곰얼굴곰보빵 (<font color="#1259B7">13승</font>,<font color="#B81F36">9패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_19.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">19위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Zed.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">제드</span>(미드)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">74 GAME</font> (<font color="#1259B7">43승</font>,<font color="#B81F36">31패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>i3urger King (<font color="#28AB47">21 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>i3urger King (<font color="#1259B7">13승</font>,<font color="#B81F36">8패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_20.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">20위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Thresh.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">쓰레쉬</span>(서포터)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">302 GAME</font> (<font color="#1259B7">175승</font>,<font color="#B81F36">127패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Own Destiny (<font color="#28AB47">41 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Own Destiny (<font color="#1259B7">28승</font>,<font color="#B81F36">13패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_21.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">21위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Lulu.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">룰루</span>(서포터,미드,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">133 GAME</font> (<font color="#1259B7">77승</font>,<font color="#B81F36">56패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Darttt (<font color="#28AB47">12 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Darttt (<font color="#1259B7">6승</font>,<font color="#B81F36">6패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_22.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">22위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Nautilus.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">노틸러스</span>(정글)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">108 GAME</font> (<font color="#1259B7">62승</font>,<font color="#B81F36">46패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Machi Dreamer (<font color="#28AB47">17 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Machi Dreamer (<font color="#1259B7">12승</font>,<font color="#B81F36">5패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_23.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">23위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Jinx.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">징크스</span>(원딜)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">81 GAME</font> (<font color="#1259B7">46승</font>,<font color="#B81F36">35패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Luc2re (<font color="#28AB47">11 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Luc2re (<font color="#1259B7">7승</font>,<font color="#B81F36">4패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_24.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">24위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Pantheon.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">판테온</span>(정글,미드,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">37 GAME</font> (<font color="#1259B7">21승</font>,<font color="#B81F36">16패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>갱크갱크 (<font color="#28AB47">25 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>갱크갱크 (<font color="#1259B7">14승</font>,<font color="#B81F36">11패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_25.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">25위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Sivir.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">시비르</span>(원딜)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">286 GAME</font> (<font color="#1259B7">162승</font>,<font color="#B81F36">124패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Luc2re (<font color="#28AB47">23 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Luc2re (<font color="#1259B7">14승</font>,<font color="#B81F36">9패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_26.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">26위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Morgana.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">모르가나</span>(서포터,미드)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">69 GAME</font> (<font color="#1259B7">39승</font>,<font color="#B81F36">30패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>삼성갤럭시 Crown (<font color="#28AB47">10 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>삼성갤럭시 Crown (<font color="#1259B7">8승</font>,<font color="#B81F36">2패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_27.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">27위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Blitzcrank.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">블리츠크랭크</span>(서포터)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">80 GAME</font> (<font color="#1259B7">45승</font>,<font color="#B81F36">35패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>끌어다줄게기달려 (<font color="#28AB47">27 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>끌어다줄게기달려 (<font color="#1259B7">16승</font>,<font color="#B81F36">11패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_28.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">28위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Cassiopeia.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">카시오페아</span>(미드)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">94 GAME</font> (<font color="#1259B7">52승</font>,<font color="#B81F36">42패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>나진 로치 (<font color="#28AB47">14 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>나진 로치 (<font color="#1259B7">10승</font>,<font color="#B81F36">4패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_29.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">29위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Graves.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">그레이브즈</span>(원딜)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">97 GAME</font> (<font color="#1259B7">53승</font>,<font color="#B81F36">44패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Axiyo (<font color="#28AB47">9 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Axiyo (<font color="#1259B7">4승</font>,<font color="#B81F36">5패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_30.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">30위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Karthus.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">카서스</span>(미드)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">48 GAME</font> (<font color="#1259B7">26승</font>,<font color="#B81F36">22패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>oh ho (<font color="#28AB47">14 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>oh ho (<font color="#1259B7">5승</font>,<font color="#B81F36">9패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_31.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">31위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Soraka.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">소라카</span>(서포터)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">100 GAME</font> (<font color="#1259B7">54승</font>,<font color="#B81F36">46패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>끌어다줄게기달려 (<font color="#28AB47">39 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>끌어다줄게기달려 (<font color="#1259B7">20승</font>,<font color="#B81F36">19패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_32.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">32위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Leblanc.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">르블랑</span>(미드)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">95 GAME</font> (<font color="#1259B7">51승</font>,<font color="#B81F36">44패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>삼성갤럭시 Crown (<font color="#28AB47">10 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>삼성갤럭시 Crown (<font color="#1259B7">6승</font>,<font color="#B81F36">4패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_33.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">33위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Irelia.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">이렐리아</span>(탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">95 GAME</font> (<font color="#1259B7">51승</font>,<font color="#B81F36">44패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>LORD MASTER KING (<font color="#28AB47">13 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>LORD MASTER KING (<font color="#1259B7">5승</font>,<font color="#B81F36">8패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_34.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">34위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Rengar.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">렝가</span>(정글,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">41 GAME</font> (<font color="#1259B7">22승</font>,<font color="#B81F36">19패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>심약자 탈주권장 (<font color="#28AB47">11 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>심약자 탈주권장 (<font color="#1259B7">9승</font>,<font color="#B81F36">2패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_35.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">35위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Viktor.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">빅토르</span>(미드)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">36 GAME</font> (<font color="#1259B7">19승</font>,<font color="#B81F36">17패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>나진 탱크 (<font color="#28AB47">4 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>송진리 (<font color="#1259B7">4승</font>,<font color="#B81F36">0패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_36.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">36위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/RekSai.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">렉사이</span>(정글,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">80 GAME</font> (<font color="#1259B7">42승</font>,<font color="#B81F36">38패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>삼성걜럭시 Eve (<font color="#28AB47">7 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>삼성걜럭시 Eve (<font color="#1259B7">7승</font>,<font color="#B81F36">0패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_37.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">37위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Janna.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">잔나</span>(서포터)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">86 GAME</font> (<font color="#1259B7">45승</font>,<font color="#B81F36">41패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Jin Air Sweet1 (<font color="#28AB47">8 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Jin Air Sweet1 (<font color="#1259B7">6승</font>,<font color="#B81F36">2패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_38.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">38위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Gnar.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">나르</span>(탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">160 GAME</font> (<font color="#1259B7">82승</font>,<font color="#B81F36">78패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>957i (<font color="#28AB47">18 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>957i (<font color="#1259B7">11승</font>,<font color="#B81F36">7패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_39.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">39위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Nidalee.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">니달리</span>(미드,정글,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">121 GAME</font> (<font color="#1259B7">62승</font>,<font color="#B81F36">59패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>미드가내현 (<font color="#28AB47">12 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>CJ Entus 트릭 (<font color="#1259B7">5승</font>,<font color="#B81F36">5패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_40.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">40위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Lucian.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">루시안</span>(원딜)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">198 GAME</font> (<font color="#1259B7">100승</font>,<font color="#B81F36">98패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>나진 쏠 (<font color="#28AB47">18 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>나진 쏠 (<font color="#1259B7">14승</font>,<font color="#B81F36">4패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_41.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">41위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Xerath.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">제라스</span>(미드)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">34 GAME</font> (<font color="#1259B7">17승</font>,<font color="#B81F36">17패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>KOR Dopa (<font color="#28AB47">4 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>요플래 (<font color="#1259B7">2승</font>,<font color="#B81F36">1패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_42.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">42위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Lissandra.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">리산드라</span>(미드,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">48 GAME</font> (<font color="#1259B7">24승</font>,<font color="#B81F36">24패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>M2mic (<font color="#28AB47">28 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>M2mic (<font color="#1259B7">19승</font>,<font color="#B81F36">9패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_43.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">43위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Yasuo.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">야스오</span>(미드,탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">50 GAME</font> (<font color="#1259B7">25승</font>,<font color="#B81F36">25패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>삼성갤럭시 Crown (<font color="#28AB47">8 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>엉덩국 락티아 (<font color="#1259B7">5승</font>,<font color="#B81F36">2패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_44.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">44위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Azir.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">아지르</span>(미드)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">187 GAME</font> (<font color="#1259B7">92승</font>,<font color="#B81F36">95패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>전익수 탑도간다 (<font color="#28AB47">28 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>전익수 탑도간다 (<font color="#1259B7">20승</font>,<font color="#B81F36">8패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_45.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">45위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Vladimir.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">블라디미르</span>(탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">135 GAME</font> (<font color="#1259B7">64승</font>,<font color="#B81F36">71패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>kfo (<font color="#28AB47">24 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>kfo (<font color="#1259B7">11승</font>,<font color="#B81F36">13패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_46.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">46위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Leona.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">레오나</span>(서포터)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">34 GAME</font> (<font color="#1259B7">16승</font>,<font color="#B81F36">18패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>갱크갱크 (<font color="#28AB47">6 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>yoeFW SwordArT (<font color="#1259B7">3승</font>,<font color="#B81F36">0패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_47.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">47위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Ezreal.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">이즈리얼</span>(원딜,미드)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">77 GAME</font> (<font color="#1259B7">36승</font>,<font color="#B81F36">41패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>CJ Entus 우주 (<font color="#28AB47">7 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>CJ Entus 우주 (<font color="#1259B7">4승</font>,<font color="#B81F36">3패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_48.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">48위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Alistar.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">알리스타</span>(서포터)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">105 GAME</font> (<font color="#1259B7">49승</font>,<font color="#B81F36">56패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Jin Air Sweet1 (<font color="#28AB47">28 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Jin Air Sweet1 (<font color="#1259B7">13승</font>,<font color="#B81F36">15패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_49.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">49위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Draven.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">드레이븐</span>(원딜)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">42 GAME</font> (<font color="#1259B7">19승</font>,<font color="#B81F36">23패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>Greed A Pride (<font color="#28AB47">19 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Greed A Pride (<font color="#1259B7">8승</font>,<font color="#B81F36">11패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_50.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">50위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/LeeSin.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">리 신</span>(정글)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">212 GAME</font> (<font color="#1259B7">92승</font>,<font color="#B81F36">120패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>TiP Rush (<font color="#28AB47">17 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>TiP Rush (<font color="#1259B7">7승</font>,<font color="#B81F36">10패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_51.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">51위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Rumble.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">럼블</span>(탑)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">107 GAME</font> (<font color="#1259B7">41승</font>,<font color="#B81F36">66패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>LORD MASTER KING (<font color="#28AB47">14 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>LORD MASTER KING (<font color="#1259B7">7승</font>,<font color="#B81F36">7패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_52.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">52위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Urgot.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">우르곳</span>(원딜)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">47 GAME</font> (<font color="#1259B7">18승</font>,<font color="#B81F36">29패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>케이티 Arrow (<font color="#28AB47">9 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>Jin Air Pilot (<font color="#1259B7">3승</font>,<font color="#B81F36">5패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div> <div class="z-depth-1" style="width: 100%; margin-left: auto; margin-right: auto; background-color: white"> <table style="border: none; margin-top: 0.5em;">
+                            <tr onclick="document.location ='c_53.html';">       <td width="10%">                      <div class="td_rank">
+                                        <div class="rank"><span style="font-weight:bold;">53위</span>       </div>                          <div class="change">0</div>
+                                    </div>               </td>      <td width="18%" class="tdi"><img src="/images/hero/Orianna.png" alt="10" />          </td>
+                                <td class="td_desc" width="66%">           <div class="td_text"><span style="font-weight:bold;">오리아나</span>(미드)
+	                                        <br><span style="font-weight:bold;">플레이 기록: </span><font color="#28AB47">30 GAME</font> (<font color="#1259B7">11승</font>,<font color="#B81F36">19패</font>)
+	                                        <br><span style="font-weight:bold;">최다 플레이: </span>MidTopAdcOnly (<font color="#28AB47">5 GAME</font>)
+	                                        <br><span style="font-weight:bold;">최고 플레이: </span>나진 오뀨 (<font color="#1259B7">2승</font>,<font color="#B81F36">0패</font>)</div> </td>   <td class="td_desc" width="6%">
+                                    <div class="td_arrow"><i class="fa fa-chevron-right"></i>         </div>
+                                </td> </tr></table></div>                </div>
                 <div class="tab2_content">
                     <div class="title">주간 챌린저 1~200위 랭킹(KR)</div>
                     <div class="sub_title">2015.05.06~2015.05.13(5월 둘째주)</div>
