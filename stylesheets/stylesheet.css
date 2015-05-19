@@ -60,6 +60,10 @@ td {
     font-size: 1.0em;
 }
 
+.dropdown-content {
+    z-index:50 !important;
+}
+
 .ratio {
     margin-top: 8px;
     font-size: 12px;
@@ -78,17 +82,23 @@ td {
     margin-top: -5px;
 }
 
+.dropbox {
+    width: 100%;
+}
+
 .btn,
 .btn-large {
     background-color: #2c2c2c !important;
     width: 40% !important;
+    z-index: 999 !important;
 }
 
-.sc{
+.sc {
     background-color: #2c2c2c !important;
     width: 59% !important;
     margin-right: 0;
 }
+
 .pick_front0 {
     left: 0px;
     height: 1em;
