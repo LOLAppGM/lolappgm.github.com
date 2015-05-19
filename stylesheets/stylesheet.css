@@ -7,17 +7,20 @@
     margin-left: auto;
     margin-right: auto;
 }
-.row{
-    margin-top: 2em;
+
+.row {
+    margin-top: 1.5em;
 }
+
 .hero img {
     width: 100%;
     height: auto;
 }
 
-td{
+td {
     padding-top: 0.5em !important;
 }
+
 .triangle > span {
     top: 50px;
     left: 4px;
@@ -75,6 +78,17 @@ td{
     margin-top: -5px;
 }
 
+.btn,
+.btn-large {
+    background-color: #2c2c2c !important;
+    width: 40% !important;
+}
+
+.sc{
+    background-color: #2c2c2c !important;
+    width: 59% !important;
+    margin-right: 0;
+}
 .pick_front0 {
     left: 0px;
     height: 1em;
@@ -99,6 +113,7 @@ td{
     padding: 5px;
     margin-top: 1em;
 }
+
 .title0 {
     text-align: left;
     vertical-align: middle;
@@ -108,12 +123,22 @@ td{
     padding-top: 0.5em;
 }
 
-.z-depth-1, nav, .card-panel, .card, .toast, .btn, .btn-large, .btn-floating, .dropdown-content, .collapsible, .side-nav {
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
-  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12) !important;
-  box-shadow: rgb(134, 134, 134) 0px 0px 2px 0px !important;
+.z-depth-1,
+nav,
+.card-panel,
+.card,
+.toast,
+.btn,
+.btn-large,
+.btn-floating,
+.dropdown-content,
+.collapsible,
+.side-nav {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    box-shadow: rgb(134, 134, 134) 0px 0px 2px 0px !important;
 }
 
-.dropdown-button btn{
+.dropdown-button btn {
     z-index: 30;
 }

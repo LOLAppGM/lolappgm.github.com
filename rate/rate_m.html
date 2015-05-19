@@ -17,14 +17,19 @@
         $(document).ready(function () {
             // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
             $(".modal-trigger").leanModal();
+            $('.scrollspy').scrollSpy();
         });
     </script>
 </head>
 
 <body>
     <div class="container-fluid">
-        <div class="row"><a class="dropdown-button btn" href="#" data-activates="dropdown1">마스터</a><ul id="dropdown1" class="dropdown-content"><li><a href="./rate_b.html">브론즈</a>
-                </li><li><a href="./rate_s.html">실버</a></li><li><a href="./rate_g.html">골드</a> </li> <li><a href="./rate_p.html">플래티넘</a></li> <li><a href="./rate_d.html">다이아</a></li><li><a href="./rate_m.html">마스터</a> </li><li><a href="./rate_c.html">첼린저</a>  </li> </ul> <div class="title">전체라인 최고승률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><table cellspacing="0" cellpadding="0" style="border: none;"><tbody><tr><td><div class="triangle"><div class="rank">1위</div><div class="change">1</div>
+        <div class="row">
+
+<a class="dropdown-button btn" href="#" data-activates="dropdown1">마스터</a><ul id="dropdown1" class="dropdown-content"><li><a href="./rate_b.html">브론즈</a>
+                </li><li><a href="./rate_s.html">실버</a></li><li><a href="./rate_g.html">골드</a> </li> <li><a href="./rate_p.html">플래티넘</a></li> <li><a href="./rate_d.html">다이아</a></li><li><a href="./rate_m.html">마스터</a> </li><li><a href="./rate_c.html">첼린저</a>  </li> </ul> <a class="dropdown-button btn sc" href="#" data-activates="dropdown2">전체라인 최고승률 &#9660</a>
+            <ul id="dropdown2" class="section table-of-contents dropdown-content"> <li><a href="#sp0">전체라인 최고승률</a></li><li><a href="#sp1">전체라인 최고픽률</a> </li> <li><a href="#sp2">라인별 최고승률</a>   </li><li><a href="#sp3">라인별 최고픽률</a>  </li> <li><a href="#sp4">라인별 최하승률</a>
+                </li> </ul> <div class="title section scrollspy" id="sp0">전체라인 최고승률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><table cellspacing="0" cellpadding="0" style="border: none;"><tbody><tr><td><div class="triangle"><div class="rank">1위</div><div class="change">1</div>
                                 </div>  <div class="hero"><img src="/images/hero2/Ahri.png" alt="10" /><div class="name">아리</div> </div>
                                 <div class="ratio">승률64.86%</div><div class="ratioback"> <div class="win_front" style="width: 64.86%; ">
                                         <div class="f_grade">&#9650 0.02%</div> </div> </div>  <div class="ratio">픽률 11.82%</div>
@@ -49,7 +54,7 @@
                                 <div class="ratio">승률62.64%</div><div class="ratioback"> <div class="win_front" style="width: 62.64%; ">
                                         <div class="f_grade">&#9650 0.42%</div> </div> </div>  <div class="ratio">픽률 5.81%</div>
                                 <div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:5.81%;" />
-                                        <div class="f_grade">0</div> </div>  </div>  </td></tr>  </tbody>  </table> </div> <div class="title">전체라인 최고픽률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><table cellspacing="0" cellpadding="0" style="border: none;"><tbody><tr><td><div class="triangle"><div class="rank">1위</div><div class="change">0</div>
+                                        <div class="f_grade">0</div> </div>  </div>  </td></tr>  </tbody>  </table> </div> <div class="title section scrollspy" id="sp1">전체라인 최고픽률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><table cellspacing="0" cellpadding="0" style="border: none;"><tbody><tr><td><div class="triangle"><div class="rank">1위</div><div class="change">0</div>
                                 </div>  <div class="hero"><img src="/images/hero2/Thresh.png" alt="10" /><div class="name">쓰레쉬</div> </div>
                                 <div class="ratio">승률55.87%</div><div class="ratioback"> <div class="win_front" style="width: 55.87%; ">
                                         <div class="f_grade">&#9650 0.05%</div> </div> </div>  <div class="ratio">픽률 53.86%</div>
@@ -74,7 +79,7 @@
                                 <div class="ratio">승률60.67%</div><div class="ratioback"> <div class="win_front" style="width: 60.67%; ">
                                         <div class="f_grade">&#9660 0.14%</div> </div> </div>  <div class="ratio">픽률 28.43%</div>
                                 <div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:28.43%;" />
-                                        <div class="f_grade">&#9660 0.22%</div> </div>  </div>  </td></tr>  </tbody>  </table> </div> <div class="title">라인별 최고승률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><div class="title0">[최고승률] 탑(TOP)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change">0</div>
+                                        <div class="f_grade">&#9660 0.22%</div> </div>  </div>  </td></tr>  </tbody>  </table> </div> <div class="title section scrollspy" id="sp2">라인별 최고승률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><div class="title0">[최고승률] 탑(TOP)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change">0</div>
 	                                </div>  <div class="hero"><img src="/images/hero2/Olaf.png" alt="10" /><div class="name">올라프</div> </div>
 	                                <div class="ratio">승률64.36%</div><div class="ratioback"> <div class="win_front" style="width: 64.36%; ">
 	                                        <div class="f_grade">&#9660 0.64%</div> </div> </div>  <div class="ratio">픽률 6.45%</div>
@@ -149,7 +154,7 @@
 	                                <div class="ratio">승률55.87%</div><div class="ratioback"> <div class="win_front" style="width: 55.87%; ">
 	                                        <div class="f_grade">&#9650 0.05%</div> </div> </div>  <div class="ratio">픽률 53.86%</div>
 	                                <div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:53.86%;" />
-	                                        <div class="f_grade">&#9650 0.11%</div> </div>  </div>  </td>  </tbody>  </table> </div> <div class="title">라인별 최고픽률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><div class="title0">[최고픽률] 탑(TOP)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change">0</div>
+	                                        <div class="f_grade">&#9650 0.11%</div> </div>  </div>  </td>  </tbody>  </table> </div> <div class="title section scrollspy" id="sp3">라인별 최고픽률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><div class="title0">[최고픽률] 탑(TOP)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change">0</div>
 	                                </div>  <div class="hero"><img src="/images/hero2/Riven.png" alt="10" /><div class="name">리븐</div> </div>
 	                                <div class="ratio">승률62.82%</div><div class="ratioback"> <div class="win_front" style="width: 62.82%; ">
 	                                        <div class="f_grade">0</div> </div> </div>  <div class="ratio">픽률 22.68%</div>
@@ -224,7 +229,7 @@
 	                                <div class="ratio">승률52.6%</div><div class="ratioback"> <div class="win_front" style="width: 52.6%; ">
 	                                        <div class="f_grade">&#9650 0.31%</div> </div> </div>  <div class="ratio">픽률 19.68%</div>
 	                                <div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:19.68%;" />
-	                                        <div class="f_grade">&#9660 0.07%</div> </div>  </div>  </td>  </tbody>  </table> </div> <div class="title">라인별 최하승률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><div class="title0">[최하픽률] 탑(TOP)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change">0</div>
+	                                        <div class="f_grade">&#9660 0.07%</div> </div>  </div>  </td>  </tbody>  </table> </div> <div class="title section scrollspy" id="sp4">라인별 최하승률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><div class="title0">[최하픽률] 탑(TOP)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change">0</div>
 	                                </div>  <div class="hero"><img src="/images/hero2/Maokai.png" alt="10" /><div class="name">마오카이</div> </div>
 	                                <div class="ratio">승률47.6%</div><div class="ratioback"> <div class="win_front" style="width: 47.6%; ">
 	                                        <div class="f_grade">&#9650 0.02%</div> </div> </div>  <div class="ratio">픽률 17.32%</div>
