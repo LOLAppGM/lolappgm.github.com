@@ -1,4 +1,4 @@
--webkit-text-size-adjust: none; 
+-webkit-text-size-adjust: none;
 body {
     background-color: #eeeeee;
 }
@@ -58,14 +58,14 @@ nav,
 }
 
 #css_tabs label[for=tab1] {
-    width: 45%;
+    width: 48%;
     margin-left: 1.2em;
     margin-top: 1em;
     margin-right: -2px
 }
 
 #css_tabs label[for=tab2] {
-    width: 45%;
+    width: 48%;
     margin-top: 1em;
     margin-right: auto;
     margin-left: -2px
@@ -112,10 +112,6 @@ td {
     height: 0em !important;
 }
 
-.tdi {
-    padding-bottom: 0.4em !important;
-}
-
 .tdi img {
     width: 100%;
     padding-left: 0.4em;
@@ -150,8 +146,6 @@ td {
     padding-left: 1em;
     font-size: 1.3em;
 }
-
-
 
 .td_arrow {
     font-size: 2em;
@@ -295,7 +289,6 @@ thead tr th {
 .row {
     margin-top: 1.5em;
 }
-
 /*
 .hero img {
     width: 95%;
@@ -321,7 +314,7 @@ td {
 }
 
 .rank {
-    padding-left: 1.5em ;
+    padding-left: 1.5em;
     padding-top: 0.5em;
     color: white;
     font-size: 1em !important;
@@ -336,11 +329,16 @@ td {
 }
 
 .h_name {
-  position: absolute;
-  bottom: 0.5em;
-  right: 1em;
-  color: white;
-  font-size: 1em;
+    position: absolute;
+    bottom: 0.5em;
+    right: 1em;
+    color: white;
+    font-size: 1em;
+    width: 80%;
+    text-align: right;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .td_desc {
@@ -349,10 +347,59 @@ td {
     line-height: 140% !important;
 }
 
-@media only screen and (max-width: 360px) {
+.tdi {
+    padding-bottom: 0.4em !important;
+    width: 20% !important;
+}
+
+@media only screen and (max-width: 320px) {
+    #css_tabs label[for=tab1] {
+        width: 45%;
+    }
+    #css_tabs label[for=tab2] {
+        width: 45%;
+    }
+    .tdi {
+        width: 20% !important;
+    }
     .rank {
-        padding-left: 0.6em  !important;
-        margin-top: -0.4em !important;
+        padding-left: 0.4em !important;
+        margin-top: -0.6em !important;
+        color: white !important;
+        font-size: 10px !important;
+    }
+    .change {
+        padding-top: -2px !important;
+        padding-left: 5px !important;
+        color: white !important;
+        font-size: 0.5em !important;
+    }
+    .h_name {
+        position: absolute !important;
+        bottom: -0.2em !important;
+        right: 0.8em !important;
+        color: white !important;
+        font-size: 0.4em !important;
+        width: 75%;
+    }
+    .td_desc {
+        font-size: 0.7em !important;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 360px) {
+    #css_tabs label[for=tab1] {
+        width: 45%;
+    }
+    #css_tabs label[for=tab2] {
+        width: 45%;
+    }
+    .tdi {
+        width: 20% !important;
+    }
+    .rank {
+        padding-left: 0.5em !important;
+        margin-top: -0.5em !important;
         color: white !important;
         font-size: 10px !important;
     }
@@ -366,60 +413,166 @@ td {
         position: absolute !important;
         bottom: 0em !important;
         right: 0.8em !important;
+        width: 75%;
         color: white !important;
         font-size: 0.5em !important;
     }
     .td_desc {
-        font-size: 1em !important;
-    }
-}
-@media only screen and (min-width:361px) and (max-width: 400px) {
-    .rank {
-        padding-left: 0.7em  !important;
-        margin-top: -0.3em !important;
-        color: white !important;
-        font-size: 10px !important;
-    }
-    .change {
-        padding-top: -2px !important;
-        padding-left: 5px !important;
-        color: white !important;
-        font-size: 0.5em !important;
-    }
-    .h_name {
-        position: absolute !important;
-        bottom: 0em !important;
-        right: 0.7em !important;
-        color: red !important;
-        font-size: 1em !important;
-    }
-    .td_desc {
-        font-size: 1em !important;
-    }
-}
-
-@media only screen and (min-width: 600px) {
-    .rank {
-        padding-left: 0.9em  !important;
-        padding-top: 0.2em !important;
-        color: white !important;
-        font-size: 10px !important;
-    }
-    .change {
-        padding-top: -2px !important;
-        padding-left: 5px !important;
-        color: white !important;
-        font-size: 0.5em !important;
-    }
-    .h_name {
-        position: absolute !important;
-        bottom: 0em !important;
-        right: 1em !important;
-        color: yellow!important;
         font-size: 0.8em !important;
     }
 }
 
+@media only screen and (min-width: 361px) and (max-width: 400px) {
+    #css_tabs label[for=tab1] {
+        width: 45%;
+    }
+    #css_tabs label[for=tab2] {
+        width: 45%;
+    }
+    .tdi {
+        width: 19% !important;
+    }
+    .rank {
+        padding-left: 0.6em !important;
+        margin-top: -0.5em !important;
+        color: white !important;
+        font-size: 10px !important;
+    }
+    .change {
+        padding-top: -2px !important;
+        padding-left: 5px !important;
+        color: white !important;
+        font-size: 0.5em !important;
+    }
+    .h_name {
+        position: absolute !important;
+        bottom: -0.1em !important;
+        right: 0.6em !important;
+        color: white !important;
+        font-size: 0.9em !important;
+    }
+    .td_desc {
+        font-size: 0.8em !important;
+    }
+}
+
+@media only screen and (min-width: 401px) and (max-width: 500px) {
+    #css_tabs label[for=tab1] {
+        width: 46%;
+    }
+    #css_tabs label[for=tab2] {
+        width: 46%;
+    }
+    .tdi {
+        width: 18% !important;
+    }
+    .rank {
+        padding-left: 0.6em !important;
+        margin-top: -0.5em !important;
+        color: white !important;
+        font-size: 10px !important;
+    }
+    .change {
+        padding-top: -2px !important;
+        padding-left: 5px !important;
+        color: white !important;
+        font-size: 0.5em !important;
+    }
+    .h_name {
+        position: absolute !important;
+        bottom: -0.1em !important;
+        right: 0.6em !important;
+        color: white !important;
+        font-size: 0.9em !important;
+    }
+    .td_desc {
+        font-size: 0.8em !important;
+    }
+}
+
+@media only screen and (min-width: 501px) and (max-width: 600px) {
+    .tdi {
+        width: 13% !important;
+    }
+    .rank {
+        padding-left: 0.7em !important;
+        margin-top: -0.4em !important;
+        color: white !important;
+        font-size: 11px !important;
+    }
+    .change {
+        padding-top: -2px !important;
+        padding-left: 5px !important;
+        color: white !important;
+        font-size: 0.5em !important;
+    }
+    .h_name {
+        position: absolute !important;
+        bottom: 0em !important;
+        right: 0.6em !important;
+        color: white !important;
+        font-size: 0.9em !important;
+    }
+    .td_desc {
+        font-size: 1em !important;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+    .tdi {
+        width: 12% !important;
+    }
+    .rank {
+        padding-left: 0.7em !important;
+        margin-top: -0.4em !important;
+        color: white !important;
+        font-size: 13px !important;
+    }
+    .change {
+        padding-top: -2px !important;
+        padding-left: 5px !important;
+        color: white !important;
+        font-size: 0.5em !important;
+    }
+    .h_name {
+        position: absolute !important;
+        bottom: -0.1em !important;
+        right: 0.6em !important;
+        color: white !important;
+        font-size: 1.1em !important;
+    }
+    .td_desc {
+        font-size: 1.2em !important;
+    }
+}
+
+@media only screen and (min-width: 801px) and (max-width: 900px) {
+    .tdi {
+        width: 12% !important;
+    }
+    .rank {
+        padding-left: 0.7em !important;
+        margin-top: -0.4em !important;
+        color: white !important;
+        font-size: 13px !important;
+    }
+    .change {
+        padding-top: -2px !important;
+        padding-left: 5px !important;
+        color: white !important;
+        font-size: 0.5em !important;
+    }
+    .h_name {
+        position: absolute !important;
+        bottom: 0em !important;
+        right: 0.6em !important;
+        color: red !important;
+        font-size: 1.1em !important;
+    }
+    .td_desc {
+        font-size: 1.2em !important;
+    }
+}
 
 .f_grade {
     padding-left: 5px;
