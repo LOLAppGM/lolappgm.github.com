@@ -1,3 +1,4 @@
+-webkit-text-size-adjust: none; 
 body {
     background-color: #eeeeee;
 }
@@ -6,11 +7,8 @@ body {
     width: 98% !important;
 }
 
-#css_tabs {
-    font-family: 'nanumgothic', '나눔고딕', 'malgun gothic', '맑은 고딕', 'dotum', '돋움', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
+* {
+    font-family: AppleSDGothic !important, 'nanumgothic', '나눔고딕', 'malgun gothic', '맑은 고딕', 'dotum', '돋움', sans-serif;
 }
 /* 탭 선택 시 표시할 요소(div) 정의(1번 탭 선택 시 첫 번째 div 요소 표시) */
 
@@ -115,11 +113,16 @@ td {
 }
 
 .tdi {
-    padding-bottom: 0 !important;
+    padding-bottom: 0.4em !important;
 }
 
-img {
+.tdi img {
     width: 100%;
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .td_rank {
@@ -140,7 +143,7 @@ img {
 
 .td_text {
     padding-left: 0.4em;
-    font-size: 1.3em;
+    font-size: 1.5em;
 }
 
 .tab2_content .td_text {
@@ -148,25 +151,27 @@ img {
     font-size: 1.3em;
 }
 
-.td_desc {
-    font-size: 0.5em;
-    padding-left: 1em;
-}
+
 
 .td_arrow {
     font-size: 2em;
 }
 
-.title {
+.title_h {
     text-align: center;
+    vertical-align: middle;
+    border-radius: 2px;
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 5px;
     margin-top: 1em;
-    font-size: 1em;
 }
 
 .sub_title {
     text-align: center;
     margin-top: -0.4em;
-    font-size: 0.6em;
+    font-size: 0.7em;
 }
 
 .title2 {
@@ -237,42 +242,289 @@ thead tr th {
     text-align: center;
     color: white;
     font-size: 1.3em;
-    
 }
 
 .right {
-    right:0;
+    right: 0;
     text-align: center;
     color: white;
     font-size: 1.3em;
     background-color: #c82d43;
 }
 
-
 .last {
     padding-bottom: 0.4em !important;
     padding-left: 0.5em !important;
     padding-top: 0px !important;
 }
-.last .profile{
+
+.last .profile {
     width: 50%;
     float: left;
 }
-.profile img{
+
+.profile img {
     width: 20%;
     bottom: 0;
     float: left;
 }
 
-.last .desc{
+.last .desc {
     font-size: 0.5em;
     padding-left: 2em !important;
 }
 
-.last .desc .name{
+.last .desc .name {
     padding-left: 1em;
 }
 
-.last .desc .rate{
+.last .desc .rate {
     padding-top: 1em;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 0;
+    top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.row {
+    margin-top: 1.5em;
+}
+
+/*
+.hero img {
+    width: 95%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+*/
+
+td {
+    /*    padding-top: 0.5em !important;*/
+}
+
+.triangle > span {
+    top: 50px;
+    left: 4px;
+}
+
+.triangle {
+    z-index: 10;
+    position: absolute;
+}
+
+.rank {
+    padding-left: 1.5em ;
+    padding-top: 0.5em;
+    color: white;
+    font-size: 1em !important;
+    font-weight: bold;
+}
+
+.change {
+    padding-top: -2px;
+    padding-left: 5px;
+    color: white;
+    font-size: 0.5em;
+}
+
+.h_name {
+  position: absolute;
+  bottom: 0.5em;
+  right: 1em;
+  color: white;
+  font-size: 1em;
+}
+
+.td_desc {
+    font-size: 0.5em;
+    padding-left: 0em !important;
+    line-height: 140% !important;
+}
+
+@media only screen and (max-width: 360px) {
+    .rank {
+        padding-left: 0.6em  !important;
+        margin-top: -0.4em !important;
+        color: white !important;
+        font-size: 10px !important;
+    }
+    .change {
+        padding-top: -2px !important;
+        padding-left: 5px !important;
+        color: white !important;
+        font-size: 0.5em !important;
+    }
+    .h_name {
+        position: absolute !important;
+        bottom: 0em !important;
+        right: 0.8em !important;
+        color: white !important;
+        font-size: 0.5em !important;
+    }
+    .td_desc {
+        font-size: 1em !important;
+    }
+}
+@media only screen and (min-width:361px) and (max-width: 400px) {
+    .rank {
+        padding-left: 0.7em  !important;
+        margin-top: -0.3em !important;
+        color: white !important;
+        font-size: 10px !important;
+    }
+    .change {
+        padding-top: -2px !important;
+        padding-left: 5px !important;
+        color: white !important;
+        font-size: 0.5em !important;
+    }
+    .h_name {
+        position: absolute !important;
+        bottom: 0em !important;
+        right: 0.7em !important;
+        color: red !important;
+        font-size: 1em !important;
+    }
+    .td_desc {
+        font-size: 1em !important;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .rank {
+        padding-left: 0.9em  !important;
+        padding-top: 0.2em !important;
+        color: white !important;
+        font-size: 10px !important;
+    }
+    .change {
+        padding-top: -2px !important;
+        padding-left: 5px !important;
+        color: white !important;
+        font-size: 0.5em !important;
+    }
+    .h_name {
+        position: absolute !important;
+        bottom: 0em !important;
+        right: 1em !important;
+        color: yellow!important;
+        font-size: 0.8em !important;
+    }
+}
+
+
+.f_grade {
+    padding-left: 5px;
+    color: white;
+    font-size: 0.8em;
+    position: absolute;
+}
+
+.name {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: white;
+    font-size: 0.5em;
+}
+
+.dropdown-content {
+    z-index: 50 !important;
+}
+
+.ratio {
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.ratioback {
+    width: 100%;
+    background-color: #939393;
+    margin-top: 4px;
+}
+
+.win_front {
+    background-color: #c82d43;
+    left: 0px;
+    height: 1em;
+    margin-top: -5px;
+}
+
+.dropbox {
+    width: 98%;
+}
+
+.btn,
+.btn-large {
+    background-color: #2c2c2c !important;
+    width: 40% !important;
+    z-index: 999 !important;
+}
+
+.sc {
+    background-color: #2c2c2c !important;
+    width: 59% !important;
+    margin-right: 0;
+}
+
+.pick_front0 {
+    left: 0px;
+    height: 1em;
+    margin-top: -5px;
+    width: "100%";
+}
+
+.pick_front {
+    background-color: #2598d3;
+    left: 0px;
+    height: 1em;
+    margin-top: -5px;
+}
+
+.title {
+    text-align: left;
+    vertical-align: middle;
+    border-radius: 2px;
+    font-size: 1em;
+    font-weight: bold;
+    margin-left: 10px;
+    padding: 5px;
+    margin-top: 1em;
+}
+
+.title0 {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 0.9em;
+    font-weight: bold;
+    margin-left: 0.5em;
+    padding-top: 0.5em;
+}
+
+.z-depth-1,
+nav,
+.card-panel,
+.card,
+.toast,
+.btn,
+.btn-large,
+.btn-floating,
+.dropdown-content,
+.collapsible,
+.side-nav {
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+    box-shadow: rgb(134, 134, 134) 0px 0px 2px 0px !important;
+}
+
+.dropdown-button btn {
+    z-index: 30;
 }

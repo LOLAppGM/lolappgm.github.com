@@ -54,10 +54,9 @@ td {
 
 .name {
     position: absolute;
-    bottom: 5px;
     right: 5px;
     color: white;
-    font-size: 1.0em;
+    font-size: 20%;
 }
 
 .dropdown-content {
