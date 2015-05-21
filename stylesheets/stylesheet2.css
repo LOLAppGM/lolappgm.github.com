@@ -149,6 +149,7 @@ td {
 
 .td_arrow {
     font-size: 2em;
+    padding-right: 0.4em;
 }
 
 .title_h {
@@ -360,10 +361,10 @@ td {
         width: 45%;
     }
     .tdi {
-        width: 20% !important;
+        width: 33% !important;
     }
     .rank {
-        padding-left: 0.4em !important;
+        padding-left: 0.5em !important;
         margin-top: -0.6em !important;
         color: white !important;
         font-size: 10px !important;
@@ -376,14 +377,14 @@ td {
     }
     .h_name {
         position: absolute !important;
-        bottom: -0.2em !important;
+        bottom: 0.2em !important;
         right: 0.8em !important;
         color: white !important;
         font-size: 0.4em !important;
-        width: 75%;
+        width: 80%;
     }
     .td_desc {
-        font-size: 0.7em !important;
+        font-size: 0.8em !important;
     }
 }
 
@@ -395,11 +396,11 @@ td {
         width: 45%;
     }
     .tdi {
-        width: 20% !important;
+        width: 32% !important;
     }
     .rank {
-        padding-left: 0.5em !important;
-        margin-top: -0.5em !important;
+        padding-left: 0.7em !important;
+        margin-top: -0.4em !important;
         color: white !important;
         font-size: 10px !important;
     }
@@ -411,7 +412,7 @@ td {
     }
     .h_name {
         position: absolute !important;
-        bottom: 0em !important;
+        bottom: 0.2em !important;
         right: 0.8em !important;
         width: 75%;
         color: white !important;
@@ -430,7 +431,7 @@ td {
         width: 45%;
     }
     .tdi {
-        width: 19% !important;
+        width: 25% !important;
     }
     .rank {
         padding-left: 0.6em !important;
@@ -446,7 +447,7 @@ td {
     }
     .h_name {
         position: absolute !important;
-        bottom: -0.1em !important;
+        bottom: 0.1em !important;
         right: 0.6em !important;
         color: white !important;
         font-size: 0.9em !important;
@@ -464,10 +465,10 @@ td {
         width: 46%;
     }
     .tdi {
-        width: 18% !important;
+        width: 28% !important;
     }
     .rank {
-        padding-left: 0.6em !important;
+        padding-left: 0.7em !important;
         margin-top: -0.5em !important;
         color: white !important;
         font-size: 10px !important;
@@ -480,7 +481,7 @@ td {
     }
     .h_name {
         position: absolute !important;
-        bottom: -0.1em !important;
+        bottom: 0.1em !important;
         right: 0.6em !important;
         color: white !important;
         font-size: 0.9em !important;
@@ -492,11 +493,11 @@ td {
 
 @media only screen and (min-width: 501px) and (max-width: 600px) {
     .tdi {
-        width: 13% !important;
+        width: 20% !important;
     }
     .rank {
-        padding-left: 0.7em !important;
-        margin-top: -0.4em !important;
+        padding-left: 0.9em !important;
+        margin-top: 0em !important;
         color: white !important;
         font-size: 11px !important;
     }
@@ -508,7 +509,7 @@ td {
     }
     .h_name {
         position: absolute !important;
-        bottom: 0em !important;
+        bottom: 0.1em !important;
         right: 0.6em !important;
         color: white !important;
         font-size: 0.9em !important;
@@ -520,11 +521,11 @@ td {
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
     .tdi {
-        width: 12% !important;
+        width: 18% !important;
     }
     .rank {
-        padding-left: 0.7em !important;
-        margin-top: -0.4em !important;
+        padding-left: 0.8em !important;
+        margin-top: 0.2em !important;
         color: white !important;
         font-size: 13px !important;
     }
@@ -536,7 +537,7 @@ td {
     }
     .h_name {
         position: absolute !important;
-        bottom: -0.1em !important;
+        bottom: 0.1em !important;
         right: 0.6em !important;
         color: white !important;
         font-size: 1.1em !important;
