@@ -546,7 +546,7 @@ td {
     .redbox {
         height: 1.6em;
         font-weight: bold;
-                padding-top: 1px;
+        padding-top: 0.5px !important;
         font-size: 14px !important;
     }
     .change2 {
