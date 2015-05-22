@@ -10,32 +10,6 @@ body {
 * {
     font-family: AppleSDGothic !important, 'nanumgothic', '나눔고딕', 'malgun gothic', '맑은 고딕', 'dotum', '돋움', sans-serif;
 }
-/* 탭 선택 시 표시할 요소(div) 정의(1번 탭 선택 시 첫 번째 div 요소 표시) */
-
-#css_tabs input:nth-of-type(1),
-#css_tabs input:nth-of-type(1) ~ div:nth-of-type(1),
-#css_tabs input:nth-of-type(2),
-#css_tabs input:nth-of-type(2) ~ div:nth-of-type(2),
-#css_tabs input:nth-of-type(3),
-#css_tabs input:nth-of-type(3) ~ div:nth-of-type(3) {
-    display: none
-}
-
-#css_tabs input:nth-of-type(1):checked ~ div:nth-of-type(1),
-#css_tabs input:nth-of-type(2):checked ~ div:nth-of-type(2),
-#css_tabs input:nth-of-type(3):checked ~ div:nth-of-type(3) {
-    display: block
-}
-
-#css_tabs > label {
-    display: inline-block;
-    font-variant: small-caps;
-    font-size: .9em;
-    padding: 5px;
-    text-align: center;
-    width: 30%;
-    font-weight: 700;
-}
 
 .z-depth-1,
 nav,
@@ -53,57 +27,6 @@ nav,
     box-shadow: rgb(134, 134, 134) 0px 0px 2px 0px !important;
 }
 
-#css_tabs > label:hover {
-    cursor: pointer
-}
-
-#css_tabs label[for=tab1] {
-    width: 48%;
-    margin-left: 1.2em;
-    margin-top: 1em;
-    margin-right: -2px
-}
-
-#css_tabs label[for=tab2] {
-    width: 48%;
-    margin-top: 1em;
-    margin-right: auto;
-    margin-left: -2px
-}
-/* 선택된 라벨, 커서를 올린 라벨 스타일 지정 */
-
-#css_tabs input:nth-of-type(1):checked ~ label:nth-of-type(1),
-#css_tabs > label[for=tab1]:hover {
-    background: #c82d43;
-    color: #fff
-}
-
-#css_tabs input:nth-of-type(2):checked ~ label:nth-of-type(2),
-#css_tabs > label[for=tab2]:hover {
-    background: #c82d43;
-    color: #fff
-}
-
-#css_tabs input:nth-of-type(1) ~ label:nth-of-type(1),
-#css_tabs > label[for=tab1] {
-    background: #2c2c2c;
-    color: #fff
-}
-
-#css_tabs input:nth-of-type(2) ~ label:nth-of-type(2),
-#css_tabs > label[for=tab2] {
-    background: #2c2c2c;
-    color: #fff
-}
-/* 실제 내용이 담긴 div 요소 스타일 지정 */
-
-#css_tabs .tab1_content,
-#css_tabs .tab2_content,
-#css_tabs .tab3_content {
-    width: 100%;
-    height: 100%
-}
-
 td {
     padding-top: 0.4em !important;
     padding-bottom: 0.4em !important;
@@ -119,6 +42,25 @@ td {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.selbox {
+    width: 12.5% !important;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+}
+
+.sel {
+    padding: 0.4em;
+}
+
+.no_right {
+    padding-right: 0em !important;
+}
+
+.sel img {
+    width: 100%;
+    display: block;
 }
 
 .td_rank {
@@ -216,9 +158,14 @@ thead tr th {
 }
 
 .percentBox {
+    text-align: center;
+    padding-top: 2px;
+}
+/*
+.percentBox {
     position: absolute;
     bottom: 0.45em;
-    /*    margin-bottom: 10px;*/
+
     
     right: 0em;
     left: 0em;
@@ -226,9 +173,10 @@ thead tr th {
     width: 94%;
     height: 0.8em;
     /*    margin: 0.3em;*/
-    
+/*
     background-color: rgba(0, 0, 0, 0.8);
 }
+*/
 
 .per {
     text-align: center;
@@ -238,7 +186,7 @@ thead tr th {
     /*    vertical-align: middle;*/
 }
 
-.left {
+*/ .left {
     background-color: #2598d3;
     left: 0;
     text-align: center;
@@ -382,9 +330,10 @@ td {
 }
 
 .table2 {
-    border: none; 
+    border: none;
     margin-top: 0.5em;
 }
+
 .table2 td {
     padding: 0.4em;
 }
@@ -403,14 +352,61 @@ td {
 
 .mu {
     font-size: 0.4em;
-    color: #c82d43; 
-
+    color: #c82d43;
 }
 
-.q{
-    color: #c82d43; 
+@media only screen and (max-width: 320px) {
+    .redbox {
+        height: 1.8em;
+        padding-top: 0.2em;
+        font-weight: bold;
+        font-size: 16px !important;
+    }
+    .change2 {
+        font-size: 0.1em !important;
+    }
+    .td2 {
+        width: 25%;
+    }
+    .desc2 {
+        margin-left: 0.5em;
+    }
+    .mu {
+        font-size: 0.4em;
+    }
+    #css_tabs label[for=tab1] {
+        width: 45%;
+    }
+    #css_tabs label[for=tab2] {
+        width: 45%;
+    }
+    .tdi {
+        width: 33% !important;
+    }
+    .rank {
+        padding-left: 0.5em !important;
+        margin-top: -0.6em !important;
+        color: white !important;
+        font-size: 10px !important;
+    }
+    .change {
+        padding-top: -2px !important;
+        padding-left: 5px !important;
+        color: white !important;
+        font-size: 0.5em !important;
+    }
+    .h_name {
+        position: absolute !important;
+        bottom: 0.2em !important;
+        right: 0.8em !important;
+        color: white !important;
+        font-size: 0.4em !important;
+        width: 80%;
+    }
+    .td_desc {
+        font-size: 0.8em !important;
+    }
 }
-
 
 @media only screen and (max-width: 320px) {
     .redbox {
@@ -777,6 +773,21 @@ td {
         font-size: 1.2em !important;
     }
 }
+#linkGroup {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2c2c2c;
+    margin-top: 1em;
+    color: white;
+    font-size: 1em;
+    text-align: left;
+    padding: 0.8em;
+}
+
+.arrow {
+    float: right;
+}
 
 .f_grade {
     padding-left: 5px;
@@ -793,32 +804,6 @@ td {
     font-size: 0.5em;
 }
 
-.dropdown-content {
-    z-index: 50 !important;
-}
-
-.ratio {
-    margin-top: 8px;
-    font-size: 12px;
-}
-
-.ratioback {
-    width: 100%;
-    background-color: #939393;
-    margin-top: 4px;
-}
-
-.win_front {
-    background-color: #c82d43;
-    left: 0px;
-    height: 1em;
-    margin-top: -5px;
-}
-
-.dropbox {
-    width: 98%;
-}
-
 .btn,
 .btn-large {
     background-color: #2c2c2c !important;
@@ -830,20 +815,6 @@ td {
     background-color: #2c2c2c !important;
     width: 59% !important;
     margin-right: 0;
-}
-
-.pick_front0 {
-    left: 0px;
-    height: 1em;
-    margin-top: -5px;
-    width: "100%";
-}
-
-.pick_front {
-    background-color: #2598d3;
-    left: 0px;
-    height: 1em;
-    margin-top: -5px;
 }
 
 .title {
@@ -880,8 +851,4 @@ nav,
     -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
     -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
     box-shadow: rgb(134, 134, 134) 0px 0px 2px 0px !important;
-}
-
-.dropdown-button btn {
-    z-index: 30;
 }

@@ -16,19 +16,59 @@
     <script>
         $(document).ready(function () {
             // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-            $(".modal-trigger").leanModal();
+//            $(".modal-trigger").leanModal();
+            $(".dropdown-button").leanModal();
             $('.scrollspy').scrollSpy();
         });
+        $('#modal3').openModal();
     </script>
 </head>
 
 <body>
+    <div id="modal3" class="modal bottom-sheet" style="display: block; opacity: 0; bottom: -100%;">
+          <div class="modal-content">
+            <ul class="collection">
+              <li class="collection-item avatar">
+                <img src="images/yuna.jpg" alt="" class="circle">
+                <span class="title">Title</span>
+                <p>First Line <br>
+                   Second Line
+                </p>
+                <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
+              </li>
+              <li class="collection-item avatar">
+                <i class="mdi-file-folder circle"></i>
+                <span class="title">Title</span>
+                <p>First Line <br>
+                   Second Line
+                </p>
+                <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
+              </li>
+              <li class="collection-item avatar">
+                <i class="mdi-action-assessment circle green"></i>
+                <span class="title">Title</span>
+                <p>First Line <br>
+                   Second Line
+                </p>
+                <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
+              </li>
+              <li class="collection-item avatar">
+                <i class="mdi-av-play-arrow circle red"></i>
+                <span class="title">Title</span>
+                <p>First Line <br>
+                   Second Line
+                </p>
+                <a href="#!" class="secondary-content"><i class="mdi-action-grade"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
     <div class="container-fluid">
         <div class="row">
             <div class="dropbox">
 
 
-                <a class="dropdown-button btn" href="#" data-activates="dropdown1">브론즈 &#9660</a>
+                <a class="dropdown-button btn" href="#modal3">브론즈 &#9660</a>
                 <ul id="dropdown1" class="dropdown-content">
                     <li><a href="./rate_b.html">브론즈</a>
                     </li>
