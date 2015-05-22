@@ -16,7 +16,7 @@ html{
 }
 
 .row {
-    margin-top: 1.5em;
+    margin-top: 0em;
 }
 
 .hero img {
@@ -48,7 +48,7 @@ td {
 .change {
     padding-top: -2px;
     padding-left: 5px;
-    color: white;
+    color: #e496a1;
     font-size: 0.5em;
 }
 
@@ -163,7 +163,7 @@ td {
     margin-top: 0.5em !important;
     margin-bottom: -5px;
     margin-left: 0.4em;
-        padding-bottom: 0.2em !important;
+    padding-bottom: 0.2em !important;
 
 }
 
@@ -244,7 +244,6 @@ td {
     .change {
         margin-top: -3px !important;
         padding-left: 1px !important;
-        color: white !important;
         font-size: 10px !important;
     }
     .name {
@@ -280,7 +279,6 @@ td {
     .change {
         margin-top: -2px !important;
         padding-left: 5px !important;
-        color: white !important;
         font-size: 10px !important;
     }
     .name {
@@ -317,7 +315,6 @@ td {
     .change {
         margin-top: -2px !important;
         padding-left: 0.5em !important;
-        color: white !important;
         font-size: 8px !important;
     }
     .name {
@@ -356,7 +353,6 @@ td {
     .change {
         margin-top: -2px !important;
         padding-left: 5px !important;
-        color: white !important;
         font-size: 10px !important;
     }
     .name {
@@ -398,7 +394,6 @@ td {
     .change {
         margin-top: -2px !important;
         padding-left: 5px !important;
-        color: white !important;
         font-size: 15px !important;
     }
     .name {
@@ -441,7 +436,6 @@ td {
     .change {
         margin-top: -2px !important;
         padding-left: 10px !important;
-        color: white !important;
         font-size: 20px !important;
     }
     .name {
