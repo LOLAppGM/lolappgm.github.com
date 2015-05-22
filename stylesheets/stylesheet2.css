@@ -30,11 +30,14 @@ html {
 #css_tabs > label {
     display: inline-block;
     font-variant: small-caps;
-    font-size: .9em;
+    font-size: 1.1em;
     padding: 5px;
     text-align: center;
     width: 30%;
     font-weight: 700;
+    padding-top: 5px !important;
+    height: 35px;
+    margin-top: 0px !important;
 }
 
 .z-depth-1,
@@ -352,7 +355,7 @@ td {
 .td_desc {
     font-size: 0.5em;
     padding-left: 0em !important;
-    line-height: 140% !important;
+    line-height: 145% !important;
 }
 
 .tdi {
@@ -555,10 +558,10 @@ td {
         width: 20% !important;
     }
     .rank {
-        padding-left: 0.6em !important;
-        margin-top: -0.5em !important;
+        padding-left: 1em !important;
+        margin-top: -0.3em !important;
         color: white !important;
-        font-size: 10px !important;
+        font-size: 7px !important;
     }
     .change {
         padding-top: -2px !important;
@@ -574,7 +577,7 @@ td {
         font-size: 0.9em !important;
     }
     .td_desc {
-        font-size: 0.8em !important;
+        font-size: 0.85em !important;
     }
 }
 
