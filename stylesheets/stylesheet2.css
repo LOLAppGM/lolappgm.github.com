@@ -35,7 +35,7 @@ html {
     text-align: center;
     width: 30%;
     font-weight: 700;
-    padding-top: 5px !important;
+    padding-top: 6px !important;
     height: 35px;
     margin-top: 0px !important;
 }
@@ -383,7 +383,6 @@ td {
     background-color: #c82d43;
     margin-left: 0.4em;
     text-align: center;
-    padding-top: 0.1em;
     color: white;
     font-weight: bold;
     font-size: 1.5em;
@@ -545,9 +544,9 @@ td {
 
 @media only screen and (min-width: 361px) and (max-width: 400px) {
     .redbox {
-        height: 1.8em;
+        height: 1.6em;
         font-weight: bold;
-        font-size: 16px !important;
+        font-size: 14px !important;
     }
     .change2 {
         font-size: 0.6em !important;
