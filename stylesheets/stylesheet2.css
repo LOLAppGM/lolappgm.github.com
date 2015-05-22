@@ -546,6 +546,7 @@ td {
     .redbox {
         height: 1.6em;
         font-weight: bold;
+                padding-top: 1px;
         font-size: 14px !important;
     }
     .change2 {
@@ -583,10 +584,10 @@ td {
     }
     .h_name {
         position: absolute !important;
-        bottom: 0.1em !important;
+        bottom: 2px !important;
         right: 1em !important;
         color: white !important;
-        font-size: 0.7em !important;
+        font-size: 0.6em !important;
     }
     .td_desc {
         font-size: 0.85em !important;
