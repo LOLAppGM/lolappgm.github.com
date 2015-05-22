@@ -78,25 +78,29 @@ nav,
 #css_tabs input:nth-of-type(1):checked ~ label:nth-of-type(1),
 #css_tabs > label[for=tab1]:hover {
     background: #c82d43;
-    color: #fff
+    color: #fff;
+    font-weight: bold;
 }
 
 #css_tabs input:nth-of-type(2):checked ~ label:nth-of-type(2),
 #css_tabs > label[for=tab2]:hover {
     background: #c82d43;
-    color: #fff
+    color: #fff;
+    font-weight: bold;
 }
 
 #css_tabs input:nth-of-type(1) ~ label:nth-of-type(1),
 #css_tabs > label[for=tab1] {
     background: #2c2c2c;
-    color: #fff
+    color: #fff;
+    font-weight: normal;
 }
 
 #css_tabs input:nth-of-type(2) ~ label:nth-of-type(2),
 #css_tabs > label[for=tab2] {
     background: #2c2c2c;
-    color: #fff
+    color: #fff;
+    font-weight: normal;
 }
 /* 실제 내용이 담긴 div 요소 스타일 지정 */
 
@@ -386,7 +390,7 @@ td {
 }
 
 .change2 {
-    font-size: 0.2em;
+    font-size: 0.8em;
     font-weight: normal;
 }
 
@@ -542,12 +546,11 @@ td {
 @media only screen and (min-width: 361px) and (max-width: 400px) {
     .redbox {
         height: 1.8em;
-        padding-top: 0.2em;
         font-weight: bold;
         font-size: 16px !important;
     }
     .change2 {
-        font-size: 0.1em !important;
+        font-size: 0.6em !important;
     }
     .td2 {
         width: 25%;
@@ -556,7 +559,7 @@ td {
         margin-left: 0.5em;
     }
     .mu {
-        font-size: 0.4em;
+        font-size: 1em;
     }
     #css_tabs label[for=tab1] {
         width: 45%;
@@ -848,7 +851,6 @@ td {
     height: 1em;
     margin-top: -5px;
 }
-
 
 .title0 {
     text-align: left;

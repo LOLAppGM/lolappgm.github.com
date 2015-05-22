@@ -15,11 +15,13 @@
     <script>
         $(document).ready(function () {
             // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-            $(".modal-trigger").leanModal();
+            $(".modal-trigger").leanModal({                
+                in_duration: 0, // Transition in duration
+                out_duration: 0 // Transition out duration
+            });
             $('.scrollspy').scrollSpy();
         });
-                     $('#modal1').openModal();
-
+        $('#modal1').openModal();
     </script>
 </head>
 
@@ -38,8 +40,8 @@
         <div class="row">            <div class="dropbox">
 
 
-<a class="dropdown-button btn" href="#" data-activates="dropdown1">다이아 &#9660</a><ul id="dropdown1" class="dropdown-content"><li><a href="./rate_b.html">브론즈</a>
-				</li><li><a href="./rate_s.html">실버</a></li><li><a href="./rate_g.html">골드</a> </li> <li><a href="./rate_p.html">플래티넘</a></li> <li><a href="./rate_d.html">다이아</a></li><li><a href="./rate_m.html">마스터</a> </li><li><a href="./rate_c.html">첼린저</a>  </li> </ul><span class="line-separator"></span> <a class="dropdown-button btn sc" href="#" data-activates="dropdown2">전체라인 최고승률 &#9660</a>
+<a class="dropdown-button btn" href="#" data-activates="dropdown1">다이아 <span style="float:right !important">&#9660</span></a><ul id="dropdown1" class="dropdown-content"><li><a href="./rate_b.html">브론즈</a>
+				</li><li><a href="./rate_s.html">실버</a></li><li><a href="./rate_g.html">골드</a> </li> <li><a href="./rate_p.html">플래티넘</a></li> <li><a href="./rate_d.html">다이아</a></li><li><a href="./rate_m.html">마스터</a> </li><li><a href="./rate_c.html">첼린저</a>  </li> </ul><span class="line-separator"></span> <a class="dropdown-button btn sc" href="#" data-activates="dropdown2">전체라인 최고승률 <span style="float:right !important">&#9660</span></a>
 			<ul id="dropdown2" class="section table-of-contents dropdown-content"> <li><a href="#sp0">전체라인 최고승률</a></li><li><a href="#sp1">전체라인 최고픽률</a> </li> <li><a href="#sp2">라인별 최고승률</a>   </li><li><a href="#sp3">라인별 최고픽률</a>  </li> <li><a href="#sp4">라인별 최하승률</a>
 				</li> </ul> </div><div class="h_title">LOL 솔로랭크 통계분석(KR) <span class="q"> <a class="modal-trigger" href="#modal1"><i class="fa fa-question-circle"></i></a></span>  </div> <div class="h_sub_title">2015.05.14 ~ 2015.05.21(5월 셋째주)</div> <div class="title section scrollspy" id="sp0">전체라인 최고승률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><table cellspacing="0" cellpadding="0" style="border: none;"><tbody><tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span>&#9650</span>3</div>
 								</div>  <div class="hero"><img src="/images/hero2/Hecarim.png" alt="10" /><div class="name">헤카림</div> </div>
