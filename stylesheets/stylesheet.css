@@ -129,7 +129,7 @@ td {
 .h_sub_title {
     text-align: center;
     margin-top: -0.4em;
-    font-size: 0.8em;
+    font-size: 0.9em;
 }
 .pick_front {
     background-color: #2598d3;
@@ -147,9 +147,10 @@ td {
     padding: 2px;
     margin-top: 1em;
     padding-bottom: 2px !important;
-    margin-top: 0px;
+    margin-top: 7px;
     margin-left: 0.8em;
     color: #2c2c2c;
+    padding-bottom: 0.2em !important;
 }
 
 .title0 {
@@ -159,9 +160,11 @@ td {
     font-size: 14px;
     margin-top: 1em;
     padding-bottom: 0px !important;
-    margin-top: 2px;
+    margin-top: 0.5em !important;
     margin-bottom: -5px;
     margin-left: 0.4em;
+        padding-bottom: 0.2em !important;
+
 }
 
 .padding {
@@ -293,13 +296,14 @@ td {
 @media only screen and (min-width: 361px) and (max-width: 400px) {
     .title {
         font-size: 16px !important;
+        padding-bottom: 2em;
     }
     .title0 {
         font-size: 14px !important;
     }
     .rank {
-        padding-left: 0.3em !important;
-        margin-top: -0.2em !important;
+        padding-left: 0.4em !important;
+        margin-top: -0.1em !important;
         color: white !important;
         font-size: 12px !important;
     }
