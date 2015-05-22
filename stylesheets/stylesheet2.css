@@ -169,10 +169,20 @@ td {
     margin-top: 1em;
 }
 
+.title {
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 2px;
+    font-size: 1.5em;
+    margin-left: 10px;
+    padding: 5px;
+    margin-top: 0.5em;
+}
+
 .sub_title {
     text-align: center;
     margin-top: -0.4em;
-    font-size: 0.7em;
+    font-size: 0.9em;
 }
 
 .title2 {
@@ -344,8 +354,8 @@ td {
     bottom: 0.5em;
     right: 1em;
     color: white;
-    font-size: 1em;
-    width: 80%;
+    font-size: 0.8em;
+    width: 75%;
     text-align: right;
     white-space: nowrap;
     overflow: hidden;
@@ -555,13 +565,13 @@ td {
         width: 45%;
     }
     .tdi {
-        width: 20% !important;
+        width: 21% !important;
     }
     .rank {
-        padding-left: 1em !important;
-        margin-top: -0.3em !important;
+        padding-left: 0.9em !important;
+        margin-top: -0.4em !important;
         color: white !important;
-        font-size: 7px !important;
+        font-size: 8px !important;
     }
     .change {
         padding-top: -2px !important;
@@ -572,9 +582,9 @@ td {
     .h_name {
         position: absolute !important;
         bottom: 0.1em !important;
-        right: 0.6em !important;
+        right: 1em !important;
         color: white !important;
-        font-size: 0.9em !important;
+        font-size: 0.7em !important;
     }
     .td_desc {
         font-size: 0.85em !important;
@@ -839,16 +849,6 @@ td {
     margin-top: -5px;
 }
 
-.title {
-    text-align: center;
-    vertical-align: middle;
-    border-radius: 2px;
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-left: 10px;
-    padding: 5px;
-    margin-top: 0.5em;
-}
 
 .title0 {
     text-align: left;
