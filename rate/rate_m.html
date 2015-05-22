@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>LOL 집중공략</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
+    <meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
@@ -19,10 +18,22 @@
             $(".modal-trigger").leanModal();
             $('.scrollspy').scrollSpy();
         });
+                     $('#modal1').openModal();
+
     </script>
 </head>
 
 <body>
+            <div id="modal1" class="modal">
+    <div class="modal-content">
+        <h4>챔피언 선정기준</h4>
+        <p>평균 플레이 수(픽률) 이상의 챔피언을 우선 선정하여 필터(승률, 픽률 등)에 맞춰서 챔피언 랭킹을 결정합니다.
+            <br>이러한 과정을 걸치는 이유는 플레이 수 이하 챔피언이 항상 최하 승률을 차지하고, 플레이 수는 적으나 장인 플레이어들이 승률을 올린 챔피언들이 최고승률을 차지하는 것을 방지하기 위해서 입니다.</p>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">확인</a>
+    </div>
+  </div>
     <div class="container-fluid">
         <div class="row">            <div class="dropbox">
 
@@ -30,7 +41,7 @@
 <a class="dropdown-button btn" href="#" data-activates="dropdown1">마스터 &#9660</a><ul id="dropdown1" class="dropdown-content"><li><a href="./rate_b.html">브론즈</a>
 				</li><li><a href="./rate_s.html">실버</a></li><li><a href="./rate_g.html">골드</a> </li> <li><a href="./rate_p.html">플래티넘</a></li> <li><a href="./rate_d.html">다이아</a></li><li><a href="./rate_m.html">마스터</a> </li><li><a href="./rate_c.html">첼린저</a>  </li> </ul><span class="line-separator"></span> <a class="dropdown-button btn sc" href="#" data-activates="dropdown2">전체라인 최고승률 &#9660</a>
 			<ul id="dropdown2" class="section table-of-contents dropdown-content"> <li><a href="#sp0">전체라인 최고승률</a></li><li><a href="#sp1">전체라인 최고픽률</a> </li> <li><a href="#sp2">라인별 최고승률</a>   </li><li><a href="#sp3">라인별 최고픽률</a>  </li> <li><a href="#sp4">라인별 최하승률</a>
-				</li> </ul> </div> <div class="title section scrollspy" id="sp0">전체라인 최고승률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><table cellspacing="0" cellpadding="0" style="border: none;"><tbody><tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span>&#9650</span>2</div>
+				</li> </ul> </div><div class="h_title">LOL 솔로랭크 통계분석(KR) <span class="q"> <a class="modal-trigger" href="#modal1"><i class="fa fa-question-circle"></i></a></span>  </div> <div class="h_sub_title">2015.05.14 ~ 2015.05.21(5월 셋 째주)</div> <div class="title section scrollspy" id="sp0">전체라인 최고승률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><table cellspacing="0" cellpadding="0" style="border: none;"><tbody><tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span>&#9650</span>2</div>
 								</div>  <div class="hero"><img src="/images/hero2/Karthus.png" alt="10" /><div class="name">카서스</div> </div>
 								<div class="ratio">승률66.22%</div><div class="ratioback"> <div class="win_front" style="width: 66.22%; ">
 										<div class="f_grade">&#9650 3.09%</div> </div> </div>  <div class="ratio">픽률 9.7%</div>
