@@ -57,7 +57,7 @@ td {
 }
 
 .sel {
-    padding: 0.4em;
+    padding: 0.2em;
 }
 
 .no_right {
@@ -129,6 +129,10 @@ td {
 
 .box2 {
     padding: 0.4em;
+}
+
+.end_sel{
+    padding-top: 0px !important;
 }
 
 thead tr th {
