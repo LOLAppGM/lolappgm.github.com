@@ -222,17 +222,24 @@ td {
     .title0 {
         font-size: 0.9em !important;
     }
+    .line-separator {
+        height: 40px !important;
+    }
+    .btn,
     .btn-large {
-        width: 40% !important;
+        width 45% !important;
+        font-size: 10px !important;
+        height: 40px !important;
+        padding-top: 0px !important;
     }
     .sc {
-        width: 57% !important;
+        width: 45% !important;
     }
     .rank {
         padding-left: 0.2em !important;
         margin-top: -0.2em !important;
         color: white !important;
-        font-size: 13px !important;
+        font-size: 11px !important;
     }
     .f_grade {
         padding-left: 5px;
@@ -251,7 +258,7 @@ td {
         bottom: 0.3em !important;
         right: 0.2em !important;
         color: white !important;
-        font-size: 0.8em !important;
+        font-size: 0.7em !important;
         width: 100%;
     }
 }
@@ -267,26 +274,39 @@ td {
         padding-left: 5px !important;
         margin-top: -0.1em !important;
         color: white !important;
-        font-size: 16px !important;
+        font-size: 12px !important;
+    }
+    .sc {
+        width: 65% !important;
     }
     .f_grade {
         padding-left: 5px;
         padding-top: 2.5px;
         color: white;
-        font-size: 0.5em;
+        font-size: 0.4em;
         position: absolute;
+    }
+        .btn,
+    .btn-large {
+        width 45% !important;
+        font-size: 10px !important;
+        height: 40px !important;
+        padding-top: 0px !important;
     }
     .change {
         margin-top: -2px !important;
         padding-left: 5px !important;
         font-size: 10px !important;
     }
+        .line-separator {
+        height: 39px !important;
+    }
     .name {
         position: absolute !important;
-        bottom: 0.3em !important;
-        right: 0.2em !important;
+        bottom: 0.7em !important;
+        right: 0.5em !important;
         color: white !important;
-        font-size: 0.9em !important;
+        font-size: 0.7em !important;
         width: 100%;
     }
 }
@@ -296,8 +316,15 @@ td {
         font-size: 16px !important;
         padding-bottom: 2em;
     }
-    .title0 {
+    .btn, .btn-large {
+        width 48% !important;
         font-size: 14px !important;
+    }
+    .sc {
+        width: 48% !important;
+    }
+    .title0 {
+        font-size: 13px !important;
     }
     .rank {
         padding-left: 0.4em !important;
