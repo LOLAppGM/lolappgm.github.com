@@ -1,8 +1,9 @@
--webkit-text-size-adjust: none;
-html {
+* {
+    -webkit-text-size-adjust: none;
+}
+html{
     background-color: #eeeeee
 }
-
 .container {
     width: 98% !important;
 }

@@ -610,7 +610,7 @@ td {
     }
     .h_name {
         position: absolute !important;
-        bottom: 0.9em !important;
+        bottom: 0.75em !important;
         right: 1em !important;
         color: white !important;
         font-size: 0.6em !important;
