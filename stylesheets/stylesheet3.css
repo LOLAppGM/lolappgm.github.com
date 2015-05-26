@@ -180,7 +180,6 @@ thead tr th {
 .percentBox {
     position: absolute;
     bottom: 0.45em;
-
     
     right: 0em;
     left: 0em;
@@ -372,8 +371,8 @@ td {
 
 @media only screen and (max-width: 320px) {
     .redbox {
-        height: 1.8em;
-        padding-top: 0.2em;
+        height: 2.8em;
+        padding-top: 4.2px;
         font-weight: bold;
         font-size: 16px !important;
     }
@@ -396,13 +395,13 @@ td {
         width: 45%;
     }
     .tdi {
-        width: 33% !important;
+        width: 25% !important;
     }
     .rank {
-        padding-left: 0.5em !important;
-        margin-top: -0.6em !important;
+        padding-left: 1em !important;
+        margin-top: -0.3em !important;
         color: white !important;
-        font-size: 10px !important;
+        font-size: 8px !important;
     }
     .change {
         padding-top: -2px !important;
@@ -412,11 +411,10 @@ td {
     }
     .h_name {
         position: absolute !important;
-        bottom: 0.2em !important;
-        right: 0.8em !important;
+        bottom: 0.3em !important;
+        right: 1em !important;
         color: white !important;
-        font-size: 0.4em !important;
-        width: 80%;
+        font-size: 0.8em !important;
     }
     .td_desc {
         font-size: 0.8em !important;
@@ -464,11 +462,11 @@ td {
         font-size: 0.5em !important;
     }
     .h_name {
-        position: absolute !important;
-        bottom: 0.2em !important;
-        right: 0.8em !important;
+        position: absolute!important;
+        bottom: -5.2em !important;
+        right: 1.8em !important;
         color: white !important;
-        font-size: 0.4em !important;
+        font-size: 5.4em !important;
         width: 80%;
     }
     .td_desc {
