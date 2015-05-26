@@ -124,9 +124,10 @@ td {
 }
 
 .tdi img {
-    width: 100%;
-    padding-left: 0.4em;
-    padding-right: 0.4em;
+    width: 85%;
+    padding-top: 0.3em;
+    padding-bottom: 0.45em;
+    padding-left: 0.28em;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -386,7 +387,8 @@ td {
     width: 90%;
     height: 1.5em;
     background-color: #c82d43;
-    margin-left: 0.4em;
+    margin-left: 0.5em;
+    margin-top: 0.2em;
     text-align: center;
     color: white;
     font-weight: bold;
@@ -400,6 +402,7 @@ td {
 
 .td2 {
     width: 10%;
+    bottom: 1.1em;
 }
 
 .table2 {
@@ -417,10 +420,11 @@ td {
 }
 
 .box2 {
-    padding-left: 0.4em;
-    padding-right: 0.4em;
+    margin-left: 0.5em !important;
+    padding-right: 0.6em;
     padding-top: 0em;
-    padding-bottom: 0em;
+    padding-bottom: 0.25em;
+    line-height: 140%;
 }
 
 .mu {
@@ -432,28 +436,34 @@ td {
     color: #c82d43;
 }
 
+
 @media only screen and (max-width: 320px) {
         .title{
         font-size: 1.3em !important;
     }
 
+    .box2{
+        font-size: 0.7em !important;
+/*        padding-left: 0.6em !important;*/
+    }
     .redbox {
-        height: 1.8em;
+        height: 1.6em;
         padding-top: 0.2em;
         font-weight: bold;
-        font-size: 16px !important;
+        font-size: 0.8em !important;
     }
     .change2 {
-        font-size: 0.1em !important;
+        font-size: 0.7em !important;
     }
     .td2 {
         width: 25%;
     }
     .desc2 {
         margin-left: 0.5em;
+        margin-bottom: 1.1em;
     }
     .mu {
-        font-size: 0.4em;
+        font-size: 0.7em;
     }
     #css_tabs label[for=tab1] {
         width: 45%;
@@ -465,8 +475,8 @@ td {
         width: 33% !important;
     }
     .rank {
-        padding-left: 0.6em !important;
-        margin-top: -0.3em !important;
+        padding-left: 0.9em !important;
+        margin-top: 0.1em !important;
         color: white !important;
         font-size: 10px !important;
     }
@@ -478,10 +488,10 @@ td {
     }
     .h_name {
         position: absolute !important;
-        bottom: 0.4em !important;
+        bottom: 0.8em !important;
         right: 1em !important;
         color: white !important;
-        font-size: 0.6em !important;
+        font-size: 0.7em !important;
         width: 80%;
     }
     .td_desc {
@@ -494,22 +504,26 @@ td {
         font-size: 1.4em !important;
     }
     .redbox {
-        height: 1.8em;
+        height: 1.7em;
         padding-top: 0.2em;
         font-weight: bold;
-        font-size: 16px !important;
+        font-size: 0.9em !important;
     }
     .change2 {
-        font-size: 0.1em !important;
+        font-size: 0.7em !important;
     }
     .td2 {
         width: 25%;
+    }
+    .box2{
+        font-size: 0.86em !important;
+/*        padding-left: 0.6em !important;*/
     }
     .desc2 {
         margin-left: 0.5em;
     }
     .mu {
-        font-size: 0.4em;
+        font-size: 0.7em;
     }
     #css_tabs label[for=tab1] {
         width: 45%;
@@ -530,8 +544,8 @@ td {
         width: 32% !important;
     }
     .rank {
-        padding-left: 0.7em !important;
-        margin-top: -0.4em !important;
+        padding-left: 0.9em !important;
+        margin-top: 0.1em !important;
         color: white !important;
         font-size: 11px !important;
     }
@@ -543,7 +557,7 @@ td {
     }
     .h_name {
         position: absolute !important;
-        bottom: 0.5em !important;
+        bottom: 1em !important;
         right: 1em !important;
         width: 75%;
         color: white !important;
