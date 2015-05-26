@@ -1,5 +1,7 @@
--webkit-text-size-adjust: none;
-html {
+* {
+    -webkit-text-size-adjust: none;
+}
+html{
     background-color: #eeeeee
 }
 
@@ -64,14 +66,16 @@ nav,
     width: 48%;
     margin-left: 1.2em;
     margin-top: 1em;
-    margin-right: -2px
+    margin-right: -2px;
+    padding-top: 0.5em !important;
 }
 
 #css_tabs label[for=tab2] {
     width: 48%;
     margin-top: 1em;
     margin-right: auto;
-    margin-left: -2px
+    margin-left: -2px;
+    padding-top: 0.5em !important;
 }
 /* 선택된 라벨, 커서를 올린 라벨 스타일 지정 */
 
@@ -186,6 +190,7 @@ td {
 .sub_title {
     text-align: center;
     margin-top: -0.4em;
+    padding-bottom: 1em;
     font-size: 0.9em;
 }
 
@@ -428,6 +433,10 @@ td {
 }
 
 @media only screen and (max-width: 320px) {
+        .title{
+        font-size: 1.3em !important;
+    }
+
     .redbox {
         height: 1.8em;
         padding-top: 0.2em;
@@ -456,8 +465,8 @@ td {
         width: 33% !important;
     }
     .rank {
-        padding-left: 0.5em !important;
-        margin-top: -0.6em !important;
+        padding-left: 0.6em !important;
+        margin-top: -0.3em !important;
         color: white !important;
         font-size: 10px !important;
     }
@@ -469,10 +478,10 @@ td {
     }
     .h_name {
         position: absolute !important;
-        bottom: 0.2em !important;
-        right: 0.8em !important;
+        bottom: 0.4em !important;
+        right: 1em !important;
         color: white !important;
-        font-size: 0.4em !important;
+        font-size: 0.6em !important;
         width: 80%;
     }
     .td_desc {
@@ -481,6 +490,9 @@ td {
 }
 
 @media only screen and (min-width: 321px) and (max-width: 360px) {
+    .title{
+        font-size: 1.4em !important;
+    }
     .redbox {
         height: 1.8em;
         padding-top: 0.2em;
@@ -521,7 +533,7 @@ td {
         padding-left: 0.7em !important;
         margin-top: -0.4em !important;
         color: white !important;
-        font-size: 10px !important;
+        font-size: 11px !important;
     }
     .change {
         padding-top: -2px !important;
@@ -531,11 +543,11 @@ td {
     }
     .h_name {
         position: absolute !important;
-        bottom: 0.2em !important;
-        right: 0.8em !important;
+        bottom: 0.5em !important;
+        right: 1em !important;
         width: 75%;
         color: white !important;
-        font-size: 0.5em !important;
+        font-size: 0.8em !important;
     }
     .td_desc {
         font-size: 0.8em !important;
@@ -584,7 +596,7 @@ td {
     }
     .h_name {
         position: absolute !important;
-        bottom: 2px !important;
+        bottom: 4px !important;
         right: 1em !important;
         color: white !important;
         font-size: 0.6em !important;

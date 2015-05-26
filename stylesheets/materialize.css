@@ -5145,6 +5145,7 @@ a {
   text-decoration: none; }
 
 html {
+    background-color: #eeeeee
   line-height: 1.5;
   font-family: 나눔고딕, "NanumGothic", "맑은 고딕", "Malgun Gothic", "애플 SD 산돌고딕 Neo", "Apple SD Gothic Neo", Ngothic, sans-serif;
 /*  font-family: "Roboto", sans-serif;*/
