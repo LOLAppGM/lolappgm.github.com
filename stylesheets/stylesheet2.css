@@ -133,6 +133,10 @@ td {
     margin-right: auto;
 }
 
+.td_arrow2{
+    margin-top: -3em;
+}
+
 .td_rank {
     background-color: #c82d43;
     margin-left: 0.4em;
