@@ -2,16 +2,16 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="Cache-Control" content="no-cache"/> 
-<meta http-equiv="Expires" content="0"/> 
-<meta http-equiv="Pragma" content="no-cache"/> 
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
     <title>LOL 집중공략</title>
     <meta name="viewport" content="initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=no;" />
 
     <link rel="stylesheet" type="text/css" href="/stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="/stylesheets/materialize.css" media="screen">
 
-<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
     <script src="/stylesheets/materialize.js"></script>
 
@@ -19,7 +19,7 @@
     <script>
         $(document).ready(function () {
             // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-            $(".modal-trigger").leanModal({                
+            $(".modal-trigger").leanModal({
                 in_duration: 0, // Transition in duration
                 out_duration: 0 // Transition out duration
             });
@@ -30,296 +30,1403 @@
 </head>
 
 <body>
-            <div id="modal1" class="modal">
-    <div class="modal-content">
-        <h4>챔피언 선정기준</h4>
-        <p>평균 플레이 수(픽률) 이상의 챔피언을 우선 선정하여 필터(승률, 픽률 등)에 맞춰서 챔피언 랭킹을 결정합니다.
-            <br>이러한 과정을 걸치는 이유는 플레이 수 이하 챔피언이 항상 최하 승률을 차지하고, 플레이 수는 적으나 장인 플레이어들이 승률을 올린 챔피언들이 최고승률을 차지하는 것을 방지하기 위해서 입니다.</p>
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+            <h4>챔피언 선정기준</h4>
+            <p>평균 플레이 수(픽률) 이상의 챔피언을 우선 선정하여 필터(승률, 픽률 등)에 맞춰서 챔피언 랭킹을 결정합니다.
+                <br>이러한 과정을 걸치는 이유는 플레이 수 이하 챔피언이 항상 최하 승률을 차지하고, 플레이 수는 적으나 장인 플레이어들이 승률을 올린 챔피언들이 최고승률을 차지하는 것을 방지하기 위해서 입니다.</p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">확인</a>
+        </div>
     </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">확인</a>
-    </div>
-  </div>
     <div class="container-fluid">
-        <div class="row">            <div class="dropbox">
+        <div class="row">
+            <div class="dropbox">
 
 
-<a class="dropdown-button btn" href="#" data-activates="dropdown1">다이아 <span style="float:right !important">&#9660</span></a><ul id="dropdown1" class="dropdown-content"><li><a href="./rate_b.html">브론즈</a>
-				</li><li><a href="./rate_s.html">실버</a></li><li><a href="./rate_g.html">골드</a> </li> <li><a href="./rate_p.html">플래티넘</a></li> <li><a href="./rate_d.html">다이아</a></li><li><a href="./rate_m.html">마스터</a> </li><li><a href="./rate_c.html">첼린저</a>  </li> </ul><span class="line-separator"></span> <a class="dropdown-button btn sc" href="#" data-activates="dropdown2">전체라인 최고승률 <span style="float:right !important">&#9660</span></a>
-			<ul id="dropdown2" class="section table-of-contents dropdown-content"> <li><a href="#sp0">전체라인 최고승률</a></li><li><a href="#sp1">전체라인 최고픽률</a> </li> <li><a href="#sp2">라인별 최고승률</a>   </li><li><a href="#sp3">라인별 최고픽률</a>  </li> <li><a href="#sp4">라인별 최하승률</a>
-				</li> </ul> </div><div class="h_title">LOL 솔로랭크 통계분석(KR) <span class="q"> <a class="modal-trigger" href="#modal1"><i class="fa fa-question-circle"></i></a></span>  </div> <div class="h_sub_title">2015.05.28 ~ 2015.06.03(5월 다섯째주)</div> <div class="title section scrollspy" id="sp0">전체라인 최고승률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><table cellspacing="0" cellpadding="0" style="border: none;"><tbody><tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span>&#9650</span>16</div>
-								</div>  <div class="hero"><img src="/images/hero2/FiddleSticks.png" alt="10" /><div class="name">피들스틱</div> </div>
-								<div class="ratio">승률54.99%</div><div class="ratioback"> <div class="win_front" style="width: 54.99%; ">
-										<div class="f_grade">&#9650 2.13%</div> </div> </div>  <div class="ratio">픽률 6.41%</div>
-								<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:6.41%;" />
-										<div class="f_grade">&#9650 0.78%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span>&#9650</span>14</div>
-								</div>  <div class="hero"><img src="/images/hero2/Nidalee.png" alt="10" /><div class="name">니달리</div> </div>
-								<div class="ratio">승률54.59%</div><div class="ratioback"> <div class="win_front" style="width: 54.59%; ">
-										<div class="f_grade">&#9650 1.7%</div> </div> </div>  <div class="ratio">픽률 18%</div>
-								<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:18%;" />
-										<div class="f_grade">&#9650 1.71%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span>&#9660</span>2</div>
-								</div>  <div class="hero"><img src="/images/hero2/Draven.png" alt="10" /><div class="name">드레이븐</div> </div>
-								<div class="ratio">승률54.23%</div><div class="ratioback"> <div class="win_front" style="width: 54.23%; ">
-										<div class="f_grade">&#9660 0.68%</div> </div> </div>  <div class="ratio">픽률 5.49%</div>
-								<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:5.49%;" />
-										<div class="f_grade">&#9650 0.17%</div> </div>  </div>  </td></tr><tr><td><div class="triangle"><div class="rank">4위</div><div class="change"><span>&#9650</span>1</div>
-								</div>  <div class="hero"><img src="/images/hero2/Ahri.png" alt="10" /><div class="name">아리</div> </div>
-								<div class="ratio">승률54.16%</div><div class="ratioback"> <div class="win_front" style="width: 54.16%; ">
-										<div class="f_grade">&#9650 0.09%</div> </div> </div>  <div class="ratio">픽률 16.99%</div>
-								<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:16.99%;" />
-										<div class="f_grade">&#9650 0.62%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">5위</div><div class="change"><span>&#9650</span>3</div>
-								</div>  <div class="hero"><img src="/images/hero2/Sivir.png" alt="10" /><div class="name">시비르</div> </div>
-								<div class="ratio">승률53.74%</div><div class="ratioback"> <div class="win_front" style="width: 53.74%; ">
-										<div class="f_grade">&#9650 0.18%</div> </div> </div>  <div class="ratio">픽률 20.94%</div>
-								<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:20.94%;" />
-										<div class="f_grade">&#9660 0.15%</div> </div>  </div>  </td></tr>  </tbody>  </table> </div> <div class="title section scrollspy" id="sp1">전체라인 최고픽률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto"><table cellspacing="0" cellpadding="0" style="border: none;"><tbody><tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span></span></div>
-								</div>  <div class="hero"><img src="/images/hero2/Thresh.png" alt="10" /><div class="name">쓰레쉬</div> </div>
-								<div class="ratio">승률52.08%</div><div class="ratioback"> <div class="win_front" style="width: 52.08%; ">
-										<div class="f_grade">&#9650 0.03%</div> </div> </div>  <div class="ratio">픽률 45.64%</div>
-								<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:45.64%;" />
-										<div class="f_grade">&#9660 3.2%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span>&#9650</span>1</div>
-								</div>  <div class="hero"><img src="/images/hero2/Vayne.png" alt="10" /><div class="name">베인</div> </div>
-								<div class="ratio">승률52.29%</div><div class="ratioback"> <div class="win_front" style="width: 52.29%; ">
-										<div class="f_grade">&#9650 0.04%</div> </div> </div>  <div class="ratio">픽률 37.02%</div>
-								<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:37.02%;" />
-										<div class="f_grade">&#9650 5.6%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span>&#9660</span>1</div>
-								</div>  <div class="hero"><img src="/images/hero2/LeeSin.png" alt="10" /><div class="name">리 신</div> </div>
-								<div class="ratio">승률47.8%</div><div class="ratioback"> <div class="win_front" style="width: 47.8%; ">
-										<div class="f_grade">&#9660 0.23%</div> </div> </div>  <div class="ratio">픽률 34.96%</div>
-								<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:34.96%;" />
-										<div class="f_grade">&#9650 0.48%</div> </div>  </div>  </td></tr><tr><td><div class="triangle"><div class="rank">4위</div><div class="change"><span>&#9650</span>8</div>
-								</div>  <div class="hero"><img src="/images/hero2/Alistar.png" alt="10" /><div class="name">알리스타</div> </div>
-								<div class="ratio">승률50.54%</div><div class="ratioback"> <div class="win_front" style="width: 50.54%; ">
-										<div class="f_grade">&#9650 0.18%</div> </div> </div>  <div class="ratio">픽률 26.4%</div>
-								<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:26.4%;" />
-										<div class="f_grade">&#9650 6.41%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">5위</div><div class="change"><span>&#9660</span>1</div>
-								</div>  <div class="hero"><img src="/images/hero2/Ezreal.png" alt="10" /><div class="name">이즈리얼</div> </div>
-								<div class="ratio">승률48.77%</div><div class="ratioback"> <div class="win_front" style="width: 48.77%; ">
-										<div class="f_grade">&#9660 0.53%</div> </div> </div>  <div class="ratio">픽률 26.38%</div>
-								<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:26.38%;" />
-										<div class="f_grade">&#9660 0.98%</div> </div>  </div>  </td></tr>  </tbody>  </table> </div> <div class="title section scrollspy" id="sp2">라인별 최고승률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto; padding-top: 0.6em"><div class="title0">[최고승률] 탑(TOP)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span>&#9650</span>2</div>
-									</div>  <div class="hero"><img src="/images/hero2/Hecarim.png" alt="10" /><div class="name">헤카림</div> </div>
-									<div class="ratio">승률53.5%</div><div class="ratioback"> <div class="win_front" style="width: 53.5%; ">
-											<div class="f_grade">&#9650 0.58%</div> </div> </div>  <div class="ratio">픽률 15.77%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:15.77%;" />
-											<div class="f_grade">&#9650 0.55%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span>&#9660</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/Riven.png" alt="10" /><div class="name">리븐</div> </div>
-									<div class="ratio">승률53.32%</div><div class="ratioback"> <div class="win_front" style="width: 53.32%; ">
-											<div class="f_grade">&#9650 0.04%</div> </div> </div>  <div class="ratio">픽률 24.1%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:24.1%;" />
-											<div class="f_grade">&#9650 0.91%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span>&#9650</span>2</div>
-									</div>  <div class="hero"><img src="/images/hero2/Rumble.png" alt="10" /><div class="name">럼블</div> </div>
-									<div class="ratio">승률52.77%</div><div class="ratioback"> <div class="win_front" style="width: 52.77%; ">
-											<div class="f_grade">&#9650 0.77%</div> </div> </div>  <div class="ratio">픽률 10.31%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:10.31%;" />
-											<div class="f_grade">&#9650 0.08%</div> </div>  </div>  </td></tbody> </table><div class="title0">[최고승률] 정글(Jungle)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span>&#9650</span>4</div>
-									</div>  <div class="hero"><img src="/images/hero2/FiddleSticks.png" alt="10" /><div class="name">피들스틱</div> </div>
-									<div class="ratio">승률54.99%</div><div class="ratioback"> <div class="win_front" style="width: 54.99%; ">
-											<div class="f_grade">&#9650 2.13%</div> </div> </div>  <div class="ratio">픽률 6.41%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:6.41%;" />
-											<div class="f_grade">&#9650 0.78%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span>&#9650</span>2</div>
-									</div>  <div class="hero"><img src="/images/hero2/Nidalee.png" alt="10" /><div class="name">니달리</div> </div>
-									<div class="ratio">승률54.59%</div><div class="ratioback"> <div class="win_front" style="width: 54.59%; ">
-											<div class="f_grade">&#9650 1.7%</div> </div> </div>  <div class="ratio">픽률 18%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:18%;" />
-											<div class="f_grade">&#9650 1.71%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/RekSai.png" alt="10" /><div class="name">렉사이</div> </div>
-									<div class="ratio">승률53.5%</div><div class="ratioback"> <div class="win_front" style="width: 53.5%; ">
-											<div class="f_grade">&#9660 0.47%</div> </div> </div>  <div class="ratio">픽률 15.03%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:15.03%;" />
-											<div class="f_grade">&#9660 0.17%</div> </div>  </div>  </td></tbody> </table><div class="title0">[최고승률] 미드(Middle)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span>&#9650</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/Ahri.png" alt="10" /><div class="name">아리</div> </div>
-									<div class="ratio">승률54.16%</div><div class="ratioback"> <div class="win_front" style="width: 54.16%; ">
-											<div class="f_grade">&#9650 0.09%</div> </div> </div>  <div class="ratio">픽률 16.99%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:16.99%;" />
-											<div class="f_grade">&#9650 0.62%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span>&#9660</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/Talon.png" alt="10" /><div class="name">탈론</div> </div>
-									<div class="ratio">승률53.11%</div><div class="ratioback"> <div class="win_front" style="width: 53.11%; ">
-											<div class="f_grade">&#9660 1.45%</div> </div> </div>  <div class="ratio">픽률 6.43%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:6.43%;" />
-											<div class="f_grade">&#9660 0.02%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span>&#9650</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/TwistedFate.png" alt="10" /><div class="name">트위스티드 페이트</div> </div>
-									<div class="ratio">승률52.69%</div><div class="ratioback"> <div class="win_front" style="width: 52.69%; ">
-											<div class="f_grade">&#9660 0.13%</div> </div> </div>  <div class="ratio">픽률 23.26%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:23.26%;" />
-											<div class="f_grade">&#9650 3.83%</div> </div>  </div>  </td></tbody> </table><div class="title0">[최고승률] 원딜(ADC)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Draven.png" alt="10" /><div class="name">드레이븐</div> </div>
-									<div class="ratio">승률54.23%</div><div class="ratioback"> <div class="win_front" style="width: 54.23%; ">
-											<div class="f_grade">&#9660 0.68%</div> </div> </div>  <div class="ratio">픽률 5.49%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:5.49%;" />
-											<div class="f_grade">&#9650 0.17%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span>&#9650</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/Sivir.png" alt="10" /><div class="name">시비르</div> </div>
-									<div class="ratio">승률53.74%</div><div class="ratioback"> <div class="win_front" style="width: 53.74%; ">
-											<div class="f_grade">&#9650 0.18%</div> </div> </div>  <div class="ratio">픽률 20.94%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:20.94%;" />
-											<div class="f_grade">&#9660 0.15%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span>&#9650</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/Ashe.png" alt="10" /><div class="name">애쉬</div> </div>
-									<div class="ratio">승률53.71%</div><div class="ratioback"> <div class="win_front" style="width: 53.71%; ">
-											<div class="f_grade">&#9650 0.73%</div> </div> </div>  <div class="ratio">픽률 8.39%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:8.39%;" />
-											<div class="f_grade">&#9660 2.78%</div> </div>  </div>  </td></tbody> </table><div class="title0">[최고승률] 서포터(Support)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Leona.png" alt="10" /><div class="name">레오나</div> </div>
-									<div class="ratio">승률53.22%</div><div class="ratioback"> <div class="win_front" style="width: 53.22%; ">
-											<div class="f_grade">&#9650 0.13%</div> </div> </div>  <div class="ratio">픽률 12.6%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:12.6%;" />
-											<div class="f_grade">&#9660 1.28%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span>&#9650</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/Soraka.png" alt="10" /><div class="name">소라카</div> </div>
-									<div class="ratio">승률53.16%</div><div class="ratioback"> <div class="win_front" style="width: 53.16%; ">
-											<div class="f_grade">&#9650 0.72%</div> </div> </div>  <div class="ratio">픽률 12.07%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:12.07%;" />
-											<div class="f_grade">&#9650 1.44%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span>&#9660</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/Janna.png" alt="10" /><div class="name">잔나</div> </div>
-									<div class="ratio">승률52.76%</div><div class="ratioback"> <div class="win_front" style="width: 52.76%; ">
-											<div class="f_grade">&#9660 0.17%</div> </div> </div>  <div class="ratio">픽률 12.61%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:12.61%;" />
-											<div class="f_grade">&#9660 1.84%</div> </div>  </div>  </td>  </tbody>  </table> </div> <div class="title section scrollspy" id="sp3">라인별 최고픽률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto; padding-top: 0.6em"><div class="title0">[최고픽률] 탑(TOP)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Riven.png" alt="10" /><div class="name">리븐</div> </div>
-									<div class="ratio">승률53.32%</div><div class="ratioback"> <div class="win_front" style="width: 53.32%; ">
-											<div class="f_grade">&#9650 0.04%</div> </div> </div>  <div class="ratio">픽률 24.1%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:24.1%;" />
-											<div class="f_grade">&#9650 0.91%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Vladimir.png" alt="10" /><div class="name">블라디미르</div> </div>
-									<div class="ratio">승률48.71%</div><div class="ratioback"> <div class="win_front" style="width: 48.71%; ">
-											<div class="f_grade">&#9660 0.4%</div> </div> </div>  <div class="ratio">픽률 17.18%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:17.18%;" />
-											<div class="f_grade">&#9660 1.45%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Hecarim.png" alt="10" /><div class="name">헤카림</div> </div>
-									<div class="ratio">승률53.5%</div><div class="ratioback"> <div class="win_front" style="width: 53.5%; ">
-											<div class="f_grade">&#9650 0.58%</div> </div> </div>  <div class="ratio">픽률 15.77%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:15.77%;" />
-											<div class="f_grade">&#9650 0.55%</div> </div>  </div>  </td></tbody> </table><div class="title0">[최고픽률] 정글(Jungle)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/LeeSin.png" alt="10" /><div class="name">리 신</div> </div>
-									<div class="ratio">승률47.8%</div><div class="ratioback"> <div class="win_front" style="width: 47.8%; ">
-											<div class="f_grade">&#9660 0.23%</div> </div> </div>  <div class="ratio">픽률 34.96%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:34.96%;" />
-											<div class="f_grade">&#9650 0.48%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Rengar.png" alt="10" /><div class="name">렝가</div> </div>
-									<div class="ratio">승률50.97%</div><div class="ratioback"> <div class="win_front" style="width: 50.97%; ">
-											<div class="f_grade">&#9660 0.28%</div> </div> </div>  <div class="ratio">픽률 21%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:21%;" />
-											<div class="f_grade">&#9650 0.19%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span>&#9650</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/Nidalee.png" alt="10" /><div class="name">니달리</div> </div>
-									<div class="ratio">승률54.59%</div><div class="ratioback"> <div class="win_front" style="width: 54.59%; ">
-											<div class="f_grade">&#9650 1.7%</div> </div> </div>  <div class="ratio">픽률 18%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:18%;" />
-											<div class="f_grade">&#9650 1.71%</div> </div>  </div>  </td></tbody> </table><div class="title0">[최고픽률] 미드(Middle)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/TwistedFate.png" alt="10" /><div class="name">트위스티드 페이트</div> </div>
-									<div class="ratio">승률52.69%</div><div class="ratioback"> <div class="win_front" style="width: 52.69%; ">
-											<div class="f_grade">&#9660 0.13%</div> </div> </div>  <div class="ratio">픽률 23.26%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:23.26%;" />
-											<div class="f_grade">&#9650 3.83%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Yasuo.png" alt="10" /><div class="name">야스오</div> </div>
-									<div class="ratio">승률48.04%</div><div class="ratioback"> <div class="win_front" style="width: 48.04%; ">
-											<div class="f_grade">&#9660 0.62%</div> </div> </div>  <div class="ratio">픽률 20.26%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:20.26%;" />
-											<div class="f_grade">&#9650 1.69%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Ahri.png" alt="10" /><div class="name">아리</div> </div>
-									<div class="ratio">승률54.16%</div><div class="ratioback"> <div class="win_front" style="width: 54.16%; ">
-											<div class="f_grade">&#9650 0.09%</div> </div> </div>  <div class="ratio">픽률 16.99%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:16.99%;" />
-											<div class="f_grade">&#9650 0.62%</div> </div>  </div>  </td></tbody> </table><div class="title0">[최고픽률] 원딜(ADC)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Vayne.png" alt="10" /><div class="name">베인</div> </div>
-									<div class="ratio">승률52.29%</div><div class="ratioback"> <div class="win_front" style="width: 52.29%; ">
-											<div class="f_grade">&#9650 0.04%</div> </div> </div>  <div class="ratio">픽률 37.02%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:37.02%;" />
-											<div class="f_grade">&#9650 5.6%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Ezreal.png" alt="10" /><div class="name">이즈리얼</div> </div>
-									<div class="ratio">승률48.77%</div><div class="ratioback"> <div class="win_front" style="width: 48.77%; ">
-											<div class="f_grade">&#9660 0.53%</div> </div> </div>  <div class="ratio">픽률 26.38%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:26.38%;" />
-											<div class="f_grade">&#9660 0.98%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Jinx.png" alt="10" /><div class="name">징크스</div> </div>
-									<div class="ratio">승률52.68%</div><div class="ratioback"> <div class="win_front" style="width: 52.68%; ">
-											<div class="f_grade">&#9660 1.04%</div> </div> </div>  <div class="ratio">픽률 24.89%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:24.89%;" />
-											<div class="f_grade">&#9660 0.52%</div> </div>  </div>  </td></tbody> </table><div class="title0">[최고픽률] 서포터(Support)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Thresh.png" alt="10" /><div class="name">쓰레쉬</div> </div>
-									<div class="ratio">승률52.08%</div><div class="ratioback"> <div class="win_front" style="width: 52.08%; ">
-											<div class="f_grade">&#9650 0.03%</div> </div> </div>  <div class="ratio">픽률 45.64%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:45.64%;" />
-											<div class="f_grade">&#9660 3.2%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span>&#9650</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/Alistar.png" alt="10" /><div class="name">알리스타</div> </div>
-									<div class="ratio">승률50.54%</div><div class="ratioback"> <div class="win_front" style="width: 50.54%; ">
-											<div class="f_grade">&#9650 0.18%</div> </div> </div>  <div class="ratio">픽률 26.4%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:26.4%;" />
-											<div class="f_grade">&#9650 6.41%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span>&#9660</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/Blitzcrank.png" alt="10" /><div class="name">블리츠크랭크</div> </div>
-									<div class="ratio">승률51.82%</div><div class="ratioback"> <div class="win_front" style="width: 51.82%; ">
-											<div class="f_grade">&#9650 0.42%</div> </div> </div>  <div class="ratio">픽률 21.94%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:21.94%;" />
-											<div class="f_grade">&#9650 0.48%</div> </div>  </div>  </td>  </tbody>  </table> </div> <div class="title section scrollspy" id="sp4">라인별 최하승률</div> <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto; padding-top: 0.6em"><div class="title0">[최하승률] 탑(TOP)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Gnar.png" alt="10" /><div class="name">나르</div> </div>
-									<div class="ratio">승률47.6%</div><div class="ratioback"> <div class="win_front" style="width: 47.6%; ">
-											<div class="f_grade">&#9660 0.46%</div> </div> </div>  <div class="ratio">픽률 11.01%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:11.01%;" />
-											<div class="f_grade">&#9660 1.75%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Vladimir.png" alt="10" /><div class="name">블라디미르</div> </div>
-									<div class="ratio">승률48.71%</div><div class="ratioback"> <div class="win_front" style="width: 48.71%; ">
-											<div class="f_grade">&#9660 0.4%</div> </div> </div>  <div class="ratio">픽률 17.18%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:17.18%;" />
-											<div class="f_grade">&#9660 1.45%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Maokai.png" alt="10" /><div class="name">마오카이</div> </div>
-									<div class="ratio">승률50.22%</div><div class="ratioback"> <div class="win_front" style="width: 50.22%; ">
-											<div class="f_grade">&#9650 0.61%</div> </div> </div>  <div class="ratio">픽률 10.49%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:10.49%;" />
-											<div class="f_grade">&#9660 0.79%</div> </div>  </div>  </td></tbody> </table><div class="title0">[최하승률] 정글(Jungle)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/MasterYi.png" alt="10" /><div class="name">마스터 이</div> </div>
-									<div class="ratio">승률45.25%</div><div class="ratioback"> <div class="win_front" style="width: 45.25%; ">
-											<div class="f_grade">&#9660 1.56%</div> </div> </div>  <div class="ratio">픽률 5.78%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:5.78%;" />
-											<div class="f_grade">&#9660 0.28%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span>&#9660</span>3</div>
-									</div>  <div class="hero"><img src="/images/hero2/Vi.png" alt="10" /><div class="name">바이</div> </div>
-									<div class="ratio">승률47.73%</div><div class="ratioback"> <div class="win_front" style="width: 47.73%; ">
-											<div class="f_grade">&#9660 2.63%</div> </div> </div>  <div class="ratio">픽률 5.75%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:5.75%;" />
-											<div class="f_grade">&#9660 0.03%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span>&#9650</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/LeeSin.png" alt="10" /><div class="name">리 신</div> </div>
-									<div class="ratio">승률47.8%</div><div class="ratioback"> <div class="win_front" style="width: 47.8%; ">
-											<div class="f_grade">&#9660 0.23%</div> </div> </div>  <div class="ratio">픽률 34.96%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:34.96%;" />
-											<div class="f_grade">&#9650 0.48%</div> </div>  </div>  </td></tbody> </table><div class="title0">[최하승률] 미드(Middle)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span>&#9660</span>2</div>
-									</div>  <div class="hero"><img src="/images/hero2/Leblanc.png" alt="10" /><div class="name">르블랑</div> </div>
-									<div class="ratio">승률47.84%</div><div class="ratioback"> <div class="win_front" style="width: 47.84%; ">
-											<div class="f_grade">&#9660 1.54%</div> </div> </div>  <div class="ratio">픽률 7.04%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:7.04%;" />
-											<div class="f_grade">&#9660 0.09%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Yasuo.png" alt="10" /><div class="name">야스오</div> </div>
-									<div class="ratio">승률48.04%</div><div class="ratioback"> <div class="win_front" style="width: 48.04%; ">
-											<div class="f_grade">&#9660 0.62%</div> </div> </div>  <div class="ratio">픽률 20.26%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:20.26%;" />
-											<div class="f_grade">&#9650 1.69%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span>&#9660</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/Zed.png" alt="10" /><div class="name">제드</div> </div>
-									<div class="ratio">승률48.65%</div><div class="ratioback"> <div class="win_front" style="width: 48.65%; ">
-											<div class="f_grade">&#9660 0.87%</div> </div> </div>  <div class="ratio">픽률 10.74%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:10.74%;" />
-											<div class="f_grade">&#9660 1.1%</div> </div>  </div>  </td></tbody> </table><div class="title0">[최하승률] 원딜(ADC)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span>&#9660</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/Lucian.png" alt="10" /><div class="name">루시안</div> </div>
-									<div class="ratio">승률45.67%</div><div class="ratioback"> <div class="win_front" style="width: 45.67%; ">
-											<div class="f_grade">&#9660 0.84%</div> </div> </div>  <div class="ratio">픽률 17.08%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:17.08%;" />
-											<div class="f_grade">&#9660 3.47%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span>&#9660</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/Caitlyn.png" alt="10" /><div class="name">케이틀린</div> </div>
-									<div class="ratio">승률46.67%</div><div class="ratioback"> <div class="win_front" style="width: 46.67%; ">
-											<div class="f_grade">&#9660 1.89%</div> </div> </div>  <div class="ratio">픽률 6.21%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:6.21%;" />
-											<div class="f_grade">&#9660 0.19%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Varus.png" alt="10" /><div class="name">바루스</div> </div>
-									<div class="ratio">승률48.38%</div><div class="ratioback"> <div class="win_front" style="width: 48.38%; ">
-											<div class="f_grade">&#9660 0.83%</div> </div> </div>  <div class="ratio">픽률 8.89%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:8.89%;" />
-											<div class="f_grade">&#9650 6.21%</div> </div>  </div>  </td></tbody> </table><div class="title0">[최하승률] 서포터(Support)</div><table cellspacing="0" cellpadding="0" style="border: none;"> <tbody> <tr><td><div class="triangle"><div class="rank">1위</div><div class="change"><span></span></div>
-									</div>  <div class="hero"><img src="/images/hero2/Bard.png" alt="10" /><div class="name">바드</div> </div>
-									<div class="ratio">승률47.07%</div><div class="ratioback"> <div class="win_front" style="width: 47.07%; ">
-											<div class="f_grade">&#9650 1.78%</div> </div> </div>  <div class="ratio">픽률 7.44%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:7.44%;" />
-											<div class="f_grade">&#9650 2.1%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">2위</div><div class="change"><span>&#9660</span>2</div>
-									</div>  <div class="hero"><img src="/images/hero2/Morgana.png" alt="10" /><div class="name">모르가나</div> </div>
-									<div class="ratio">승률49.7%</div><div class="ratioback"> <div class="win_front" style="width: 49.7%; ">
-											<div class="f_grade">&#9660 1.0%</div> </div> </div>  <div class="ratio">픽률 13.33%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:13.33%;" />
-											<div class="f_grade">&#9660 2.1%</div> </div>  </div>  </td><td><div class="triangle"><div class="rank">3위</div><div class="change"><span>&#9650</span>1</div>
-									</div>  <div class="hero"><img src="/images/hero2/Lulu.png" alt="10" /><div class="name">룰루</div> </div>
-									<div class="ratio">승률50.31%</div><div class="ratioback"> <div class="win_front" style="width: 50.31%; ">
-											<div class="f_grade">&#9650 0.08%</div> </div> </div>  <div class="ratio">픽률 10.69%</div>
-									<div class="ratioback">    <div class="pick_front0">    <div class="pick_front" style="width:10.69%;" />
-											<div class="f_grade">&#9660 0.48%</div> </div>  </div>  </td>  </tbody>  </table> </div></div></div></body></html>
+                <a class="dropdown-button btn" href="#" data-activates="dropdown1">다이아 <span style="float:right !important">&#9660</span></a>
+                <ul id="dropdown1" class="dropdown-content">
+                    <li><a href="./rate_b.html">브론즈</a>
+                    </li>
+                    <li><a href="./rate_s.html">실버</a>
+                    </li>
+                    <li><a href="./rate_g.html">골드</a> </li>
+                    <li><a href="./rate_p.html">플래티넘</a>
+                    </li>
+                    <li><a href="./rate_d.html">다이아</a>
+                    </li>
+                    <li><a href="./rate_m.html">마스터</a> </li>
+                    <li><a href="./rate_c.html">첼린저</a> </li>
+                </ul><span class="line-separator"></span> <a class="dropdown-button btn sc" href="#" data-activates="dropdown2">전체라인 최고승률 <span style="float:right !important">&#9660</span></a>
+                <ul id="dropdown2" class="section table-of-contents dropdown-content">
+                    <li><a href="#sp0">전체라인 최고승률</a>
+                    </li>
+                    <li><a href="#sp1">전체라인 최고픽률</a> </li>
+                    <li><a href="#sp2">라인별 최고승률</a> </li>
+                    <li><a href="#sp3">라인별 최고픽률</a> </li>
+                    <li><a href="#sp4">라인별 최하승률</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="h_title">LOL 솔로랭크 통계분석(KR) <span class="q"> <a class="modal-trigger" href="#modal1"><i class="fa fa-question-circle"></i></a></span> </div>
+            <div class="h_sub_title">2015.05.28 ~ 2015.06.03(5월 다섯째주)</div>
+            <div class="title section scrollspy" id="sp0">전체라인 최고승률</div>
+            <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto">
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span>&#9650</span>16</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/FiddleSticks.png" alt="10" />
+                                    <div class="name">피들스틱</div>
+                                </div>
+                                <div class="ratio">승률54.99%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 54.99%; ">
+                                        <div class="f_grade">&#9650 2.13%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 6.41%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:6.41%;" />
+                                        <div class="f_grade">&#9650 0.78%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span>&#9650</span>14</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Nidalee.png" alt="10" />
+                                    <div class="name">니달리</div>
+                                </div>
+                                <div class="ratio">승률54.59%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 54.59%; ">
+                                        <div class="f_grade">&#9650 1.7%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 18%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:18%;" />
+                                        <div class="f_grade">&#9650 1.71%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span>&#9660</span>2</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Draven.png" alt="10" />
+                                    <div class="name">드레이븐</div>
+                                </div>
+                                <div class="ratio">승률54.23%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 54.23%; ">
+                                        <div class="f_grade">&#9660 0.68%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 5.49%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:5.49%;" />
+                                        <div class="f_grade">&#9650 0.17%</div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">4위</div>
+                                    <div class="change"><span>&#9650</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Ahri.png" alt="10" />
+                                    <div class="name">아리</div>
+                                </div>
+                                <div class="ratio">승률54.16%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 54.16%; ">
+                                        <div class="f_grade">&#9650 0.09%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 16.99%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:16.99%;" />
+                                        <div class="f_grade">&#9650 0.62%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">5위</div>
+                                    <div class="change"><span>&#9650</span>3</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Sivir.png" alt="10" />
+                                    <div class="name">시비르</div>
+                                </div>
+                                <div class="ratio">승률53.74%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 53.74%; ">
+                                        <div class="f_grade">&#9650 0.18%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 20.94%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:20.94%;" />
+                                        <div class="f_grade">&#9660 0.15%</div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="title section scrollspy" id="sp1">전체라인 최고픽률</div>
+            <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto">
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Thresh.png" alt="10" />
+                                    <div class="name">쓰레쉬</div>
+                                </div>
+                                <div class="ratio">승률52.08%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 52.08%; ">
+                                        <div class="f_grade">&#9650 0.03%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 45.64%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:45.64%;" />
+                                        <div class="f_grade">&#9660 3.2%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span>&#9650</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Vayne.png" alt="10" />
+                                    <div class="name">베인</div>
+                                </div>
+                                <div class="ratio">승률52.29%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 52.29%; ">
+                                        <div class="f_grade">&#9650 0.04%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 37.02%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:37.02%;" />
+                                        <div class="f_grade">&#9650 5.6%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span>&#9660</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/LeeSin.png" alt="10" />
+                                    <div class="name">리 신</div>
+                                </div>
+                                <div class="ratio">승률47.8%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 47.8%; ">
+                                        <div class="f_grade">&#9660 0.23%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 34.96%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:34.96%;" />
+                                        <div class="f_grade">&#9650 0.48%</div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">4위</div>
+                                    <div class="change"><span>&#9650</span>8</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Alistar.png" alt="10" />
+                                    <div class="name">알리스타</div>
+                                </div>
+                                <div class="ratio">승률50.54%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 50.54%; ">
+                                        <div class="f_grade">&#9650 0.18%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 26.4%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:26.4%;" />
+                                        <div class="f_grade">&#9650 6.41%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">5위</div>
+                                    <div class="change"><span>&#9660</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Ezreal.png" alt="10" />
+                                    <div class="name">이즈리얼</div>
+                                </div>
+                                <div class="ratio">승률48.77%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 48.77%; ">
+                                        <div class="f_grade">&#9660 0.53%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 26.38%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:26.38%;" />
+                                        <div class="f_grade">&#9660 0.98%</div>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="title section scrollspy" id="sp2">라인별 최고승률</div>
+            <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto; padding-top: 0.6em">
+                <div class="title0">[최고승률] 탑(TOP)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span>&#9650</span>2</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Hecarim.png" alt="10" />
+                                    <div class="name">헤카림</div>
+                                </div>
+                                <div class="ratio">승률53.5%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 53.5%; ">
+                                        <div class="f_grade">&#9650 0.58%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 15.77%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:15.77%;" />
+                                        <div class="f_grade">&#9650 0.55%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span>&#9660</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Riven.png" alt="10" />
+                                    <div class="name">리븐</div>
+                                </div>
+                                <div class="ratio">승률53.32%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 53.32%; ">
+                                        <div class="f_grade">&#9650 0.04%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 24.1%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:24.1%;" />
+                                        <div class="f_grade">&#9650 0.91%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span>&#9650</span>2</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Rumble.png" alt="10" />
+                                    <div class="name">럼블</div>
+                                </div>
+                                <div class="ratio">승률52.77%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 52.77%; ">
+                                        <div class="f_grade">&#9650 0.77%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 10.31%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:10.31%;" />
+                                        <div class="f_grade">&#9650 0.08%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+                <div class="title0">[최고승률] 정글(Jungle)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span>&#9650</span>4</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/FiddleSticks.png" alt="10" />
+                                    <div class="name">피들스틱</div>
+                                </div>
+                                <div class="ratio">승률54.99%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 54.99%; ">
+                                        <div class="f_grade">&#9650 2.13%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 6.41%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:6.41%;" />
+                                        <div class="f_grade">&#9650 0.78%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span>&#9650</span>2</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Nidalee.png" alt="10" />
+                                    <div class="name">니달리</div>
+                                </div>
+                                <div class="ratio">승률54.59%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 54.59%; ">
+                                        <div class="f_grade">&#9650 1.7%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 18%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:18%;" />
+                                        <div class="f_grade">&#9650 1.71%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/RekSai.png" alt="10" />
+                                    <div class="name">렉사이</div>
+                                </div>
+                                <div class="ratio">승률53.5%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 53.5%; ">
+                                        <div class="f_grade">&#9660 0.47%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 15.03%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:15.03%;" />
+                                        <div class="f_grade">&#9660 0.17%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+                <div class="title0">[최고승률] 미드(Middle)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span>&#9650</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Ahri.png" alt="10" />
+                                    <div class="name">아리</div>
+                                </div>
+                                <div class="ratio">승률54.16%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 54.16%; ">
+                                        <div class="f_grade">&#9650 0.09%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 16.99%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:16.99%;" />
+                                        <div class="f_grade">&#9650 0.62%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span>&#9660</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Talon.png" alt="10" />
+                                    <div class="name">탈론</div>
+                                </div>
+                                <div class="ratio">승률53.11%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 53.11%; ">
+                                        <div class="f_grade">&#9660 1.45%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 6.43%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:6.43%;" />
+                                        <div class="f_grade">&#9660 0.02%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span>&#9650</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/TwistedFate.png" alt="10" />
+                                    <div class="name">트위스티드 페이트</div>
+                                </div>
+                                <div class="ratio">승률52.69%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 52.69%; ">
+                                        <div class="f_grade">&#9660 0.13%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 23.26%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:23.26%;" />
+                                        <div class="f_grade">&#9650 3.83%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+                <div class="title0">[최고승률] 원딜(ADC)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Draven.png" alt="10" />
+                                    <div class="name">드레이븐</div>
+                                </div>
+                                <div class="ratio">승률54.23%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 54.23%; ">
+                                        <div class="f_grade">&#9660 0.68%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 5.49%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:5.49%;" />
+                                        <div class="f_grade">&#9650 0.17%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span>&#9650</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Sivir.png" alt="10" />
+                                    <div class="name">시비르</div>
+                                </div>
+                                <div class="ratio">승률53.74%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 53.74%; ">
+                                        <div class="f_grade">&#9650 0.18%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 20.94%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:20.94%;" />
+                                        <div class="f_grade">&#9660 0.15%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span>&#9650</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Ashe.png" alt="10" />
+                                    <div class="name">애쉬</div>
+                                </div>
+                                <div class="ratio">승률53.71%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 53.71%; ">
+                                        <div class="f_grade">&#9650 0.73%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 8.39%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:8.39%;" />
+                                        <div class="f_grade">&#9660 2.78%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+                <div class="title0">[최고승률] 서포터(Support)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Leona.png" alt="10" />
+                                    <div class="name">레오나</div>
+                                </div>
+                                <div class="ratio">승률53.22%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 53.22%; ">
+                                        <div class="f_grade">&#9650 0.13%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 12.6%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:12.6%;" />
+                                        <div class="f_grade">&#9660 1.28%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span>&#9650</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Soraka.png" alt="10" />
+                                    <div class="name">소라카</div>
+                                </div>
+                                <div class="ratio">승률53.16%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 53.16%; ">
+                                        <div class="f_grade">&#9650 0.72%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 12.07%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:12.07%;" />
+                                        <div class="f_grade">&#9650 1.44%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span>&#9660</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Janna.png" alt="10" />
+                                    <div class="name">잔나</div>
+                                </div>
+                                <div class="ratio">승률52.76%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 52.76%; ">
+                                        <div class="f_grade">&#9660 0.17%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 12.61%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:12.61%;" />
+                                        <div class="f_grade">&#9660 1.84%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+            </div>
+            <div class="title section scrollspy" id="sp3">라인별 최고픽률</div>
+            <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto; padding-top: 0.6em">
+                <div class="title0">[최고픽률] 탑(TOP)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Riven.png" alt="10" />
+                                    <div class="name">리븐</div>
+                                </div>
+                                <div class="ratio">승률53.32%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 53.32%; ">
+                                        <div class="f_grade">&#9650 0.04%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 24.1%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:24.1%;" />
+                                        <div class="f_grade">&#9650 0.91%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Vladimir.png" alt="10" />
+                                    <div class="name">블라디미르</div>
+                                </div>
+                                <div class="ratio">승률48.71%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 48.71%; ">
+                                        <div class="f_grade">&#9660 0.4%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 17.18%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:17.18%;" />
+                                        <div class="f_grade">&#9660 1.45%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Hecarim.png" alt="10" />
+                                    <div class="name">헤카림</div>
+                                </div>
+                                <div class="ratio">승률53.5%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 53.5%; ">
+                                        <div class="f_grade">&#9650 0.58%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 15.77%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:15.77%;" />
+                                        <div class="f_grade">&#9650 0.55%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+                <div class="title0">[최고픽률] 정글(Jungle)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/LeeSin.png" alt="10" />
+                                    <div class="name">리 신</div>
+                                </div>
+                                <div class="ratio">승률47.8%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 47.8%; ">
+                                        <div class="f_grade">&#9660 0.23%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 34.96%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:34.96%;" />
+                                        <div class="f_grade">&#9650 0.48%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Rengar.png" alt="10" />
+                                    <div class="name">렝가</div>
+                                </div>
+                                <div class="ratio">승률50.97%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 50.97%; ">
+                                        <div class="f_grade">&#9660 0.28%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 21%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:21%;" />
+                                        <div class="f_grade">&#9650 0.19%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span>&#9650</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Nidalee.png" alt="10" />
+                                    <div class="name">니달리</div>
+                                </div>
+                                <div class="ratio">승률54.59%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 54.59%; ">
+                                        <div class="f_grade">&#9650 1.7%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 18%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:18%;" />
+                                        <div class="f_grade">&#9650 1.71%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+                <div class="title0">[최고픽률] 미드(Middle)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/TwistedFate.png" alt="10" />
+                                    <div class="name">트위스티드 페이트</div>
+                                </div>
+                                <div class="ratio">승률52.69%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 52.69%; ">
+                                        <div class="f_grade">&#9660 0.13%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 23.26%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:23.26%;" />
+                                        <div class="f_grade">&#9650 3.83%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Yasuo.png" alt="10" />
+                                    <div class="name">야스오</div>
+                                </div>
+                                <div class="ratio">승률48.04%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 48.04%; ">
+                                        <div class="f_grade">&#9660 0.62%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 20.26%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:20.26%;" />
+                                        <div class="f_grade">&#9650 1.69%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Ahri.png" alt="10" />
+                                    <div class="name">아리</div>
+                                </div>
+                                <div class="ratio">승률54.16%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 54.16%; ">
+                                        <div class="f_grade">&#9650 0.09%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 16.99%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:16.99%;" />
+                                        <div class="f_grade">&#9650 0.62%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+                <div class="title0">[최고픽률] 원딜(ADC)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Vayne.png" alt="10" />
+                                    <div class="name">베인</div>
+                                </div>
+                                <div class="ratio">승률52.29%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 52.29%; ">
+                                        <div class="f_grade">&#9650 0.04%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 37.02%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:37.02%;" />
+                                        <div class="f_grade">&#9650 5.6%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Ezreal.png" alt="10" />
+                                    <div class="name">이즈리얼</div>
+                                </div>
+                                <div class="ratio">승률48.77%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 48.77%; ">
+                                        <div class="f_grade">&#9660 0.53%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 26.38%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:26.38%;" />
+                                        <div class="f_grade">&#9660 0.98%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Jinx.png" alt="10" />
+                                    <div class="name">징크스</div>
+                                </div>
+                                <div class="ratio">승률52.68%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 52.68%; ">
+                                        <div class="f_grade">&#9660 1.04%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 24.89%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:24.89%;" />
+                                        <div class="f_grade">&#9660 0.52%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+                <div class="title0">[최고픽률] 서포터(Support)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Thresh.png" alt="10" />
+                                    <div class="name">쓰레쉬</div>
+                                </div>
+                                <div class="ratio">승률52.08%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 52.08%; ">
+                                        <div class="f_grade">&#9650 0.03%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 45.64%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:45.64%;" />
+                                        <div class="f_grade">&#9660 3.2%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span>&#9650</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Alistar.png" alt="10" />
+                                    <div class="name">알리스타</div>
+                                </div>
+                                <div class="ratio">승률50.54%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 50.54%; ">
+                                        <div class="f_grade">&#9650 0.18%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 26.4%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:26.4%;" />
+                                        <div class="f_grade">&#9650 6.41%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span>&#9660</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Blitzcrank.png" alt="10" />
+                                    <div class="name">블리츠크랭크</div>
+                                </div>
+                                <div class="ratio">승률51.82%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 51.82%; ">
+                                        <div class="f_grade">&#9650 0.42%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 21.94%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:21.94%;" />
+                                        <div class="f_grade">&#9650 0.48%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+            </div>
+            <div class="title section scrollspy" id="sp4">라인별 최하승률</div>
+            <div class="z-depth-1" style="width: 95%; margin-left: auto; margin-right: auto; padding-top: 0.6em">
+                <div class="title0">[최하승률] 탑(TOP)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Gnar.png" alt="10" />
+                                    <div class="name">나르</div>
+                                </div>
+                                <div class="ratio">승률47.6%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 47.6%; ">
+                                        <div class="f_grade">&#9660 0.46%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 11.01%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:11.01%;" />
+                                        <div class="f_grade">&#9660 1.75%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Vladimir.png" alt="10" />
+                                    <div class="name">블라디미르</div>
+                                </div>
+                                <div class="ratio">승률48.71%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 48.71%; ">
+                                        <div class="f_grade">&#9660 0.4%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 17.18%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:17.18%;" />
+                                        <div class="f_grade">&#9660 1.45%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Maokai.png" alt="10" />
+                                    <div class="name">마오카이</div>
+                                </div>
+                                <div class="ratio">승률50.22%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 50.22%; ">
+                                        <div class="f_grade">&#9650 0.61%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 10.49%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:10.49%;" />
+                                        <div class="f_grade">&#9660 0.79%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+                <div class="title0">[최하승률] 정글(Jungle)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/MasterYi.png" alt="10" />
+                                    <div class="name">마스터 이</div>
+                                </div>
+                                <div class="ratio">승률45.25%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 45.25%; ">
+                                        <div class="f_grade">&#9660 1.56%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 5.78%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:5.78%;" />
+                                        <div class="f_grade">&#9660 0.28%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span>&#9660</span>3</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Vi.png" alt="10" />
+                                    <div class="name">바이</div>
+                                </div>
+                                <div class="ratio">승률47.73%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 47.73%; ">
+                                        <div class="f_grade">&#9660 2.63%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 5.75%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:5.75%;" />
+                                        <div class="f_grade">&#9660 0.03%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span>&#9650</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/LeeSin.png" alt="10" />
+                                    <div class="name">리 신</div>
+                                </div>
+                                <div class="ratio">승률47.8%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 47.8%; ">
+                                        <div class="f_grade">&#9660 0.23%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 34.96%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:34.96%;" />
+                                        <div class="f_grade">&#9650 0.48%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+                <div class="title0">[최하승률] 미드(Middle)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span>&#9660</span>2</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Leblanc.png" alt="10" />
+                                    <div class="name">르블랑</div>
+                                </div>
+                                <div class="ratio">승률47.84%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 47.84%; ">
+                                        <div class="f_grade">&#9660 1.54%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 7.04%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:7.04%;" />
+                                        <div class="f_grade">&#9660 0.09%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Yasuo.png" alt="10" />
+                                    <div class="name">야스오</div>
+                                </div>
+                                <div class="ratio">승률48.04%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 48.04%; ">
+                                        <div class="f_grade">&#9660 0.62%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 20.26%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:20.26%;" />
+                                        <div class="f_grade">&#9650 1.69%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span>&#9660</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Zed.png" alt="10" />
+                                    <div class="name">제드</div>
+                                </div>
+                                <div class="ratio">승률48.65%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 48.65%; ">
+                                        <div class="f_grade">&#9660 0.87%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 10.74%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:10.74%;" />
+                                        <div class="f_grade">&#9660 1.1%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+                <div class="title0">[최하승률] 원딜(ADC)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span>&#9660</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Lucian.png" alt="10" />
+                                    <div class="name">루시안</div>
+                                </div>
+                                <div class="ratio">승률45.67%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 45.67%; ">
+                                        <div class="f_grade">&#9660 0.84%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 17.08%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:17.08%;" />
+                                        <div class="f_grade">&#9660 3.47%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span>&#9660</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Caitlyn.png" alt="10" />
+                                    <div class="name">케이틀린</div>
+                                </div>
+                                <div class="ratio">승률46.67%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 46.67%; ">
+                                        <div class="f_grade">&#9660 1.89%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 6.21%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:6.21%;" />
+                                        <div class="f_grade">&#9660 0.19%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Varus.png" alt="10" />
+                                    <div class="name">바루스</div>
+                                </div>
+                                <div class="ratio">승률48.38%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 48.38%; ">
+                                        <div class="f_grade">&#9660 0.83%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 8.89%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:8.89%;" />
+                                        <div class="f_grade">&#9650 6.21%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+                <div class="title0">[최하승률] 서포터(Support)</div>
+                <table cellspacing="0" cellpadding="0" style="border: none;">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">1위</div>
+                                    <div class="change"><span></span>
+                                    </div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Bard.png" alt="10" />
+                                    <div class="name">바드</div>
+                                </div>
+                                <div class="ratio">승률47.07%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 47.07%; ">
+                                        <div class="f_grade">&#9650 1.78%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 7.44%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:7.44%;" />
+                                        <div class="f_grade">&#9650 2.1%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">2위</div>
+                                    <div class="change"><span>&#9660</span>2</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Morgana.png" alt="10" />
+                                    <div class="name">모르가나</div>
+                                </div>
+                                <div class="ratio">승률49.7%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 49.7%; ">
+                                        <div class="f_grade">&#9660 1.0%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 13.33%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:13.33%;" />
+                                        <div class="f_grade">&#9660 2.1%</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>
+                                <div class="triangle">
+                                    <div class="rank">3위</div>
+                                    <div class="change"><span>&#9650</span>1</div>
+                                </div>
+                                <div class="hero"><img src="/images/hero2/Lulu.png" alt="10" />
+                                    <div class="name">룰루</div>
+                                </div>
+                                <div class="ratio">승률50.31%</div>
+                                <div class="ratioback">
+                                    <div class="win_front" style="width: 50.31%; ">
+                                        <div class="f_grade">&#9650 0.08%</div>
+                                    </div>
+                                </div>
+                                <div class="ratio">픽률 10.69%</div>
+                                <div class="ratioback">
+                                    <div class="pick_front0">
+                                        <div class="pick_front" style="width:10.69%;" />
+                                        <div class="f_grade">&#9660 0.48%</div>
+                                    </div>
+                                </div>
+                            </td>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
