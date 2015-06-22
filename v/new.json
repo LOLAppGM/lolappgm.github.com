@@ -6144,7 +6144,7 @@
     "partype": "Mana",
     "passive": {
       "name": "열정 응집",
-      "desc": "카르마가 스킬로 적 챔피언에게 피해를 입힐 때마다 만트라의 재사용 대기시간 2/2.5/3초 감소합니다.(기본 공격으로 피해를 입힐 때는 절반의 효과)",
+      "desc": "카르마가 스킬로 적 챔피언에게 피해를 입힐 때마다 만트라의 재사용 대기시간이 감소합니다. (기본 공격으로 피해를 입힐 때는 절반의 효과)",
       "image": "/images/data/passive/Karma_Passive.png",
       "youtube": "http://cdn.leagueoflegends.com/champion-abilities/videos/mp4/0043_01.mp4"
     },
@@ -6200,8 +6200,8 @@
         "name": "굳은 결의",
         "cooldown": "16/15/14/13/12초",
         "costburn": "70/75/80/85/90",
-        "rangeBurn": "675",
-        "desc": "카르마를 대상 적 챔피언과 연결시켜 위치를 드러내며 2초에 걸쳐 60/110/160/210/260/ (+0.9AP) 의 마법 피해를 입힙니다. 끈이 끊어지지 않으면 대상 적을 1/1.25/1.5/1.75/2/초 동안 제 자리에 묶습니다.",
+        "rangeBurn": "800",
+        "desc": "카르마를 대상 적 챔피언과 연결시켜 위치를 드러내며 2초에 걸쳐 60/110/160/210/260/ (+0.6AP) 의 마법 피해를 입힙니다. 끈이 끊어지지 않으면 대상 적을 1/1.25/1.5/1.75/2/초 동안 제 자리에 묶습니다.",
         "image": "/images/data/skill/KarmaSpiritBind.png",
         "youtube": "http://cdn.leagueoflegends.com/champion-abilities/videos/mp4/0043_03.mp4"
       },
@@ -6228,7 +6228,7 @@
         "cooldown": "7/6.5/6/5.5/5초",
         "costburn": "50/55/60/65/70",
         "rangeBurn": "950",
-        "desc": "<font color=\"#FF9900\">만트라 추가 효과 - 영혼의 불꽃:</font> 25.0 <font color=\"#2e7d32\">(+0.3AP)</font>의 추가 마법 피해를 입히고 떨어진 위치 혹은 사거리 끝에 원형의 불꽃을 남겨, 적에게 50% 둔화를 겁니다. 1.5초가 흐르면 원이 터지면서 해당 범위 안의 적에게 50.0 <font color=\"#2e7d32\">(+0.6AP)</font>의 마법 피해를 입힙니다.",
+        "desc": "<font color=\"#FF9900\">만트라 추가 효과 - 영혼의 불꽃:</font> 25/75/125/175 <font color=\"#2e7d32\">(+0.3AP)</font>의 추가 마법 피해를 입히고 떨어진 위치 혹은 사거리 끝에 원형의 불꽃을 남겨, 적에게 50% 둔화를 겁니다. 잠시 후 원이 터지면서 해당 범위 안의 적에게 50/150/250/350 <font color=\"#2e7d32\">(+0.6AP)</font>의 마법 피해를 입힙니다.",
         "image": "/images/data/skill/KarmaQ0.png",
         "youtube": "http://cdn.leagueoflegends.com/champion-abilities/videos/mp4/0043_02.mp4"
       },
@@ -6236,7 +6236,7 @@
         "name": "굳은 결의",
         "cooldown": "16/15/14/13/12초",
         "costburn": "70/75/80/85/90",
-        "rangeBurn": "675",
+        "rangeBurn": "800",
         "desc": "<font color=\"#FF9900\">만트라 추가 효과 - 재생:</font> 굳은 결의의 지속 시간 동안 카르마가 잃은 체력의 20% <font color=\"#2e7d32\">(+0.01AP%)) </font>를 즉시 회복시켜 줍니다. 끈이 끊어지지 않으면 속박의 지속 시간이 0.5/0.75/1.1.25초 증가하고, 카르마가 잃은 체력의 20% <font color=\"#2e7d32\">(+0.01AP%)</font>만큼 다시 치유됩니다.",
         "image": "/images/data/skill/KarmaSpiritBind0.png",
         "youtube": "http://cdn.leagueoflegends.com/champion-abilities/videos/mp4/0043_03.mp4"
@@ -6246,7 +6246,7 @@
         "cooldown": "10초",
         "costburn": "60/70/80/90/100",
         "rangeBurn": "800",
-        "desc": "대상을 지정한 아군에게 30/90/150/210<font color=\"#2e7d32\">(0.3AP)</font>의 피해를 흡수하는 보호막을 입힙니다. 대상 주위의 아군 챔피언들은 최초 대상에 대한 보호막의 최대 50%에 해당하는 피해를 흡수하는 보호막을 얻습니다. 저항으로 보호막을 얻은 모든 챔피언은 1.5초 동안 이동 속도가 60% 상승합니다.",
+        "desc": "대상 주위의 아군 챔피언들은 절반의 보호막을 얻고, 또한 60% 속도가 빨라집니다",
         "image": "/images/data/skill/KarmaSolKimShield0.png",
         "youtube": "http://cdn.leagueoflegends.com/champion-abilities/videos/mp4/0043_04.mp4"
       },
