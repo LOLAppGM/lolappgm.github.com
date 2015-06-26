@@ -28,6 +28,10 @@ td {
     padding-top: 0.5em !important;
 }
 
+.history {
+    margin-top: 40px;    
+}
+
 .triangle > span {
     top: 50px;
     left: 4px;
