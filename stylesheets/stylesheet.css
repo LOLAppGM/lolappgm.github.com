@@ -29,7 +29,7 @@ td {
 }
 
 .history {
-    margin-top: 40px;    
+    margin-top: 40px;
 }
 
 .triangle > span {
@@ -96,6 +96,14 @@ td {
     z-index: 999 !important;
 }
 
+.dropbox2 {
+    width: 100%;
+    position: fixed;
+    background-color: #2c2c2c !important;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin-top: -11px !important;
+    z-index: 999 !important;
+}
 .btn,
 .btn-large {
     background-color: #2c2c2c !important;
@@ -115,7 +123,7 @@ td {
 #btn2{
     padding-top: 10px !important;
 }
-    
+
 .sc {
     background-color: #2c2c2c !important;
     width: 69% !important;
@@ -210,6 +218,20 @@ nav,
 .dropdown-button btn {
     z-index: 30;
 }
+.line-separator {
+    height: 45px;
+    width: 2px;
+    position: absolute;
+    background: #939393;
+    border-bottom: 1px solid #939393;
+}
+.line-separator2 {
+    height: 45px;
+    width: 2px;
+    position: absolute;
+    background: #939393;
+    border-bottom: 1px solid #939393;
+}
 
 .name {
     position: absolute;
@@ -250,8 +272,15 @@ td {
     .btn,
     .btn-large {
         width 60% !important;
-        font-size: 9px !important;
-        height: 40px !important;
+        font-size: 13px !important;
+        height: 150px !important;
+    }
+
+    .line-separator2 {
+        height: 5px !important;
+    }
+    .dropbox2 {
+        height: 100px !important;
     }
 
     .sc {
@@ -299,13 +328,13 @@ td {
         font-size: 12px !important;
     }
     #btn1{
-        padding-top: 0px !important;
+        padding-top: 1px !important;
     }
 
     #btn2{
         padding-top: 10px !important;
     }
-    
+
     .sc {
         width: 65% !important;
     }
@@ -319,7 +348,7 @@ td {
         .btn,
     .btn-large {
         width 65% !important;
-        font-size: 10px !important;
+        font-size: 15px !important;
         height: 40px !important;
     }
     .change {
@@ -350,13 +379,13 @@ td {
         font-size: 14px !important;
     }
     #btn1{
-        padding-top: 5px !important;
+        padding-top: 3px !important;
     }
 
     #btn2{
         padding-top: 10px !important;
     }
-    
+
     .sc {
         width: 60% !important;
     }
@@ -407,6 +436,13 @@ td {
         color: white !important;
         font-size: 18px !important;
     }
+    #btn1{
+        padding-top: 0px !important;
+    }
+
+    #btn2{
+        padding-top: 10px !important;
+    }
     .f_grade {
         padding-left: 5px;
         padding-top: 2.5px;
@@ -448,6 +484,13 @@ td {
         margin-top: 0em !important;
         color: white !important;
         font-size: 1.8em !important;
+    }
+        #btn1{
+        padding-top: 3px !important;
+    }
+
+    #btn2{
+        padding-top: 10px !important;
     }
     .ratioback {
         height: 1.5em;
@@ -509,6 +552,15 @@ td {
         padding-left: 10px !important;
         font-size: 20px !important;
     }
+   #btn1{
+        padding-top: 3px !important;
+    }
+
+    #btn2{
+        padding-top: 10px !important;
+    }
+
+
     .name {
         position: absolute !important;
         bottom: 0.6em !important;
@@ -519,49 +571,3 @@ td {
     }
 }
 
-.line-separator {
-    height: 45px;
-    width: 2px;
-    position: absolute;
-    background: #939393;
-    border-bottom: 1px solid #939393;
-}
-/*
-@media only screen and (min-width: 801px) and (max-width: 900px) {
-            .title{
-        font-size: 1.8em !important;
-    }
-    .rank {
-        padding-left: 10px !important;
-        margin-top: 0em !important;
-        color: white !important;
-        font-size: 2em !important;
-    }
-    .ratioback {
-        height: 1.7em;
-    }
-    .ratio {
-        font-size: 1.5em !important;
-    }
-    .f_grade {
-        padding-left: 5px;
-        padding-top: 2.5px;
-        color: white;
-        font-size: 1.3em;
-        position: absolute;
-    }
-    .change {
-        margin-top: -2px !important;
-        padding-left: 10px !important;
-        color: white !important;
-        font-size: 20px !important;
-    }
-    .name {
-        position: absolute !important;
-        bottom: 0.6em !important;
-        right: 0.2em !important;
-        color: white !important;
-        font-size: 1.5em !important;
-        width: 100%;
-    }
-}*/
