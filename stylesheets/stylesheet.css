@@ -273,7 +273,6 @@ td {
     .btn-large {
         width 60% !important;
         font-size: 13px !important;
-        height: 150px !important;
     }
 
     .line-separator2 {
@@ -349,7 +348,6 @@ td {
     .btn-large {
         width 65% !important;
         font-size: 15px !important;
-        height: 40px !important;
     }
     .change {
         margin-top: -2px !important;
@@ -436,13 +434,7 @@ td {
         color: white !important;
         font-size: 18px !important;
     }
-    #btn1{
-        padding-top: 0px !important;
-    }
 
-    #btn2{
-        padding-top: 10px !important;
-    }
     .f_grade {
         padding-left: 5px;
         padding-top: 2.5px;
