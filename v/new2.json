@@ -11421,7 +11421,7 @@
     "passive": {
       "name": "절대 미각",
       "desc": "탐 켄치는 기본 공격과 스킬 공격을 통해 절대 미각의 중첩을 쌓을 수 있습니다. 절대 미각이 세 번 쌓인 대상에게는 탐 켄치의 스킬 효과가 강화됩니다.",
-      "image": "/images/data/passive/TahmKench_P.png",
+      "image": "http://ddragon.leagueoflegends.com/cdn/5.17.1/img/passive/TahmKench_P.png",
       "youtube": "-1"
     },
     "spells": [
@@ -11431,7 +11431,7 @@
         "costburn": "50",
         "rangeBurn": "800",
         "desc": "탐 켄치가 순간적으로 이동 불가 상태가 되며, 전방으로 혀를 날립니다. 혀 채찍에 맞은 대상은 80/125/170/215/260<font color=#2E7D32>(+ 0.7AP) </font>의 피해를 입고, 2초간 50/55/60/65/70% 느려집니다.<br>절대 미각 3중첩인 대상에게 혀 채찍을 적중시키면, 상대는 1.5초간 기절합니다. ",
-        "image": "/images/data/skill/TahmKenchQ.png",
+        "image": "http://ddragon.leagueoflegends.com/cdn/5.17.1/img/spell/TahmKenchQ.png",
         "youtube": "-1"
       },
       {
@@ -11440,7 +11440,7 @@
         "costburn": "90",
         "rangeBurn": "250",
         "desc": "<font color=#ef6c00>미니언, 몬스터: </font> 역류를 통해 발사할 때, 대상에 100/150/200/250/300<font color=#2E7D32>(+0.6AP)</font>의 마법 피해를 입힙니다.<br><font color=#2c2c2c>(사정거리: 650)</font><br><font color=#ef6c00>아군 챔피언:</font> 대상을 지정 불가 상태로 만듭니다. 아군 챔피언을 삼키고 적에게 다가갈 때 이동 속도 증가를 얻습니다.<br><font color=#ef6c00>적 챔피언:</font> 대상은 지정 불가 상태가 되고, 자신의 최대 체력의 20/23/26/29/32%<font color=#2E7D32>(+0.02AP)</font>의 마법 피해를 입습니다. 탐 켄치의 이동 속도가 크게 감소합니다. 뱉어낸 적이 0.25초 동안 기절합니다. ",
-        "image": "/images/data/skill/TahmKenchW.png",
+        "image": "http://ddragon.leagueoflegends.com/cdn/5.17.1/img/spell/TahmKenchW.png",
         "youtube": "-1"
       },
       {
@@ -11449,7 +11449,7 @@
         "costburn": "50",
         "rangeBurn": "self",
         "desc": "<font color=#ef6c00>지속 효과: </font>탐 켄치가 받는 피해가 회색 체력으로 전환됩니다. 전투에서 벗어나면, 회색 체력 중 20/26/32/38/44%를 체력으로 회복할 수 있습니다.<br><font color=#ef6c00>사용 시:</font> 탐 켄치가 6초동안 얻은 회색 체력을 보호막으로 전환합니다.",
-        "image": "/images/data/skill/TahmKenchE.png",
+        "image": "http://ddragon.leagueoflegends.com/cdn/5.17.1/img/spell/TahmKenchE.png",
         "youtube": "-1"
       },
       {
@@ -11458,7 +11458,7 @@
         "costburn": "100",
         "rangeBurn": "4000/5000/6000",
         "desc": "<font color=#ef6c00>지속 효과: </font>탐 켄치의 기본 공격 및 스킬에 20+ 추가 체력의 4/6/8%의 마법 피해가 추가됩니다.<br><font color=#ef6c00>사용 시:</font> 스킬을 사용하면 15초 동안 아군 챔피언이 탐 켄치의 뱃속으로 들어갈 수 있습니다. 탐 켄치는 몇 초간의 정신 집중 후, 대상 지점으로 순간 이동합니다. 탐 켄치가 정신 집중 상태일때 공격 받으면 해당 스킬이 취소됩니다. 이 경우, 10초의 재사용 대기 시간을 가집니다. ",
-        "image": "/images/data/skill/TahmKenchNewR.png",
+        "image": "http://ddragon.leagueoflegends.com/cdn/5.17.1/img/spell/TahmKenchNewR.png",
         "youtube": "-1"
       }
     ]
