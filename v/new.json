@@ -11346,12 +11346,19 @@
     "h_id": "223",
     "key": "TahmKench",
     "name": "탐 켄치",
-    "profile": "/images/data/hero/TahmKench.png",
+    "profile": "http://ddragon.leagueoflegends.com/cdn/5.17.1/img/champion/TahmKench.png",
     "story": "''세상은 한 줄기 강이고 내가 강의 왕이지.''<br>탐 켄치는 룬테라의 수로를 타고 다니면서 순진한 자들을 구슬려 채워지지 않는 식욕의 재물로 삼는다. 특이하지만 매력적인 이 대식가는 재물이 느끼는 고통을 아낌 없이 즐긴다.  외투를 둘 이어 입은 이 미식가와 계약을 맺으면 어디든 원하는 곳으로 갈 수 있지만, 그 끝에는 심연과도 같은 절망이 기다리고 있을 뿐이다.",
     "partype": "Mana",
     "version": "5.17.1",
     "position": "서포터",
-    "cc": [],
+    "cc": [
+      {
+        "Q": "기절"
+      },
+      {
+        "Q": "이속둔화"
+      }
+    ],
     "ip": "6300",
     "rp": "975",
     "skins": [
