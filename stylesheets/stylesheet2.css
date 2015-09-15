@@ -124,10 +124,11 @@ td {
 }
 
 .tdi img {
-    width: 88%;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-    padding-left: 0.28em;
+    width: 100%;
+/*    padding-top: 0.3em;*/
+    padding-bottom: 0.1em;
+    padding-left: 0.3em;
+    padding-right: 0.3em;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -149,8 +150,8 @@ td {
 }
 
 .rank {
-    font-size: 1.6em;
-    padding-top: 1em;
+    font-size: 1em;
+    padding-top: 0em;
 }
 
 .c2 {
@@ -177,11 +178,11 @@ td {
     text-align: center;
     vertical-align: middle;
     border-radius: 2px;
-    font-size: 1.4em;
-    font-weight: bold;
+    font-size: 1.5em;
     margin-left: 10px;
-    padding: 5px;
-    margin-top: 1em;
+    padding: 10px;
+    margin-top: 0.5em;
+    padding-top: 50px;
 }
 
 .title {
@@ -340,19 +341,8 @@ td {
     /*    padding-top: 0.5em !important;*/
 }
 
-.triangle > span {
-    top: 50px;
-    left: 4px;
-}
-
-.triangle {
-    z-index: 10;
-    position: absolute;
-}
 
 .rank {
-    padding-left: 1.5em;
-    padding-top: 0.5em;
     color: white;
     font-size: 1em !important;
     font-weight: bold;
@@ -366,16 +356,14 @@ td {
 }
 
 .h_name {
-    position: absolute;
-    bottom: 0.5em;
-    right: 1em;
+    margin-top: 3px;
+    margin-right: 5px;
     color: white;
     font-size: 0.8em;
-    width: 75%;
-    text-align: right;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+    float: right;
 }
 
 .td_desc {
@@ -386,8 +374,8 @@ td {
 
 
 .tdi {
-    padding-bottom: 0.4em !important;
-    width: 20% !important;
+    padding-bottom: 0.2em !important;
+    width: 10% !important;
 }
 
 .redbox {
@@ -444,10 +432,32 @@ td {
     color: #c82d43;
 }
 
+.bottom_back{
+    background-color: #000000;
+    opacity: 0.7;
+    height: 20px;
+    width: 88%;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    margin-bottom: 0.1em;
+    margin-right: 0.3em;
+}
 
+.bottom_back2{
+    background-color: #c82d43;
+    height: 20px;
+    width: 30px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    margin-bottom: 0.1em;
+    margin-left: 0.3em;
+    text-align: center;
+}
 @media only screen and (max-width: 320px) {
         .title{
-        font-size: 1.3em !important;
+        font-size: 1.1em !important;
     }
 
     .box2{
@@ -480,7 +490,7 @@ td {
         width: 45%;
     }
     .tdi {
-        width: 33% !important;
+        width: 30% !important;
     }
     .rank {
         padding-left: 1.2em !important;
@@ -495,7 +505,6 @@ td {
         font-size: 0.5em !important;
     }
     .h_name {
-        position: absolute !important;
         bottom: 0.8em !important;
         right: 1em !important;
         color: white !important;
@@ -509,7 +518,7 @@ td {
 
 @media only screen and (min-width: 321px) and (max-width: 360px) {
     .title{
-        font-size: 1.4em !important;
+        font-size: 1.2em !important;
     }
     .redbox {
         height: 1.7em;
@@ -549,13 +558,19 @@ td {
         width: 45%;
     }
     .tdi {
-        width: 32% !important;
+        width: 25% !important;
     }
     .rank {
-        padding-left: 1.1em !important;
-        margin-top: 0.03em !important;
-        color: white !important;
-        font-size: 0.8em !important;
+        font-size: 7px !important;
+    }
+    .bottom_back2{
+        width: 13px;
+    }
+    .h_name {
+        font-size: 9px !important;
+        margin-left: 25px;
+        margin-right:4px;
+        margin-top: 4px;
     }
     .change {
         padding-top: -2px !important;
@@ -563,16 +578,9 @@ td {
         color: white !important;
         font-size: 0.5em !important;
     }
-    .h_name {
-        position: absolute !important;
-        bottom: 0.7em !important;
-        right: 1em !important;
-        width: 75%;
-        color: white !important;
-        font-size: 0.8em !important;
-    }
+
     .td_desc {
-        font-size: 0.9em !important;
+        font-size: 0.8em !important;
     }
 }
 
@@ -604,9 +612,6 @@ td {
         width: 21% !important;
     }
     .rank {
-        padding-left: 1.3em !important;
-        margin-top: 0.2em !important;
-        color: white !important;
         font-size: 8px !important;
     }
     .change {
@@ -615,12 +620,14 @@ td {
         color: white !important;
         font-size: 0.5em !important;
     }
+    .bottom_back2{
+        width: 15px;
+    }
     .h_name {
-        position: absolute !important;
-        bottom: 0.75em !important;
-        right: 1em !important;
-        color: white !important;
-        font-size: 0.6em !important;
+        font-size: 9px !important;
+        margin-left: 25px;
+        margin-right:4px;
+        margin-top: 4px;
     }
     .td_desc {
         font-size: 0.85em !important;
@@ -653,12 +660,9 @@ td {
         width: 46%;
     }
     .tdi {
-        width: 28% !important;
+        width: 25% !important;
     }
     .rank {
-        padding-left: 0.7em !important;
-        margin-top: -0.5em !important;
-        color: white !important;
         font-size: 10px !important;
     }
     .change {
@@ -667,12 +671,14 @@ td {
         color: white !important;
         font-size: 0.5em !important;
     }
+    .bottom_back2{
+        width: 20px;
+    }
     .h_name {
-        position: absolute !important;
-        bottom: 0.1em !important;
-        right: 0.6em !important;
-        color: white !important;
-        font-size: 0.9em !important;
+        font-size: 10px !important;
+        margin-left: 25px;
+        margin-right:4px;
+        margin-top: 4px;
     }
     .td_desc {
         font-size: 0.8em !important;
@@ -702,9 +708,6 @@ td {
         width: 20% !important;
     }
     .rank {
-        padding-left: 0.9em !important;
-        margin-top: 0em !important;
-        color: white !important;
         font-size: 11px !important;
     }
     .change {
@@ -713,12 +716,14 @@ td {
         color: white !important;
         font-size: 0.5em !important;
     }
+    .bottom_back2{
+        width: 20px;
+    }
     .h_name {
-        position: absolute !important;
-        bottom: 0.1em !important;
-        right: 0.6em !important;
-        color: white !important;
-        font-size: 0.9em !important;
+        font-size: 10px !important;
+        margin-left: 25px;
+        margin-right:4px;
+        margin-top: 4px;
     }
     .td_desc {
         font-size: 1em !important;
@@ -748,9 +753,6 @@ td {
         width: 18% !important;
     }
     .rank {
-        padding-left: 0.8em !important;
-        margin-top: 0.2em !important;
-        color: white !important;
         font-size: 13px !important;
     }
     .change {
@@ -759,12 +761,14 @@ td {
         color: white !important;
         font-size: 0.5em !important;
     }
+    .bottom_back2{
+        width: 20px;
+    }
     .h_name {
-        position: absolute !important;
-        bottom: 0.1em !important;
-        right: 0.6em !important;
-        color: white !important;
-        font-size: 1.1em !important;
+        font-size: 10px !important;
+        margin-left: 25px;
+        margin-right:4px;
+        margin-top: 4px;
     }
     .td_desc {
         font-size: 1.2em !important;
@@ -794,9 +798,6 @@ td {
         width: 12% !important;
     }
     .rank {
-        padding-left: 0.7em !important;
-        margin-top: -0.4em !important;
-        color: white !important;
         font-size: 13px !important;
     }
     .change {
@@ -805,12 +806,14 @@ td {
         color: white !important;
         font-size: 0.5em !important;
     }
+    .bottom_back2{
+        width: 20px;
+    }
     .h_name {
-        position: absolute !important;
-        bottom: 0em !important;
-        right: 0.6em !important;
-        color: white !important;
-        font-size: 1.1em !important;
+        font-size: 10px !important;
+        margin-left: 25px;
+        margin-right:4px;
+        margin-top: 4px;
     }
     .td_desc {
         font-size: 1.2em !important;
