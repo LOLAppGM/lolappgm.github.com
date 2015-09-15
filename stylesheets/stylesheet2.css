@@ -6,8 +6,10 @@ html{
 }
 
 .container {
-    width: 98% !important;
+    width: 100% !important;
+    padding: 18px !important;
 }
+
 
 * {
     font-family: AppleSDGothic !important, 'nanumgothic', '나눔고딕', 'malgun gothic', '맑은 고딕', 'dotum', '돋움', sans-serif;
@@ -170,8 +172,8 @@ td {
 }
 
 .td_arrow {
-    font-size: 2em;
-    padding-right: 0.4em;
+    font-size: 1.3em;
+    padding-right: 0.3em;
 }
 
 .title_h {
@@ -490,7 +492,7 @@ td {
         width: 45%;
     }
     .tdi {
-        width: 30% !important;
+        width: 20% !important;
     }
     .rank {
         padding-left: 1.2em !important;
@@ -512,7 +514,7 @@ td {
         width: 80%;
     }
     .td_desc {
-        font-size: 0.8em !important;
+        font-size: 0.81em !important;
     }
 }
 
@@ -548,9 +550,6 @@ td {
     #css_tabs label[for=tab2] {
         width: 45%;
     }
-    .tdi {
-        width: 33% !important;
-    }
     #css_tabs label[for=tab1] {
         width: 45%;
     }
@@ -558,7 +557,7 @@ td {
         width: 45%;
     }
     .tdi {
-        width: 25% !important;
+        width: 20% !important;
     }
     .rank {
         font-size: 7px !important;
@@ -580,7 +579,7 @@ td {
     }
 
     .td_desc {
-        font-size: 0.8em !important;
+        font-size: 0.81em !important;
     }
 }
 
@@ -610,6 +609,9 @@ td {
     }
     .tdi {
         width: 21% !important;
+        padding-left: 5px !important;
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;        
     }
     .rank {
         font-size: 8px !important;
@@ -630,7 +632,7 @@ td {
         margin-top: 4px;
     }
     .td_desc {
-        font-size: 0.85em !important;
+        font-size: 0.9em !important;
     }
 }
 
@@ -660,7 +662,10 @@ td {
         width: 46%;
     }
     .tdi {
-        width: 25% !important;
+        width: 20% !important;
+        padding-left: 5px !important;
+        padding-top: 7px !important;
+        padding-bottom: 7px !important;
     }
     .rank {
         font-size: 10px !important;
@@ -681,7 +686,7 @@ td {
         margin-top: 4px;
     }
     .td_desc {
-        font-size: 0.8em !important;
+        font-size: 1em !important;
     }
 }
 
@@ -707,6 +712,7 @@ td {
     .tdi {
         width: 20% !important;
     }
+    
     .rank {
         font-size: 11px !important;
     }
@@ -750,7 +756,10 @@ td {
         font-size: 0.4em;
     }
     .tdi {
-        width: 18% !important;
+        width: 20% !important;
+        padding-left: 14px !important;
+        padding-top: 16px !important;
+        padding-bottom: 16px !important;
     }
     .rank {
         font-size: 13px !important;
@@ -771,7 +780,7 @@ td {
         margin-top: 4px;
     }
     .td_desc {
-        font-size: 1.2em !important;
+        font-size: 1.7em !important;
     }
 }
 
@@ -795,10 +804,14 @@ td {
         font-size: 0.4em;
     }
     .tdi {
-        width: 12% !important;
+        width: 22% !important;
+        padding-left: 0.7em !important;
+        padding-right: 0.7em !important;
+        padding-top: 0.9em !important;
+        padding-bottom: 0.8em !important;
     }
     .rank {
-        font-size: 13px !important;
+        font-size: 16px !important;
     }
     .change {
         padding-top: -2px !important;
@@ -807,16 +820,23 @@ td {
         font-size: 0.5em !important;
     }
     .bottom_back2{
-        width: 20px;
+        width: 30px;
+        height: 35px;
+        padding-top: 6px;
+    }
+    .bottom_back{
+        height: 35px;
+        padding-top: 6px;
+        padding-right: 3px;
     }
     .h_name {
-        font-size: 10px !important;
+        font-size: 15px !important;
         margin-left: 25px;
         margin-right:4px;
         margin-top: 4px;
     }
     .td_desc {
-        font-size: 1.2em !important;
+        font-size: 1.9em !important;
     }
 }
 
