@@ -15,6 +15,21 @@ html{
     margin-right: auto;
 }
 
+.td_0 {
+    padding: 6px !important;
+    padding-right: 3px !important;
+}
+.td_1 {
+    padding: 6px !important;
+    padding-right: 3px !important;
+    padding-left: 3px !important;
+}
+.td_2 {
+    padding: 6px !important;
+    padding-left: 3px !important;
+}
+
+
 .row {
     margin-top: 0em;
 }
@@ -68,7 +83,7 @@ td {
 }
 
 .ratio {
-    margin-top: 8px;
+    margin-top: 4px;
     padding-bottom: 0.2em;
     font-size: 12px;
 }
@@ -76,7 +91,7 @@ td {
 .ratioback {
     width: 100%;
     background-color: #939393;
-    margin-top: 4px;
+    margin-top: 3px;
     height: 1em;
 }
 
@@ -107,7 +122,6 @@ td {
 .btn,
 .btn-large {
     background-color: #2c2c2c !important;
-    width: 30% !important;
     z-index: 999 !important;
     color: #939393 !important;
     text-align: left !important;
@@ -117,11 +131,15 @@ td {
 }
 
 #btn1{
-    padding-top: 10px !important;
+    padding-top: 3px !important;
+    width: 33% !important;
+
 }
 
 #btn2{
-    padding-top: 10px !important;
+    padding-top: 3px !important;
+    width: 60% !important;
+
 }
 
 .sc {
@@ -262,18 +280,7 @@ td {
     .line-separator {
         height: 40px !important;
     }
-    #btn1{
-        padding-top: 0px !important;
-    }
 
-    #btn2{
-        padding-top: 10px !important;
-    }
-    .btn,
-    .btn-large {
-        width 60% !important;
-        font-size: 13px !important;
-    }
 
     .line-separator2 {
         height: 5px !important;
@@ -326,22 +333,15 @@ td {
         color: white !important;
         font-size: 12px !important;
     }
-    #btn1{
-        padding-top: 1px !important;
-    }
-
-    #btn2{
-        padding-top: 10px !important;
-    }
 
     .sc {
         width: 65% !important;
     }
     .f_grade {
         padding-left: 5px;
-        padding-top: 2.5px;
+        padding-top: 2px;
         color: white;
-        font-size: 0.4em;
+        font-size: 0.6em;
         position: absolute;
     }
         .btn,
@@ -376,13 +376,7 @@ td {
         width 60% !important;
         font-size: 14px !important;
     }
-    #btn1{
-        padding-top: 3px !important;
-    }
 
-    #btn2{
-        padding-top: 10px !important;
-    }
 
     .sc {
         width: 60% !important;
@@ -437,7 +431,7 @@ td {
 
     .f_grade {
         padding-left: 5px;
-        padding-top: 2.5px;
+        padding-top: 1px;
         color: white;
         font-size: 0.7em;
         position: absolute;
@@ -455,13 +449,7 @@ td {
         font-size: 1em !important;
         width: 100%;
     }
-     #btn1{
-        padding-top: 6px !important;
-    }
 
-    #btn2{
-        padding-top: 10px !important;
-    }
 }
 
 @media only screen and (min-width: 501px) and (max-width: 600px) {
@@ -477,13 +465,7 @@ td {
         color: white !important;
         font-size: 1.8em !important;
     }
-        #btn1{
-        padding-top: 3px !important;
-    }
 
-    #btn2{
-        padding-top: 10px !important;
-    }
     .ratioback {
         height: 1.5em;
     }
@@ -544,13 +526,7 @@ td {
         padding-left: 10px !important;
         font-size: 20px !important;
     }
-   #btn1{
-        padding-top: 3px !important;
-    }
 
-    #btn2{
-        padding-top: 10px !important;
-    }
 
 
     .name {
