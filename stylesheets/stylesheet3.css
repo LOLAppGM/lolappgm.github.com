@@ -138,6 +138,7 @@ td {
     font-size: 12px;
     padding-bottom: 0.4em;
     margin-left: 0.4em;
+    font-weight: bold;
 }
 
 .gap{
@@ -698,6 +699,7 @@ thead tr th {
     font-size: 1em;
     text-align: left;
     padding: 0.8em;
+    font-weight: bold;
 }
 
 .arrow {
