@@ -366,6 +366,7 @@ td {
     overflow: hidden;
     text-overflow: ellipsis;
     float: right;
+    width: 63% !important;
 }
 
 .td_desc {
@@ -511,7 +512,7 @@ td {
         right: 1em !important;
         color: white !important;
         font-size: 0.7em !important;
-        width: 80%;
+        width: 63% !important;
     }
     .td_desc {
         font-size: 0.81em !important;
@@ -774,10 +775,11 @@ td {
         width: 20px;
     }
     .h_name {
-        font-size: 10px !important;
+        font-size: 14px !important;
         margin-left: 25px;
         margin-right:4px;
-        margin-top: 4px;
+        margin-top: 2px;
+        width: 75% !important;
     }
     .td_desc {
         font-size: 1.7em !important;
@@ -834,6 +836,7 @@ td {
         margin-left: 25px;
         margin-right:4px;
         margin-top: 4px;
+        width: 75% !important;
     }
     .td_desc {
         font-size: 1.9em !important;
