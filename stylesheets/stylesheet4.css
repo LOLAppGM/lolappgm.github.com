@@ -5,64 +5,27 @@ html{
     background-color: #eeeeee
 }
 
-.hero {
-    position: relative;
-    width: 100%;
-    height: auto;
-    border: 0;
-    top: 0px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.td_0 {
-    padding: 6px !important;
-    padding-right: 3px !important;
-}
-.td_1 {
-    padding: 6px !important;
-    padding-right: 3px !important;
-    padding-left: 3px !important;
-}
-.td_2 {
-    padding: 6px !important;
-    padding-left: 3px !important;
-}
 
 
 .row {
     margin-top: 0em;
 }
 
-.hero img {
-    width: 100%;
-    height: auto;
-}
 
-td {
-    padding-top: 0.5em !important;
-}
+
 
 .history {
     margin-top: 40px;
 }
 
-.triangle > span {
-    top: 50px;
-    left: 4px;
+.history2 {
+    margin-top: 10px;
 }
 
-.triangle {
-    z-index: 10;
-    position: absolute;
+.history3 {
+    margin-top: 6px;
 }
 
-.rank {
-    padding-left: 4px;
-    padding-top: 4px;
-    color: white;
-    font-size: 1em;
-}
 
 .change {
     padding-top: -2px;
@@ -82,39 +45,34 @@ td {
     z-index: 50 !important;
 }
 
-.ratio {
-    margin-top: 4px;
-    padding-bottom: 0.2em;
-    font-size: 12px;
-}
 
-.ratioback {
-    width: 100%;
-    background-color: #939393;
-    margin-top: 3px;
-    height: 1em;
-}
 
 .win_front {
     background-color: #c82d43;
     left: 0px;
     height: 100%;
     margin-top: -5px;
+    color: white;
+    padding: 4px !important;
+    padding-left: 10px !important;
+    font-size: 12px!important;
 }
 
-.dropbox {
-    width: 100%;
-    position: fixed;
-    background-color: #2c2c2c !important;
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-    margin-top: -11px !important;
-    z-index: 999 !important;
+.pick_front {
+    background-color: #2598d3;
+    left: 0px;
+    height: 100%;
+    margin-top: -5px;
+    color: white;
+    padding: 4px !important;
+    padding-left: 10px !important;
+    font-size: 12px!important;
 }
 
 .dropbox2 {
     width: 100%;
     position: fixed;
-    background-color: #2c2c2c !important;
+    background-color: #c82d43 !important;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
     margin-top: -11px !important;
     z-index: 999 !important;
@@ -123,7 +81,7 @@ td {
 .btn-large {
     background-color: #2c2c2c !important;
     z-index: 999 !important;
-    color: #939393 !important;
+    color: #ffffff !important;
     text-align: left !important;
     padding-left: 1rem !important;
     height: 45px !important;
@@ -131,15 +89,16 @@ td {
 }
 
 #btn1{
-    padding-top: 3px !important;
-    width: 33% !important;
+    width: 20% !important;
+    padding-top: 10px !important;
 
 }
 
 #btn2{
-    padding-top: 3px !important;
-    width: 60% !important;
-
+    padding-top: 10px !important;
+    width: 78% !important;
+    background-color: #c82d43 !important;
+     box-shadow: 0 0px 0px 0 rgba(0, 0, 0, 0.16), 0 0px 0px 0 rgba(0, 0, 0, 0.12); }
 }
 
 .sc {
@@ -147,13 +106,6 @@ td {
     width: 69% !important;
     text-align: right;
     margin-right: 0;
-}
-
-.pick_front0 {
-    left: 0px;
-    height: 100%;
-    margin-top: -5px;
-    width: 100%;
 }
 
 .h_title {
@@ -171,12 +123,6 @@ td {
     text-align: center;
     margin-top: -0.4em;
     font-size: 0.9em;
-}
-.pick_front {
-    background-color: #2598d3;
-    left: 0px;
-    height: 100%;
-    margin-top: -5px;
 }
 
 .title {
@@ -251,49 +197,58 @@ nav,
     border-bottom: 1px solid #939393;
 }
 
-.bottom_back{
-    background-color: #000000;
-    opacity: 0.7;
-    height: 20px;
-    width: 90%;
-    bottom: 0;
-    right: 0;
+.name {
     position: absolute;
-    margin-bottom: 0em;
-    margin-right: 0em;
-    padding-top: 2px !important;
-}
-
-.bottom_back2{
-    background-color: #c82d43;
-    height: 20px;
-    width: 30px;
-    bottom: 0;
-    left: 0;
-    position: absolute;
-    margin-bottom: 0em;
-    margin-left: 0em;
-    text-align: center;
-    padding-top: 1px !important;
-}
-.name{
-    margin-right: 5px;
+    bottom: 0.5em;
+    right: 1em;
     color: white;
-    font-size: 0.8em;
+    font-size: 1em;
+    width: 80%;
+    text-align: right;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    float: right;
-    text-align: right;
-    width: 63% !important;
 }
 
 
 td {
-    padding: 0.4em !important;
+    padding: 0px !important;
+    padding-top: 7px !important;
+    padding-bottom: 3px !important;
 }
 
-
+.h_title2{
+    font-weight:bold; 
+    font-size: 16px;
+    padding-left: 0px;
+    margin-left: 0px;
+}
+th {
+    padding-top: 10px!important;
+    padding-left: 10px !important;
+    padding-bottom: 6px !important;
+}
+.td_w{
+    padding-left: 10px !important;
+    padding-top: 0px !important;
+    font-size: 14px !important;
+}
+.hh {
+    padding: 10px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+    font-size: 15px !important;
+    font-weight: bold;
+}
+.td_arrow{
+    right: 10px;
+    float: right;
+}
+.hh_t{
+}
+.hh_c{
+    color: #c82d43;
+}
 @media only screen and (max-width: 320px) {
     .title {
         font-size: 1.2em !important;
@@ -334,9 +289,23 @@ td {
         padding-left: 1px !important;
         font-size: 10px !important;
     }
+    .name {
+        position: absolute !important;
+        bottom: 0.3em !important;
+        right: 0.2em !important;
+        color: white !important;
+        font-size: 0.7em !important;
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 321px) and (max-width: 360px) {
+    #btn1{
+        font-size: 12px !important;
+    }
+    #btn2{
+        font-size: 12px !important;
+    }
     .title {
         font-size: 1.3em !important;
     }
@@ -344,7 +313,10 @@ td {
         font-size: 1em !important;
     }
     .rank {
-        font-size: 13px !important;
+        padding-left: 5px !important;
+        margin-top: -0.1em !important;
+        color: white !important;
+        font-size: 12px !important;
     }
 
     .sc {
@@ -370,6 +342,14 @@ td {
         .line-separator {
         height: 39px !important;
     }
+    .name {
+        position: absolute !important;
+        bottom: 0.7em !important;
+        right: 0.5em !important;
+        color: white !important;
+        font-size: 0.7em !important;
+        width: 100%;
+    }
 }
 
 @media only screen and (min-width: 361px) and (max-width: 400px) {
@@ -390,6 +370,9 @@ td {
         font-size: 13px !important;
     }
     .rank {
+        padding-left: 0.4em !important;
+        margin-top: -0.1em !important;
+        color: white !important;
         font-size: 12px !important;
     }
     .f_grade {
@@ -404,6 +387,14 @@ td {
         padding-left: 0.5em !important;
         font-size: 8px !important;
     }
+    .name {
+        position: absolute !important;
+        bottom: 0.5em !important;
+        right: 0.5em !important;
+        color: white !important;
+        font-size: 0.8em !important;
+        width: 100%;
+    }
     .ratio{
         padding-left: 0.2em;
     }
@@ -417,7 +408,10 @@ td {
         font-size: 1.2em !important;
     }
     .rank {
-        font-size: 14px !important;
+        padding-left: 5px !important;
+        margin-top: 0em !important;
+        color: white !important;
+        font-size: 18px !important;
     }
 
     .f_grade {
@@ -432,6 +426,15 @@ td {
         padding-left: 5px !important;
         font-size: 10px !important;
     }
+    .name {
+        position: absolute !important;
+        bottom: 0.3em !important;
+        right: 0.2em !important;
+        color: white !important;
+        font-size: 1em !important;
+        width: 100%;
+    }
+
 }
 
 @media only screen and (min-width: 501px) and (max-width: 600px) {
@@ -466,10 +469,18 @@ td {
         padding-left: 5px !important;
         font-size: 15px !important;
     }
+    .name {
+        position: absolute !important;
+        bottom: 0.3em !important;
+        right: 0.2em !important;
+        color: white !important;
+        font-size: 1.5em !important;
+        width: 100%;
+    }
 }
 
 
-@media only screen and (min-width: 601px) and (max-width: 901px) {
+@media only screen and (min-width: 601px) and (max-width: 800px) {
     .title {
         font-size: 1.7em !important;
     }
@@ -477,7 +488,10 @@ td {
         font-size: 1.4em !important;
     }
     .rank {
-        font-size: 20px !important;
+        padding-left: 10px !important;
+        margin-top: 0em !important;
+        color: white !important;
+        font-size: 2em !important;
     }
     .ratioback {
         height: 1.7em;
@@ -497,21 +511,16 @@ td {
         padding-left: 10px !important;
         font-size: 20px !important;
     }
-    .bottom_back{
-        height: 40px !important;
-        width: 85%;
-        padding-top: 8px !important;
-    }
 
-    .bottom_back2{
-        height: 40px !important;
-        width: 15%;
-        padding-top: 5px !important;
-    }
-    .name{
-        font-size: 20px !important;
-        width: 80% !important;
-    }
 
+
+    .name {
+        position: absolute !important;
+        bottom: 0.6em !important;
+        right: 0.2em !important;
+        color: white !important;
+        font-size: 1.5em !important;
+        width: 100%;
+    }
 }
 
