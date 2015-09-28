@@ -156,11 +156,11 @@ td {
 thead tr th {
     background-color: #c82d43;
     /*    height: 0.5em;*/
-    
+
     color: white;
     /*    text-align: center;*/
     /*    font-size: 0.6em;*/
-    
+
     border-radius: 0 !important;
     padding-top: 5px !important;
     padding-bottom: 5px !important;
@@ -700,6 +700,12 @@ thead tr th {
     text-align: left;
     padding: 0.8em;
     font-weight: bold;
+
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    word-wrap: break-word;
 }
 
 .__spi32{background-image:url(http://sk2.op.gg/assets/item32.png?1442002062);}
