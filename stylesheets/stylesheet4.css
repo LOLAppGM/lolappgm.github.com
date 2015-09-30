@@ -16,16 +16,21 @@ html{
 
 .history {
     margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .history2 {
     margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .history3 {
     margin-top: 6px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
-
 
 .change {
     padding-top: -2px;
