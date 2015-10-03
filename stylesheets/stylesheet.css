@@ -274,7 +274,7 @@ nav,
     margin-bottom: 0em;
     margin-left: 0em;
     text-align: center;
-    padding-top: 4px !important;
+    padding-top: 2px !important;
 }
 .name{
     margin-right: 5px;
@@ -390,7 +390,7 @@ td {
         font-size: 13px !important;
     }
     .rank {
-        font-size: 12px !important;
+        font-size: 14px !important;
     }
     .f_grade {
         padding-left: 0.5em !important;
