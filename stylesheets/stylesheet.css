@@ -261,7 +261,7 @@ nav,
     position: absolute;
     margin-bottom: 0em;
     margin-right: 0em;
-    padding-top: 2px !important;
+    padding-top: 3px !important;
 }
 
 .bottom_back2{
@@ -274,7 +274,7 @@ nav,
     margin-bottom: 0em;
     margin-left: 0em;
     text-align: center;
-    padding-top: 1px !important;
+    padding-top: 2px !important;
 }
 .name{
     margin-right: 5px;
@@ -394,7 +394,7 @@ td {
     }
     .f_grade {
         padding-left: 0.5em !important;
-        padding-top: 0px;
+        padding-top: 2px;
         color: white;
         font-size: 0.7em;
         position: absolute;
